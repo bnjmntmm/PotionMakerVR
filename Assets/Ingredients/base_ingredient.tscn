@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://q0g2urhx6ekb"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/BaseIngredient.gd" id="1_gho05"]
+
+[node name="BaseIngredient" type="Node3D" groups=["Ingredient"]]
+script = ExtResource("1_gho05")
