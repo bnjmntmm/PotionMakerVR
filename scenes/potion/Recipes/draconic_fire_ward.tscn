@@ -1,0 +1,12 @@
+[gd_scene load_steps=6 format=3 uid="uid://oq22x6121s7a"]
+
+[ext_resource type="PackedScene" uid="uid://dglp2dfa7j1ny" path="res://scenes/potion/Recipes/Base/base_recipe.tscn" id="1_truxp"]
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="2_h6fue"]
+[ext_resource type="Resource" uid="uid://qwfs3ep0i4lu" path="res://Assets/Ingredients/dragons_eye_resing.tres" id="3_cpfw1"]
+[ext_resource type="Resource" uid="uid://dml0wukktygxu" path="res://Assets/Ingredients/phoenix_ash.tres" id="4_x43dv"]
+[ext_resource type="Resource" uid="uid://cyph113rcnfb6" path="res://Assets/Ingredients/ember_shard.tres" id="5_d065r"]
+
+[node name="Draconic Fire Ward" instance=ExtResource("1_truxp")]
+recipe_name = "Draconic Fire Ward"
+effect = "Provides temporary immunity to high temperatures and minor flames."
+ingredientsInRecipe = Array[ExtResource("2_h6fue")]([ExtResource("3_cpfw1"), ExtResource("4_x43dv"), ExtResource("5_d065r")])

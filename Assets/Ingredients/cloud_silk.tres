@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://bvf2ng23jmxoq"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_k2qg6"]
+
+[resource]
+script = ExtResource("1_k2qg6")
+ingredient_name = "Cloud Silk"
+description = "Soft strands collected from cloud creatures; imparts lightness or anti-gravity properties."
+water_tint = Color(0.941176, 0.941176, 0.941176, 1)
+metadata/_custom_type_script = ExtResource("1_k2qg6")

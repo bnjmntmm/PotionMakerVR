@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://dra0hakf73ujc"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_w6jbs"]
+
+[resource]
+script = ExtResource("1_w6jbs")
+ingredient_name = "Ironroot Bark"
+description = "Tough bark from a tree growing on rocky cliffs; grants fortitude and stability."
+water_tint = Color(0.545098, 0.270588, 0.0745098, 1)
+metadata/_custom_type_script = ExtResource("1_w6jbs")

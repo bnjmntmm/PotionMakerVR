@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://x7h1lluacu2s"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_p8xqd"]
+
+[resource]
+script = ExtResource("1_p8xqd")
+ingredient_name = "Scorpion Venom"
+description = "Extracted from giant desert scorpions; lends potency to offensive or poison-based brews."
+water_tint = Color(0.4, 1, 0.4, 1)
+metadata/_custom_type_script = ExtResource("1_p8xqd")

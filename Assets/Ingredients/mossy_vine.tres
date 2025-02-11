@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://khle7mo0h6b5"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_cy65x"]
+
+[resource]
+script = ExtResource("1_cy65x")
+ingredient_name = "Mossy Vine"
+description = "A creeping vine found in damp forests; fosters natural growth or binding effects."
+water_tint = Color(0.494118, 0.560784, 0.333333, 1)
+metadata/_custom_type_script = ExtResource("1_cy65x")

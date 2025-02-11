@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://xbws70p0fe7m"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_n7yg0"]
+
+[resource]
+script = ExtResource("1_n7yg0")
+ingredient_name = "Basilisk Fang"
+description = "A sharply curved tooth containing petrifying toxins; used for powerful venom brews."
+water_tint = Color(0.831373, 0.843137, 0, 1)
+metadata/_custom_type_script = ExtResource("1_n7yg0")

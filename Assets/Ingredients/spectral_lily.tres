@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://bpe58maritvw6"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_gvu64"]
+
+[resource]
+script = ExtResource("1_gvu64")
+ingredient_name = "Spectral Lily"
+description = "A ghostly flower that blooms in moonlit swamps; often used in invisibility or spirit-based brews."
+water_tint = Color(0.784314, 0.807843, 0.862745, 1)
+metadata/_custom_type_script = ExtResource("1_gvu64")

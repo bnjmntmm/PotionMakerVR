@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://cw6dd2fpklk75"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_hefru"]
+
+[resource]
+script = ExtResource("1_hefru")
+ingredient_name = "Griffin Feather"
+description = "A rare feather from a griffin’s wing, known for swiftness or levitation effects."
+water_tint = Color(1, 0.843137, 0, 1)
+metadata/_custom_type_script = ExtResource("1_hefru")

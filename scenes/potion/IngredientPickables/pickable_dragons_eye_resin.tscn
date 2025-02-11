@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqsqdnu2xva68"]
+
+[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_bveua"]
+[ext_resource type="PackedScene" uid="uid://5e74o248gyii" path="res://scenes/potion/IngredientsMesh/dragons_eye_resing.tscn" id="2_tw567"]
+
+[node name="PickableDragonsEyeResin" instance=ExtResource("1_bveua")]
+collision_layer = 36
+
+[node name="Dragon\'s Eye Resin" parent="." index="1" instance=ExtResource("2_tw567")]

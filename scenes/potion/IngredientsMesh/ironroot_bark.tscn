@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6vtfx8cnmypx"]
+
+[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_8lal5"]
+[ext_resource type="Resource" uid="uid://dra0hakf73ujc" path="res://Assets/Ingredients/ironroot_bark.tres" id="2_8lal5"]
+
+[node name="Ironroot Bark" instance=ExtResource("1_8lal5")]
+ingredient_resource = ExtResource("2_8lal5")

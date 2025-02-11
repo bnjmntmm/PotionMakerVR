@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://mxdg1xl11byt"]
+
+[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_nbkgw"]
+[ext_resource type="PackedScene" uid="uid://cmqg3rugol4g5" path="res://scenes/potion/IngredientsMesh/shimmering_dust.tscn" id="2_3m5e2"]
+
+[node name="PickableShimmeringDust" instance=ExtResource("1_nbkgw")]
+collision_layer = 36
+
+[node name="Shimmering Dust" parent="." index="1" instance=ExtResource("2_3m5e2")]

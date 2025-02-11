@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://bi2sy2hl6cw1n"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_8l7yy"]
+
+[resource]
+script = ExtResource("1_8l7yy")
+ingredient_name = "Star Shard"
+description = "A tiny fragment of a fallen star; used to imbue potions with celestial power."
+water_tint = Color(0.847059, 0.74902, 0.972549, 1)
+metadata/_custom_type_script = ExtResource("1_8l7yy")

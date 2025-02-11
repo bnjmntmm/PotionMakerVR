@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://dml0wukktygxu"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_6crfw"]
+
+[resource]
+script = ExtResource("1_6crfw")
+ingredient_name = "Phoenix Ash"
+description = "The magically charged remains of a phoenix’s flame; used for fiery or rebirth-themed potions."
+water_tint = Color(1, 0.415686, 0, 1)
+metadata/_custom_type_script = ExtResource("1_6crfw")

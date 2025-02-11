@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvahuepq0c70k"]
+
+[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_bjr6b"]
+[ext_resource type="PackedScene" uid="uid://xpbpr0op8r02" path="res://scenes/potion/IngredientsMesh/griffin_feather.tscn" id="2_0fxdp"]
+
+[node name="PickableGriffinFeather" instance=ExtResource("1_bjr6b")]
+collision_layer = 36
+
+[node name="Griffin Feather" parent="." index="1" instance=ExtResource("2_0fxdp")]

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cg8o5px87f11"]
+
+[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_38m22"]
+[ext_resource type="PackedScene" uid="uid://bea0avop45fp8" path="res://scenes/potion/IngredientsMesh/lunar_water.tscn" id="2_7arb6"]
+
+[node name="PickableLunarWater" instance=ExtResource("1_38m22")]
+collision_layer = 36
+
+[node name="Lunar Water" parent="." index="1" instance=ExtResource("2_7arb6")]

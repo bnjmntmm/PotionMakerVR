@@ -1,0 +1,12 @@
+[gd_scene load_steps=6 format=3 uid="uid://blxjwom4kmuib"]
+
+[ext_resource type="PackedScene" uid="uid://dglp2dfa7j1ny" path="res://scenes/potion/Recipes/Base/base_recipe.tscn" id="1_np7fe"]
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="2_orip2"]
+[ext_resource type="Resource" uid="uid://bsvmnoe0hh861" path="res://Assets/Ingredients/whale_tears.tres" id="3_dxsbv"]
+[ext_resource type="Resource" uid="uid://kgnailbbxcap" path="res://Assets/Ingredients/abyssal_pearl.tres" id="4_a3tpm"]
+[ext_resource type="Resource" uid="uid://di0g2m6r7u7ty" path="res://Assets/Ingredients/leviathan_scale.tres" id="5_5ib51"]
+
+[node name="Ocean’s Whisper Brew" instance=ExtResource("1_np7fe")]
+recipe_name = "Ocean’s Whisper Brew"
+effect = "Grants water-breathing and increased swimming speed."
+ingredientsInRecipe = Array[ExtResource("2_orip2")]([ExtResource("3_dxsbv"), ExtResource("4_a3tpm"), ExtResource("5_5ib51")])

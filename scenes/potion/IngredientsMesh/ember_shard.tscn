@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://ciie2skerty81"]
+
+[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_8aiwc"]
+[ext_resource type="Resource" uid="uid://cyph113rcnfb6" path="res://Assets/Ingredients/ember_shard.tres" id="2_8aiwc"]
+
+[node name="Ember Shard" instance=ExtResource("1_8aiwc")]
+ingredient_resource = ExtResource("2_8aiwc")

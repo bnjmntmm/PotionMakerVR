@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://cv8qnggq7s5d8"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_ht8y4"]
+
+[resource]
+script = ExtResource("1_ht8y4")
+ingredient_name = "Twilight Bloom"
+description = "A flower that opens at dusk, harnessing twilight energy for illusions or stealth."
+water_tint = Color(0.694118, 0.611765, 0.85098, 1)
+metadata/_custom_type_script = ExtResource("1_ht8y4")

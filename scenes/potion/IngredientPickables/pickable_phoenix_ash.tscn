@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://clqg0w1fyniob"]
+
+[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_j2mrn"]
+[ext_resource type="PackedScene" uid="uid://oh7s7pt53v5u" path="res://scenes/potion/IngredientsMesh/phoenix_ash.tscn" id="2_fv2eq"]
+
+[node name="PickablePhoenixAsh" instance=ExtResource("1_j2mrn")]
+collision_layer = 36
+
+[node name="Phoenix Ash" parent="." index="1" instance=ExtResource("2_fv2eq")]

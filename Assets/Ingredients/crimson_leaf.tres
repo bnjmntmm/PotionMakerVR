@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="IngredientResource" load_steps=2 format=3 uid="uid://b25m6vlqlo0i8"]
+
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="1_hqscv"]
+
+[resource]
+script = ExtResource("1_hqscv")
+ingredient_name = "Crimson Leaf"
+description = "A deep-red leaf used for regenerative potions."
+water_tint = Color(0.8, 0.168627, 0.168627, 1)
+metadata/_custom_type_script = ExtResource("1_hqscv")

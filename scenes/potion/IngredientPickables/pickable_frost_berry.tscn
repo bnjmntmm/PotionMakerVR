@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://6o43l82kdrnd"]
+
+[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_wj3g7"]
+[ext_resource type="PackedScene" uid="uid://dwp06xamhn07c" path="res://scenes/potion/IngredientsMesh/frost_berry.tscn" id="2_qrnm7"]
+
+[node name="PickableFrostBerry" instance=ExtResource("1_wj3g7")]
+collision_layer = 36
+
+[node name="Frost Berry" parent="." index="1" instance=ExtResource("2_qrnm7")]

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dglp2dfa7j1ny"]
+
+[ext_resource type="Script" uid="uid://cbkbys1c1qwah" path="res://scenes/potion/Recipes/Base/BaseRecipe.gd" id="1_s4k6s"]
+
+[node name="BaseRecipe" type="Node3D"]
+script = ExtResource("1_s4k6s")

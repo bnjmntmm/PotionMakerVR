@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtrnh7pxeeqva"]
+
+[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_idtok"]
+[ext_resource type="PackedScene" uid="uid://dvue8ugmk386b" path="res://scenes/potion/IngredientsMesh/leviathan_scale.tscn" id="2_q6j5h"]
+
+[node name="PickableLeviathanScale" instance=ExtResource("1_idtok")]
+collision_layer = 36
+
+[node name="Leviathan Scale" parent="." index="1" instance=ExtResource("2_q6j5h")]

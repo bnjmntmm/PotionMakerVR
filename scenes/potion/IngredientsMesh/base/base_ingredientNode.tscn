@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1a7k0ys0mjmu"]
+
+[ext_resource type="Script" uid="uid://3q1jypm8m2cw" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.gd" id="1_i32a7"]
+
+[node name="BaseIngredient" type="MeshInstance3D" groups=["Ingredient"]]
+script = ExtResource("1_i32a7")
