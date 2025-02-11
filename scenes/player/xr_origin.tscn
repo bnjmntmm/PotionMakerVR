@@ -1,10 +1,17 @@
-[gd_scene load_steps=4 format=3 uid="uid://vbgcpilqskvm"]
+[gd_scene load_steps=7 format=3 uid="uid://vbgcpilqskvm"]
 
 [ext_resource type="PackedScene" uid="uid://b4kad2kuba1yn" path="res://addons/godot-xr-tools/hands/scenes/lowpoly/left_hand_low.tscn" id="1_43bj4"]
+[ext_resource type="PackedScene" uid="uid://b6bk2pj8vbj28" path="res://addons/godot-xr-tools/functions/movement_turn.tscn" id="1_lexhy"]
 [ext_resource type="PackedScene" uid="uid://b4ysuy43poobf" path="res://addons/godot-xr-tools/functions/function_pickup.tscn" id="2_su7vk"]
+[ext_resource type="PackedScene" uid="uid://bl2nuu3qhlb5k" path="res://addons/godot-xr-tools/functions/movement_direct.tscn" id="3_h7j80"]
 [ext_resource type="PackedScene" uid="uid://l2n30mpbkdyw" path="res://addons/godot-xr-tools/hands/scenes/lowpoly/right_hand_low.tscn" id="3_yxgtc"]
+[ext_resource type="PackedScene" uid="uid://diyu06cw06syv" path="res://addons/godot-xr-tools/player/player_body.tscn" id="4_yxgtc"]
 
 [node name="Origin" type="XROrigin3D"]
+
+[node name="PlayerBody" parent="." instance=ExtResource("4_yxgtc")]
+player_calibrate_height = false
+push_rigid_bodies = false
 
 [node name="XRCamera3D" type="XRCamera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67235, 0)
@@ -12,6 +19,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67235, 0)
 [node name="Controller_Left" type="XRController3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.278103, 0, 0)
 tracker = &"left_hand"
+
+[node name="MovementTurn" parent="Controller_Left" instance=ExtResource("1_lexhy")]
 
 [node name="LeftHand" parent="Controller_Left" instance=ExtResource("1_43bj4")]
 
@@ -21,6 +30,9 @@ ranged_enable = false
 [node name="Controller_Right" type="XRController3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.54095, 0, 0)
 tracker = &"right_hand"
+
+[node name="MovementDirect" parent="Controller_Right" instance=ExtResource("3_h7j80")]
+strafe = true
 
 [node name="RightHand" parent="Controller_Right" instance=ExtResource("3_yxgtc")]
 

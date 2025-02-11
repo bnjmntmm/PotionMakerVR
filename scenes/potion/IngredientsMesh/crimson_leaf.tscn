@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://c2tn1erqv7awj"]
+[gd_scene load_steps=4 format=3 uid="uid://c2tn1erqv7awj"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_rl36s"]
+[ext_resource type="Texture2D" uid="uid://d28fa472uubi1" path="res://icon.svg" id="2_6tqg2"]
 [ext_resource type="Resource" uid="uid://b25m6vlqlo0i8" path="res://Assets/Ingredients/crimson_leaf.tres" id="2_rl36s"]
 
 [node name="Crimson Leaf" instance=ExtResource("1_rl36s")]
+texture = ExtResource("2_6tqg2")
 ingredient_resource = ExtResource("2_rl36s")

@@ -17,6 +17,7 @@ var bubblingSoundPlaying : bool = false
 var current_spoon_value
 var is_moving : bool = false
 
+@onready var house_main: Node3D = $"../HouseMain"
 
 
 func _ready() -> void:
@@ -52,6 +53,7 @@ func _on_ingredient_area_body_entered(body: Node3D) -> void:
 					bubble_particles.emitting = true
 					bubbling_water.play()
 				current_Ingredients.append(child.ingredient_resource.ingredient_name)
+				house_main.update_IngredientSprite(child.texture)
 				change_color_of_liquid(child.ingredient_resource.water_tint)
 	body.queue_free()
 
