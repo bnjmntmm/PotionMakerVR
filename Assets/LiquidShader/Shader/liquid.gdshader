@@ -24,17 +24,17 @@ uniform float BubbleMask    : hint_range(0.0, 1.0, 0.001) = 0.5;
 uniform vec2 BubbleSpeed    = vec2(3.0, 3.0);
 uniform sampler2D bubbles_tex;
 
-varying lowp vec3 pos;
-varying lowp float rot_scale;
-varying lowp vec3 world_vec_up_to_model;
-varying lowp vec3 weights;
+varying vec3 pos;
+varying  float rot_scale;
+varying  vec3 world_vec_up_to_model;
+varying  vec3 weights;
 
 void vertex() {
 	VERTEX                -= glass_thickness * NORMAL;
 	/* Position inside container rotated to world. */
 	pos                   = mat3(MODEL_MATRIX)*VERTEX;
 	/* Lerp between height and width depending on world orientation of z axis. */
-	world_vec_up_to_model = vec3(0.0, 1.0, 0.0)* mat3(MODEL_MATRIX);
+	world_vec_up_to_model = mat3(MODEL_MATRIX) * vec3(0.0, 1.0, 0.0);
 	rot_scale             = mix(size.x, size.y, abs(dot(world_vec_up_to_model, vec3(0.0, 1.0, 0.0))));
 	weights               = mat3(MODEL_MATRIX)*NORMAL; weights*=weights;
 }

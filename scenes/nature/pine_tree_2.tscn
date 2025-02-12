@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cy41ajjr60ib4"]
+
+[ext_resource type="ArrayMesh" uid="uid://dsqta52ec68vx" path="res://scenes/nature/pine_tree_2.tres" id="1_o5c1i"]
+
+[node name="Pine5" type="MeshInstance3D"]
+mesh = ExtResource("1_o5c1i")

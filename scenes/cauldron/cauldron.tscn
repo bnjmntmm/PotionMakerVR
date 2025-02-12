@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=4 uid="uid://bbnv3f1ao1f46"]
+[gd_scene load_steps=33 format=4 uid="uid://bbnv3f1ao1f46"]
 
 [ext_resource type="Script" uid="uid://ba4rcapd45lc3" path="res://scenes/cauldron/cauldron.gd" id="1_u2lxt"]
 [ext_resource type="PackedScene" uid="uid://bnvxqb33lltmj" path="res://addons/godot-xr-tools/interactables/interactable_hinge.tscn" id="2_tvp6t"]
@@ -197,6 +197,10 @@ alpha_curve = SubResource("CurveTexture_dig2r")
 radius = 0.05
 height = 0.1
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_y06py"]
+height = 0.0385859
+radius = 0.348633
+
 [node name="Cauldron" type="Node3D"]
 script = ExtResource("1_u2lxt")
 
@@ -211,6 +215,7 @@ surface_material_override/0 = SubResource("StandardMaterial3D_hsnw7")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.351395, 0)
+collision_layer = 2
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
@@ -226,6 +231,7 @@ hinge_limit_max = 1090.0
 
 [node name="Spoon" type="StaticBody3D" parent="SteeringOrigin/InteractableHinge"]
 transform = Transform3D(-4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, 0.170324, 0.148836, -0.177383)
+collision_layer = 2
 
 [node name="paddle" type="MeshInstance3D" parent="SteeringOrigin/InteractableHinge/Spoon"]
 transform = Transform3D(0.0576418, -7.1438e-09, -0.0817155, 0, -0.1, 8.74228e-09, -0.0817155, -5.03921e-09, -0.0576418, 0, 0.220162, 0)
@@ -289,6 +295,16 @@ stream = ExtResource("6_hsnw7")
 volume_db = -3.0
 bus = &"Effects"
 
+[node name="BottleArea" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.472591, 0)
+collision_layer = 0
+collision_mask = 64
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="BottleArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0329003, 0)
+shape = SubResource("CylinderShape3D_y06py")
+
 [connection signal="grabbed" from="SteeringOrigin/InteractableHinge" to="." method="_on_interactable_hinge_grabbed"]
 [connection signal="released" from="SteeringOrigin/InteractableHinge" to="." method="_on_interactable_hinge_released"]
 [connection signal="body_entered" from="IngredientArea" to="." method="_on_ingredient_area_body_entered"]
+[connection signal="body_entered" from="BottleArea" to="." method="_on_bottle_area_body_entered"]

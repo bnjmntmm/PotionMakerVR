@@ -23,7 +23,7 @@ App="*res://Globals/App.gd"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot-xr-tools/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot-xr-tools/plugin.cfg", "res://addons/proton_scatter/plugin.cfg")
 
 [layer_names]
 
@@ -33,6 +33,7 @@ enabled=PackedStringArray("res://addons/godot-xr-tools/plugin.cfg")
 3d_physics/layer_4="Wall Walking"
 3d_physics/layer_5="Grappling Target"
 3d_physics/layer_6="CauldronIngredients"
+3d_physics/layer_7="Potion"
 3d_physics/layer_17="Held Objects"
 3d_physics/layer_18="Player Hands"
 3d_physics/layer_19="Grab Handles"

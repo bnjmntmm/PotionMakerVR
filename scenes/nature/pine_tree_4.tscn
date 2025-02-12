@@ -1,0 +1,18 @@
+[gd_scene load_steps=6 format=3 uid="uid://b0cl5jbs0227b"]
+
+[ext_resource type="ArrayMesh" uid="uid://c6agmqobg2tui" path="res://assets/models/nature/Pine_4.obj" id="1_jeobw"]
+[ext_resource type="Texture2D" uid="uid://cqej3fvx8s8a6" path="res://assets/models/nature/Tree_Bark.jpg" id="2_47qxl"]
+[ext_resource type="Texture2D" uid="uid://cymbdw6rioj71" path="res://assets/models/nature/Pine_Leaves.png" id="3_qk572"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ghrvr"]
+albedo_texture = ExtResource("2_47qxl")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xa5ll"]
+transparency = 1
+albedo_texture = ExtResource("3_qk572")
+albedo_texture_force_srgb = true
+
+[node name="Pine4" type="MeshInstance3D"]
+mesh = ExtResource("1_jeobw")
+surface_material_override/0 = SubResource("StandardMaterial3D_ghrvr")
+surface_material_override/1 = SubResource("StandardMaterial3D_xa5ll")

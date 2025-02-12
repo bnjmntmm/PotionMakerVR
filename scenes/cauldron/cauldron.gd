@@ -8,20 +8,26 @@ extends Node3D
 @onready var bubble_particles: GPUParticles3D = $BubbleParticles
 @onready var flush_particles: GPUParticles3D = $FlushParticles
 
+@onready var house_main: Node3D = $"../HouseMain"
+
+
 var liquid_material : StandardMaterial3D
 var standard_color : Color
 
 var current_Ingredients : Array = []
+var cooked_recipe = null
 
 ##cauldron should be locked when cooked
 var potion_brewed : bool = false
+
+
+
 
 var bubblingSoundPlaying : bool = false
 
 var current_spoon_value
 var is_moving : bool = false
 
-@onready var house_main: Node3D = $"../HouseMain"
 
 
 func _ready() -> void:
@@ -29,10 +35,11 @@ func _ready() -> void:
 	App.lever_pushed_down.connect(clear_cauldron)
 	liquid_material = $Cauldron/Cauldron_Circle.get_surface_override_material(0)
 	standard_color = liquid_material.albedo_color
-
+	App.instantiate_packed_scenes()
 
 func _on_interactable_hinge_grabbed(interactable: Variant) -> void:
 	is_moving = true
+
 
 
 func _on_interactable_hinge_released(interactable: Variant) -> void:
@@ -55,7 +62,7 @@ func _on_ingredient_area_body_entered(body: Node3D) -> void:
 					bubblingSoundPlaying = true
 					bubble_particles.emitting = true
 					bubbling_water.play()
-				current_Ingredients.append(child.ingredient_resource.ingredient_name)
+				current_Ingredients.append(child.ingredient_resource)
 				house_main.update_IngredientSprite(child.texture)
 				change_color_of_liquid(child.ingredient_resource.water_tint)
 		if current_Ingredients.size() == 3:
@@ -71,11 +78,19 @@ func _on_ingredient_area_body_entered(body: Node3D) -> void:
 ## remove ability to throw in new ingredients
 ## play a ding sound
 ## let user "fill up" bottle and give to customer
+## check if recipe is a valid recipe
 func _on_recipe_cooked() -> void:
 	bubbling_water.stop()
 	potion_brewed = true
 	bubble_particles.emitting = false
 	finish_sound.play()
+	
+	##if recipe valid
+	var recipe = check_recipes_for_ingredients()
+	if recipe != null:
+		cooked_recipe = recipe
+		print("We cooked: ", cooked_recipe.recipe_name)
+	
 	pass
 
 
@@ -98,8 +113,26 @@ func clear_cauldron() -> void:
 	bubble_particles.emitting = false
 	interactable_hinge.visible = false
 	interactable_handle.enabled = false
+	potion_brewed = false
+	cooked_recipe = null
 
 	interactable_hinge.hinge_position = 0.0
 	liquid_material.albedo_color = standard_color
 	current_Ingredients.clear()
 	house_main.resetIngredientSprites()
+
+
+##if bottle entered:
+## check if potion brewed
+## 
+func _on_bottle_area_body_entered(body: Node3D) -> void:
+	if potion_brewed and cooked_recipe != null:
+		var potion_body =  body.get_child(1)
+		potion_body.liquid_color = liquid_material.albedo_color
+		potion_body.recipe = cooked_recipe
+		
+func check_recipes_for_ingredients():
+	for recipe in App.recipe_scenes:
+		if recipe.ingredientsInRecipe == current_Ingredients:
+			return recipe
+	return null

@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://vbgcpilqskvm"]
+[gd_scene load_steps=9 format=3 uid="uid://vbgcpilqskvm"]
 
 [ext_resource type="PackedScene" uid="uid://b4kad2kuba1yn" path="res://addons/godot-xr-tools/hands/scenes/lowpoly/left_hand_low.tscn" id="1_43bj4"]
 [ext_resource type="Script" uid="uid://btkh7wce7jv4s" path="res://scenes/player/xr_origin.gd" id="1_co78m"]
 [ext_resource type="PackedScene" uid="uid://b6bk2pj8vbj28" path="res://addons/godot-xr-tools/functions/movement_turn.tscn" id="1_lexhy"]
 [ext_resource type="PackedScene" uid="uid://b4ysuy43poobf" path="res://addons/godot-xr-tools/functions/function_pickup.tscn" id="2_su7vk"]
+[ext_resource type="PackedScene" uid="uid://btknduttnmoxf" path="res://addons/godot-xr-tools/misc/vr_common_shader_cache.tscn" id="3_co78m"]
 [ext_resource type="PackedScene" uid="uid://bl2nuu3qhlb5k" path="res://addons/godot-xr-tools/functions/movement_direct.tscn" id="3_h7j80"]
 [ext_resource type="PackedScene" uid="uid://l2n30mpbkdyw" path="res://addons/godot-xr-tools/hands/scenes/lowpoly/right_hand_low.tscn" id="3_yxgtc"]
 [ext_resource type="PackedScene" uid="uid://diyu06cw06syv" path="res://addons/godot-xr-tools/player/player_body.tscn" id="4_yxgtc"]
@@ -20,17 +21,19 @@ push_rigid_bodies = false
 [node name="XRCamera3D" type="XRCamera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.67235, 0)
 
+[node name="VRCommonShaderCache" parent="XRCamera3D" instance=ExtResource("3_co78m")]
+
 [node name="Controller_Left" type="XRController3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.278103, 0, 0)
 tracker = &"left_hand"
-
-[node name="MovementTurn" parent="Controller_Left" instance=ExtResource("1_lexhy")]
-turn_mode = 2
 
 [node name="LeftHand" parent="Controller_Left" instance=ExtResource("1_43bj4")]
 
 [node name="FunctionPickup" parent="Controller_Left" instance=ExtResource("2_su7vk")]
 ranged_enable = false
+
+[node name="MovementDirect" parent="Controller_Left" instance=ExtResource("3_h7j80")]
+strafe = true
 
 [node name="FPS" type="Label3D" parent="Controller_Left"]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0.024574, 0.172907)
@@ -42,10 +45,10 @@ outline_size = 1
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.54095, 0, 0)
 tracker = &"right_hand"
 
-[node name="MovementDirect" parent="Controller_Right" instance=ExtResource("3_h7j80")]
-strafe = true
-
 [node name="RightHand" parent="Controller_Right" instance=ExtResource("3_yxgtc")]
 
 [node name="FunctionPickup" parent="Controller_Right" instance=ExtResource("2_su7vk")]
 ranged_enable = false
+
+[node name="MovementTurn" parent="Controller_Right" instance=ExtResource("1_lexhy")]
+turn_mode = 2
