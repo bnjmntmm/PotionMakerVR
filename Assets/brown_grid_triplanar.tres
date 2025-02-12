@@ -1,8 +1,12 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=2]
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://bm7ddbtfd6q8y"]
 
-[ext_resource path="res://assets/wahooney.itch.io/brown_grid.png" type="Texture2D" id=1]
+[ext_resource type="Texture2D" uid="uid://b3tje8lq268k0" path="res://assets/textures/wood/PaintedWood005_1K-JPG_Color.jpg" id="1_egxgg"]
+[ext_resource type="Texture2D" uid="uid://dfcrwlhvdo08s" path="res://assets/textures/wood/PaintedWood005_1K-JPG_NormalGL.jpg" id="2_kdbbm"]
 
 [resource]
-albedo_texture = ExtResource( 1 )
-uv1_scale = Vector3( 0.5, 0.5, 0.5 )
+albedo_texture = ExtResource("1_egxgg")
+roughness_texture_channel = 4
+normal_enabled = true
+normal_scale = 4.0
+normal_texture = ExtResource("2_kdbbm")
 uv1_triplanar = true

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://5e74o248gyii"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_hqfnf"]
-[ext_resource type="Resource" uid="uid://qwfs3ep0i4lu" path="res://Assets/Ingredients/dragons_eye_resing.tres" id="2_hqfnf"]
+[ext_resource type="Resource" uid="uid://qwfs3ep0i4lu" path="res://assets/Ingredients/dragons_eye_resing.tres" id="2_hqfnf"]
 
 [node name="Dragon\'s Eye Resin" instance=ExtResource("1_hqfnf")]
 ingredient_resource = ExtResource("2_hqfnf")

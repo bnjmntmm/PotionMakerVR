@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://cg3bgur115l01"]
 
 [ext_resource type="PackedScene" uid="uid://dglp2dfa7j1ny" path="res://scenes/potion/Recipes/Base/base_recipe.tscn" id="1_mlppg"]
-[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="2_4rnve"]
-[ext_resource type="Resource" uid="uid://xbws70p0fe7m" path="res://Assets/Ingredients/basilisk_fang.tres" id="3_ctvlq"]
-[ext_resource type="Resource" uid="uid://x7h1lluacu2s" path="res://Assets/Ingredients/scorpion_venom.tres" id="4_d03pn"]
-[ext_resource type="Resource" uid="uid://rvj1vrrw16db" path="res://Assets/Ingredients/mandrake_root.tres" id="5_qytsp"]
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://assets/Ingredients/Base/BaseIngredient.gd" id="2_4rnve"]
+[ext_resource type="Resource" uid="uid://xbws70p0fe7m" path="res://assets/Ingredients/basilisk_fang.tres" id="3_ctvlq"]
+[ext_resource type="Resource" uid="uid://x7h1lluacu2s" path="res://assets/Ingredients/scorpion_venom.tres" id="4_d03pn"]
+[ext_resource type="Resource" uid="uid://rvj1vrrw16db" path="res://assets/Ingredients/mandrake_root.tres" id="5_qytsp"]
 
 [node name="Venomous Might Brew" instance=ExtResource("1_mlppg")]
 recipe_name = "Venomous Might Brew"

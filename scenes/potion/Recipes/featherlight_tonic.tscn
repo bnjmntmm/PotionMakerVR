@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://fqgn60iorw3r"]
 
 [ext_resource type="PackedScene" uid="uid://dglp2dfa7j1ny" path="res://scenes/potion/Recipes/Base/base_recipe.tscn" id="1_ld76y"]
-[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="2_8qlig"]
-[ext_resource type="Resource" uid="uid://cw6dd2fpklk75" path="res://Assets/Ingredients/griffin_feather.tres" id="3_s343s"]
-[ext_resource type="Resource" uid="uid://bvf2ng23jmxoq" path="res://Assets/Ingredients/cloud_silk.tres" id="4_vbud4"]
-[ext_resource type="Resource" uid="uid://bi2sy2hl6cw1n" path="res://Assets/Ingredients/star_shard.tres" id="5_23n53"]
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://assets/Ingredients/Base/BaseIngredient.gd" id="2_8qlig"]
+[ext_resource type="Resource" uid="uid://cw6dd2fpklk75" path="res://assets/Ingredients/griffin_feather.tres" id="3_s343s"]
+[ext_resource type="Resource" uid="uid://bvf2ng23jmxoq" path="res://assets/Ingredients/cloud_silk.tres" id="4_vbud4"]
+[ext_resource type="Resource" uid="uid://bi2sy2hl6cw1n" path="res://assets/Ingredients/star_shard.tres" id="5_23n53"]
 
 [node name="Featherlight Tonic" instance=ExtResource("1_ld76y")]
 recipe_name = "Featherlight Tonic"

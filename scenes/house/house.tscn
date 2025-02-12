@@ -1,0 +1,187 @@
+[gd_scene load_steps=22 format=3 uid="uid://brrdtcuss5bc3"]
+
+[ext_resource type="PackedScene" uid="uid://b2ni017pkomkd" path="res://assets/models/modular_village/Floor_WoodDark.gltf" id="1_12j21"]
+[ext_resource type="PackedScene" uid="uid://ce5xyaaory7s4" path="res://assets/models/modular_village/Corner_Exterior_Wood.gltf" id="2_ycl3c"]
+[ext_resource type="PackedScene" uid="uid://cent0skga0eel" path="res://assets/models/modular_village/Wall_UnevenBrick_Straight.gltf" id="3_j2j1c"]
+[ext_resource type="PackedScene" uid="uid://dtai3jn630oeb" path="res://assets/models/modular_village/Corner_Interior_Small.gltf" id="4_0x377"]
+[ext_resource type="PackedScene" uid="uid://dk26ibr7pm5ui" path="res://assets/models/modular_village/Wall_UnevenBrick_Window_Wide_Round.gltf" id="5_h202l"]
+[ext_resource type="PackedScene" uid="uid://b5q75rdgmgl36" path="res://assets/models/modular_village/window_wide_round_removed_glass.glb" id="6_6koe2"]
+[ext_resource type="PackedScene" uid="uid://dxowv45ob4iy3" path="res://assets/models/modular_village/Window_Wide_Round1.gltf" id="7_hc4ie"]
+[ext_resource type="PackedScene" uid="uid://d1037l4to38va" path="res://assets/models/modular_village/Wall_UnevenBrick_Door_Flat.gltf" id="8_vqulb"]
+[ext_resource type="PackedScene" uid="uid://blfdjf6y5ifj2" path="res://assets/models/modular_village/DoorFrame_Flat_WoodDark.gltf" id="9_6n6ao"]
+[ext_resource type="PackedScene" uid="uid://c0m4l22ohrwd6" path="res://assets/models/modular_village/Door_1_Flat.gltf" id="10_0ju2x"]
+[ext_resource type="PackedScene" uid="uid://d2sxq0jo5fdcd" path="res://assets/models/modular_village/Roof_Front_Brick4.gltf" id="11_j2j1c"]
+[ext_resource type="PackedScene" uid="uid://ddj166m3o10b" path="res://assets/models/modular_village/Roof_RoundTiles_4x6.gltf" id="12_0x377"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0ju2x"]
+size = Vector3(1, 2.62384, 0.134766)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_j2j1c"]
+size = Vector3(0.265503, 2.88684, 3.54321)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0x377"]
+size = Vector3(6.28064, 3.06732, 0.218994)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h202l"]
+size = Vector3(6.08313, 0.273438, 4.15076)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6koe2"]
+size = Vector3(3.75482, 1.26373, 0.244629)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hc4ie"]
+size = Vector3(5.56393, 1.50123, 0.244629)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vqulb"]
+size = Vector3(1.35364, 2.80676, 0.338013)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_57q6m"]
+size = Vector3(0.518616, 2.80676, 0.338013)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6n6ao"]
+size = Vector3(1.03711, 2.80676, 0.338013)
+
+[node name="House" type="Node3D"]
+
+[node name="Floor" type="Node3D" parent="."]
+
+[node name="Floor_WoodDark2" parent="Floor" instance=ExtResource("1_12j21")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.00217, 0, 1.00105)
+
+[node name="Floor_WoodDark3" parent="Floor" instance=ExtResource("1_12j21")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.997826, 0, 1.00105)
+
+[node name="Floor_WoodDark6" parent="Floor" instance=ExtResource("1_12j21")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.99783, 0, 1.00105)
+
+[node name="Floor_WoodDark4" parent="Floor" instance=ExtResource("1_12j21")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.997826, 0, -0.998947)
+
+[node name="Floor_WoodDark7" parent="Floor" instance=ExtResource("1_12j21")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.99783, 0, -0.998947)
+
+[node name="Floor_WoodDark5" parent="Floor" instance=ExtResource("1_12j21")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.00217, 0, -0.998947)
+
+[node name="Walls" type="Node3D" parent="."]
+
+[node name="DoorFrame_Flat_WoodDark2" parent="Walls" instance=ExtResource("9_6n6ao")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.96369, -0.0257788, -1.89908)
+
+[node name="Door_1_Flat2" parent="Walls" instance=ExtResource("10_0ju2x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.4797, -0.0250639, -2.08271)
+
+[node name="RigidBody3D" type="RigidBody3D" parent="Walls/Door_1_Flat2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.516012, -0.000714839, 0.183627)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Door_1_Flat2/RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.81192, -0.181641)
+shape = SubResource("BoxShape3D_0ju2x")
+
+[node name="Corner_Exterior_Wood3" parent="Walls" instance=ExtResource("2_ycl3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.00633, 0, 1.90126)
+
+[node name="Corner_Exterior_Wood4" parent="Walls" instance=ExtResource("2_ycl3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.99367, 0, -2.09874)
+
+[node name="Corner_Exterior_Wood5" parent="Walls" instance=ExtResource("2_ycl3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.00633, 0, -2.09874)
+
+[node name="Wall_UnevenBrick_Straight2" parent="Walls" instance=ExtResource("3_j2j1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 2)
+
+[node name="Wall_UnevenBrick_Straight4" parent="Walls" instance=ExtResource("3_j2j1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 2)
+
+[node name="Wall_UnevenBrick_Straight3" parent="Walls" instance=ExtResource("3_j2j1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2)
+
+[node name="Wall_UnevenBrick_Straight5" parent="Walls" instance=ExtResource("3_j2j1c")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 0, 1)
+
+[node name="Wall_UnevenBrick_Straight7" parent="Walls" instance=ExtResource("3_j2j1c")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4, 0, 1)
+
+[node name="Wall_UnevenBrick_Straight8" parent="Walls" instance=ExtResource("3_j2j1c")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4, 0, -1)
+
+[node name="Corner_Interior_Small2" parent="Walls" instance=ExtResource("4_0x377")]
+transform = Transform3D(1, 0, 0, 0, 1.1, 0, 0, 0, 1, -4.055, -0.154032, 2.057)
+
+[node name="Corner_Interior_Small3" parent="Walls" instance=ExtResource("4_0x377")]
+transform = Transform3D(1, 0, 0, 0, 1.1, 0, 0, 0, 1, 1.44991, -0.154032, 2.057)
+
+[node name="Wall_UnevenBrick_Window_Wide_Round2" parent="Walls" instance=ExtResource("5_h202l")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2, 0, -1)
+
+[node name="Wall_UnevenBrick_Window_Wide_Round3" parent="Walls" instance=ExtResource("5_h202l")]
+transform = Transform3D(-2, 0, -1.50996e-07, 0, 1, 0, 3.01992e-07, 0, -1, 0, 0, -2)
+
+[node name="window_wide_round_removed_glass" parent="Walls" instance=ExtResource("6_6koe2")]
+transform = Transform3D(-2, 0, -1.50996e-07, 0, 1, 0, 3.01992e-07, 0, -1, -0.0304176, 0, -2.01473)
+
+[node name="Window_Wide_Round12" parent="Walls" instance=ExtResource("7_hc4ie")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 1.95312, 0, -0.944588)
+
+[node name="Wall_UnevenBrick_Door_Flat2" parent="Walls" instance=ExtResource("8_vqulb")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -3, 0, -2)
+
+[node name="Roof" type="Node3D" parent="."]
+
+[node name="Roof_Front_Brick42" parent="Roof" instance=ExtResource("11_j2j1c")]
+transform = Transform3D(-3.93403e-08, 0, -0.9, 0, 0.9, 0, 0.9, 0, -3.93403e-08, 1.80182, 3.21599, -0.0950091)
+
+[node name="Roof_Front_Brick43" parent="Roof" instance=ExtResource("11_j2j1c")]
+transform = Transform3D(-3.93403e-08, 0, 0.9, 0, 0.9, 0, -0.9, 0, -3.93403e-08, -3.81031, 3.21599, -0.0950091)
+
+[node name="Roof_RoundTiles_4x62" parent="Roof" instance=ExtResource("12_0x377")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.935285, 2.87632, -0.0860076)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.91128, 0.528178, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.94342, -0.0218506)
+shape = SubResource("BoxShape3D_j2j1c")
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.85019, 0.528178, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.94342, -0.0218506)
+shape = SubResource("BoxShape3D_j2j1c")
+
+[node name="StaticBody3D3" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.875881, 1.41412, 1.71596)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D3"]
+shape = SubResource("BoxShape3D_0x377")
+
+[node name="StaticBody3D4" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.86862, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.06049, 0.168945, -0.03302)
+shape = SubResource("BoxShape3D_h202l")
+
+[node name="Front" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.501105, -1.93198)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Front"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0601501, 0.0263977, 0.0446777)
+shape = SubResource("BoxShape3D_6koe2")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="Front"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.964706, 2.49991, 0.0446777)
+shape = SubResource("BoxShape3D_hc4ie")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Front"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.77057, 0.903381, -0.0264807)
+shape = SubResource("BoxShape3D_vqulb")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="Front"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.7798, 0.903381, -0.0264807)
+shape = SubResource("BoxShape3D_57q6m")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="Front"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.57538, 0.903381, -0.0264807)
+shape = SubResource("BoxShape3D_6n6ao")

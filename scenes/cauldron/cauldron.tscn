@@ -1,12 +1,12 @@
-[gd_scene load_steps=25 format=4 uid="uid://bbnv3f1ao1f46"]
+[gd_scene load_steps=32 format=4 uid="uid://bbnv3f1ao1f46"]
 
 [ext_resource type="Script" uid="uid://ba4rcapd45lc3" path="res://scenes/cauldron/cauldron.gd" id="1_u2lxt"]
 [ext_resource type="PackedScene" uid="uid://bnvxqb33lltmj" path="res://addons/godot-xr-tools/interactables/interactable_hinge.tscn" id="2_tvp6t"]
 [ext_resource type="PackedScene" uid="uid://bddj5m7ull6g0" path="res://addons/godot-xr-tools/interactables/interactable_handle.tscn" id="3_u2lxt"]
-[ext_resource type="Texture2D" uid="uid://dhj38n6bjq10a" path="res://Assets/Wooden Pad_cutensils_wooden_paddle.png" id="3_y06py"]
-[ext_resource type="Shader" uid="uid://def3v8dbbv27r" path="res://Assets/LiquidShader/Shader/glas.gdshader" id="4_to7hx"]
-[ext_resource type="AudioStream" uid="uid://c8egswods0xil" path="res://Assets/Sounds/ding.wav" id="5_8t87t"]
-[ext_resource type="AudioStream" uid="uid://bwskj3i6dxcoc" path="res://Assets/Sounds/bubbling.wav" id="6_hsnw7"]
+[ext_resource type="Texture2D" uid="uid://dhj38n6bjq10a" path="res://assets/models/Wooden Pad_cutensils_wooden_paddle.png" id="3_y06py"]
+[ext_resource type="Shader" uid="uid://def3v8dbbv27r" path="res://assets/LiquidShader/Shader/glas.gdshader" id="4_to7hx"]
+[ext_resource type="AudioStream" uid="uid://c8egswods0xil" path="res://assets/Sounds/ding.wav" id="5_8t87t"]
+[ext_resource type="AudioStream" uid="uid://bwskj3i6dxcoc" path="res://assets/Sounds/bubbling.wav" id="6_hsnw7"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5cp8v"]
 resource_name = "Green_Cauldron"
@@ -77,6 +77,7 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_2eu6y")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hsnw7"]
+render_priority = -1
 transparency = 1
 albedo_color = Color(0.0823529, 0.321569, 1, 0.623529)
 
@@ -164,6 +165,38 @@ alpha_curve = SubResource("CurveTexture_y06py")
 radius = 0.01
 height = 0.02
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y06py"]
+transparency = 1
+vertex_color_use_as_albedo = true
+
+[sub_resource type="Curve" id="Curve_hmojl"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.815789, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_dig2r"]
+curve = SubResource("Curve_hmojl")
+
+[sub_resource type="Curve" id="Curve_fi2pb"]
+_limits = [-200.0, 200.0, 0.0, 1.0]
+_data = [Vector2(0, -200), 0.0, 0.0, 0, 0, Vector2(1, 200), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_hg372"]
+curve = SubResource("Curve_fi2pb")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_bm56b"]
+direction = Vector3(0, 0, 1)
+spread = 40.0
+initial_velocity_max = 1.0
+gravity = Vector3(0, 1, 0)
+tangential_accel_curve = SubResource("CurveTexture_hg372")
+scale_max = 2.0
+alpha_curve = SubResource("CurveTexture_dig2r")
+
+[sub_resource type="SphereMesh" id="SphereMesh_72xyp"]
+radius = 0.05
+height = 0.1
+
 [node name="Cauldron" type="Node3D"]
 script = ExtResource("1_u2lxt")
 
@@ -187,6 +220,7 @@ shape = SubResource("ConcavePolygonShape3D_tvp6t")
 transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, 0.448834, 0)
 
 [node name="InteractableHinge" parent="SteeringOrigin" instance=ExtResource("2_tvp6t")]
+visible = false
 hinge_limit_min = -1.0
 hinge_limit_max = 1090.0
 
@@ -205,6 +239,7 @@ shape = SubResource("BoxShape3D_u2lxt")
 transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0.155141, 0.148836, -0.177383)
 
 [node name="InteractableHandle" parent="SteeringOrigin/InteractableHinge/Handle" instance=ExtResource("3_u2lxt")]
+enabled = false
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="SteeringOrigin/InteractableHinge/Handle/InteractableHandle"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.49012e-08, -0.164816, 0)
@@ -230,6 +265,18 @@ emitting = false
 amount = 30
 process_material = SubResource("ParticleProcessMaterial_hmojl")
 draw_pass_1 = SubResource("SphereMesh_dig2r")
+
+[node name="FlushParticles" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0.228501, 0)
+material_override = SubResource("StandardMaterial3D_y06py")
+emitting = false
+amount = 70
+amount_ratio = 0.6
+lifetime = 1.5
+one_shot = true
+explosiveness = 0.8
+process_material = SubResource("ParticleProcessMaterial_bm56b")
+draw_pass_1 = SubResource("SphereMesh_72xyp")
 
 [node name="FinishSound" type="AudioStreamPlayer3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.474011, 0)

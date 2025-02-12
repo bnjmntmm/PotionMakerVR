@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dkeibeepqrj0s"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_8g8rk"]
-[ext_resource type="Resource" uid="uid://bvf2ng23jmxoq" path="res://Assets/Ingredients/cloud_silk.tres" id="2_8g8rk"]
+[ext_resource type="Resource" uid="uid://bvf2ng23jmxoq" path="res://assets/Ingredients/cloud_silk.tres" id="2_8g8rk"]
 
 [node name="Cloud Silk" instance=ExtResource("1_8g8rk")]
 ingredient_resource = ExtResource("2_8g8rk")

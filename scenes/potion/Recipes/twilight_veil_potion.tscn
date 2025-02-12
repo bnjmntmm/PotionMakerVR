@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://dp5bb3xpqh14n"]
 
 [ext_resource type="PackedScene" uid="uid://dglp2dfa7j1ny" path="res://scenes/potion/Recipes/Base/base_recipe.tscn" id="1_xgsrr"]
-[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="2_nwwy5"]
-[ext_resource type="Resource" uid="uid://cv8qnggq7s5d8" path="res://Assets/Ingredients/twilight_bloom.tres" id="3_7a1w1"]
-[ext_resource type="Resource" uid="uid://bpe58maritvw6" path="res://Assets/Ingredients/spectral_lily.tres" id="4_8k3j0"]
-[ext_resource type="Resource" uid="uid://dpafttt56mrst" path="res://Assets/Ingredients/lunar_water.tres" id="5_su8cp"]
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://assets/Ingredients/Base/BaseIngredient.gd" id="2_nwwy5"]
+[ext_resource type="Resource" uid="uid://cv8qnggq7s5d8" path="res://assets/Ingredients/twilight_bloom.tres" id="3_7a1w1"]
+[ext_resource type="Resource" uid="uid://bpe58maritvw6" path="res://assets/Ingredients/spectral_lily.tres" id="4_8k3j0"]
+[ext_resource type="Resource" uid="uid://dpafttt56mrst" path="res://assets/Ingredients/lunar_water.tres" id="5_su8cp"]
 
 [node name="Twilight Veil Potion" instance=ExtResource("1_xgsrr")]
 recipe_name = "Twilight Veil Potion"

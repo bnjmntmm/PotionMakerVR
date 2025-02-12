@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://w2edoyrr4see"]
 
 [ext_resource type="PackedScene" uid="uid://dglp2dfa7j1ny" path="res://scenes/potion/Recipes/Base/base_recipe.tscn" id="1_g3f8x"]
-[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="2_bd5ef"]
-[ext_resource type="Resource" uid="uid://bpe58maritvw6" path="res://Assets/Ingredients/spectral_lily.tres" id="3_fvbm5"]
-[ext_resource type="Resource" uid="uid://c6uds8l4fsora" path="res://Assets/Ingredients/shimmering_dust.tres" id="4_wnn2j"]
-[ext_resource type="Resource" uid="uid://xbws70p0fe7m" path="res://Assets/Ingredients/basilisk_fang.tres" id="5_qll2a"]
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://assets/Ingredients/Base/BaseIngredient.gd" id="2_bd5ef"]
+[ext_resource type="Resource" uid="uid://bpe58maritvw6" path="res://assets/Ingredients/spectral_lily.tres" id="3_fvbm5"]
+[ext_resource type="Resource" uid="uid://c6uds8l4fsora" path="res://assets/Ingredients/shimmering_dust.tres" id="4_wnn2j"]
+[ext_resource type="Resource" uid="uid://xbws70p0fe7m" path="res://assets/Ingredients/basilisk_fang.tres" id="5_qll2a"]
 
 [node name="Shadowsight Draught" instance=ExtResource("1_g3f8x")]
 recipe_name = "Shadowsight Draught#"

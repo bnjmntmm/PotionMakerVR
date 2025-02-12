@@ -1,9 +1,18 @@
-[gd_scene load_steps=3 format=3 uid="uid://c4p14cc4u1rqy"]
+[gd_scene load_steps=5 format=3 uid="uid://c4p14cc4u1rqy"]
 
 [ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_at88g"]
 [ext_resource type="PackedScene" uid="uid://crp710hodak7w" path="res://scenes/potion/IngredientsMesh/abyssal_pearl.tscn" id="2_07uoj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_at88g"]
+resource_local_to_scene = true
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_07uoj"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
 
 [node name="PickableAbyssalPearl" instance=ExtResource("1_at88g")]
 collision_layer = 36
 
 [node name="Abyssal Pearl" parent="." index="1" instance=ExtResource("2_07uoj")]
+material_override = SubResource("StandardMaterial3D_at88g")
+mesh = SubResource("PlaneMesh_07uoj")

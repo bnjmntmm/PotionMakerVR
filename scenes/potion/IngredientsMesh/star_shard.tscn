@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dmybxhx1ljp85"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_w0m8q"]
-[ext_resource type="Resource" uid="uid://bi2sy2hl6cw1n" path="res://Assets/Ingredients/star_shard.tres" id="2_w0m8q"]
+[ext_resource type="Resource" uid="uid://bi2sy2hl6cw1n" path="res://assets/Ingredients/star_shard.tres" id="2_w0m8q"]
 
 [node name="Star Shard" instance=ExtResource("1_w0m8q")]
 ingredient_resource = ExtResource("2_w0m8q")

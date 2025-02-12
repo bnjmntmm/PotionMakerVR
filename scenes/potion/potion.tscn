@@ -3,9 +3,9 @@
 [ext_resource type="Shader" uid="uid://def3v8dbbv27r" path="res://Assets/LiquidShader/Shader/glas.gdshader" id="1_m50ch"]
 [ext_resource type="Script" uid="uid://cgubixlu2bc2b" path="res://scenes/potion/potion.gd" id="1_ntqwc"]
 [ext_resource type="Shader" uid="uid://46prqg7mytto" path="res://Assets/LiquidShader/Shader/liquid.gdshader" id="2_ntqwc"]
-[ext_resource type="Texture2D" uid="uid://p48ttmh1g7tq" path="res://Assets/BubblesNoise.tres" id="3_jjub8"]
-[ext_resource type="Texture2D" uid="uid://co7s5tp5nnmpv" path="res://Assets/WaveNoise.tres" id="4_nka0d"]
-[ext_resource type="Script" uid="uid://ctv7tj7phkoua" path="res://Assets/LiquidShader/MinimalLiquidSimulation.gd" id="5_5ep2j"]
+[ext_resource type="Texture2D" uid="uid://p48ttmh1g7tq" path="res://assets/BubblesNoise.tres" id="3_jjub8"]
+[ext_resource type="Texture2D" uid="uid://co7s5tp5nnmpv" path="res://assets/WaveNoise.tres" id="4_nka0d"]
+[ext_resource type="Script" uid="uid://ctv7tj7phkoua" path="res://assets/LiquidShader/MinimalLiquidSimulation.gd" id="5_5ep2j"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3j0n4"]
 resource_name = "Glass"

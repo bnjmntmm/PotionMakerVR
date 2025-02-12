@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://oh7s7pt53v5u"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_p8a4f"]
-[ext_resource type="Resource" uid="uid://dml0wukktygxu" path="res://Assets/Ingredients/phoenix_ash.tres" id="2_p8a4f"]
+[ext_resource type="Resource" uid="uid://dml0wukktygxu" path="res://assets/Ingredients/phoenix_ash.tres" id="2_p8a4f"]
 
 [node name="Phoenix Ash" instance=ExtResource("1_p8a4f")]
 ingredient_resource = ExtResource("2_p8a4f")

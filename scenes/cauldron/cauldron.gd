@@ -1,11 +1,15 @@
 extends Node3D
 
 @onready var interactable_hinge: XRToolsInteractableHinge = $SteeringOrigin/InteractableHinge
+@onready var interactable_handle: XRToolsInteractableHandle = $SteeringOrigin/InteractableHinge/Handle/InteractableHandle
+
 @onready var finish_sound: AudioStreamPlayer3D = $FinishSound
 @onready var bubbling_water: AudioStreamPlayer3D = $BubblingWater
 @onready var bubble_particles: GPUParticles3D = $BubbleParticles
+@onready var flush_particles: GPUParticles3D = $FlushParticles
 
 var liquid_material : StandardMaterial3D
+var standard_color : Color
 
 var current_Ingredients : Array = []
 
@@ -22,7 +26,9 @@ var is_moving : bool = false
 
 func _ready() -> void:
 	App.recipe_cooked.connect(_on_recipe_cooked)
+	App.lever_pushed_down.connect(clear_cauldron)
 	liquid_material = $Cauldron/Cauldron_Circle.get_surface_override_material(0)
+	standard_color = liquid_material.albedo_color
 
 
 func _on_interactable_hinge_grabbed(interactable: Variant) -> void:
@@ -36,16 +42,13 @@ func _physics_process(delta: float) -> void:
 	if is_moving:
 		current_spoon_value = interactable_hinge.hinge_position
 		$ProcentValue.text = "Value: " + str(snappedf(current_spoon_value,0.01))
-		if current_spoon_value == randi_range(980, 1080) and not potion_brewed:
+		if current_spoon_value == 1090 and not potion_brewed:
 			App.recipe_cooked.emit()
 			
 
 
 func _on_ingredient_area_body_entered(body: Node3D) -> void:
 	if not potion_brewed:
-		if current_Ingredients.size() > 5:
-			current_Ingredients.pop_front()
-			
 		for child in body.find_children("*"):
 			if child.is_in_group("Ingredient"):
 				if not bubblingSoundPlaying:
@@ -55,6 +58,12 @@ func _on_ingredient_area_body_entered(body: Node3D) -> void:
 				current_Ingredients.append(child.ingredient_resource.ingredient_name)
 				house_main.update_IngredientSprite(child.texture)
 				change_color_of_liquid(child.ingredient_resource.water_tint)
+		if current_Ingredients.size() == 3:
+			interactable_hinge.visible = true
+			interactable_handle.enabled = true
+			
+		if current_Ingredients.size() > 3:
+			current_Ingredients.pop_front()
 	body.queue_free()
 
 
@@ -79,4 +88,18 @@ func change_color_of_liquid(new_color : Color) -> void:
 	liquid_material.albedo_color = blended_color
 	
 	
-	
+## play smoke like particles
+## turn the water to the blue
+## reset the ingredients
+func clear_cauldron() -> void:
+	flush_particles.emitting = true
+	bubbling_water.stop()
+	await get_tree().create_timer(0.2).timeout
+	bubble_particles.emitting = false
+	interactable_hinge.visible = false
+	interactable_handle.enabled = false
+
+	interactable_hinge.hinge_position = 0.0
+	liquid_material.albedo_color = standard_color
+	current_Ingredients.clear()
+	house_main.resetIngredientSprites()

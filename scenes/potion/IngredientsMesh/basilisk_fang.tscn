@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bblr4j7ekevqu"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_oo0pj"]
-[ext_resource type="Resource" uid="uid://xbws70p0fe7m" path="res://Assets/Ingredients/basilisk_fang.tres" id="2_oo0pj"]
+[ext_resource type="Resource" uid="uid://xbws70p0fe7m" path="res://assets/Ingredients/basilisk_fang.tres" id="2_oo0pj"]
 
 [node name="Basilisk Fang" instance=ExtResource("1_oo0pj")]
 ingredient_resource = ExtResource("2_oo0pj")

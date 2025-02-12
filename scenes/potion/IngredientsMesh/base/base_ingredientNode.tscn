@@ -1,6 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://d1a7k0ys0mjmu"]
+[gd_scene load_steps=4 format=3 uid="uid://d1a7k0ys0mjmu"]
 
 [ext_resource type="Script" uid="uid://3q1jypm8m2cw" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.gd" id="1_i32a7"]
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0vpas"]
+resource_local_to_scene = true
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_0vpas"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
+
 [node name="BaseIngredient" type="MeshInstance3D" groups=["Ingredient"]]
+material_override = SubResource("StandardMaterial3D_0vpas")
+mesh = SubResource("PlaneMesh_0vpas")
 script = ExtResource("1_i32a7")

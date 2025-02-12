@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://vbgcpilqskvm"]
+[gd_scene load_steps=8 format=3 uid="uid://vbgcpilqskvm"]
 
 [ext_resource type="PackedScene" uid="uid://b4kad2kuba1yn" path="res://addons/godot-xr-tools/hands/scenes/lowpoly/left_hand_low.tscn" id="1_43bj4"]
+[ext_resource type="Script" uid="uid://btkh7wce7jv4s" path="res://scenes/player/xr_origin.gd" id="1_co78m"]
 [ext_resource type="PackedScene" uid="uid://b6bk2pj8vbj28" path="res://addons/godot-xr-tools/functions/movement_turn.tscn" id="1_lexhy"]
 [ext_resource type="PackedScene" uid="uid://b4ysuy43poobf" path="res://addons/godot-xr-tools/functions/function_pickup.tscn" id="2_su7vk"]
 [ext_resource type="PackedScene" uid="uid://bl2nuu3qhlb5k" path="res://addons/godot-xr-tools/functions/movement_direct.tscn" id="3_h7j80"]
@@ -8,8 +9,11 @@
 [ext_resource type="PackedScene" uid="uid://diyu06cw06syv" path="res://addons/godot-xr-tools/player/player_body.tscn" id="4_yxgtc"]
 
 [node name="Origin" type="XROrigin3D"]
+script = ExtResource("1_co78m")
 
 [node name="PlayerBody" parent="." instance=ExtResource("4_yxgtc")]
+transform = Transform3D(0.999999, -0.00107353, 0.000363451, 0.00107346, 0.999999, 0.000205984, -0.000363669, -0.000205599, 1, 0, 0, 0)
+collision_mask = 1021
 player_calibrate_height = false
 push_rigid_bodies = false
 
@@ -21,11 +25,18 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.278103, 0, 0)
 tracker = &"left_hand"
 
 [node name="MovementTurn" parent="Controller_Left" instance=ExtResource("1_lexhy")]
+turn_mode = 2
 
 [node name="LeftHand" parent="Controller_Left" instance=ExtResource("1_43bj4")]
 
 [node name="FunctionPickup" parent="Controller_Left" instance=ExtResource("2_su7vk")]
 ranged_enable = false
+
+[node name="FPS" type="Label3D" parent="Controller_Left"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0.024574, 0.172907)
+pixel_size = 0.001
+text = "dasasd"
+outline_size = 1
 
 [node name="Controller_Right" type="XRController3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.54095, 0, 0)

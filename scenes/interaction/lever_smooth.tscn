@@ -1,9 +1,9 @@
 [gd_scene load_steps=21 format=3 uid="uid://cs6dxfu5owcgo"]
 
-[ext_resource type="Material" path="res://Assets/blue_grid.tres" id="1"]
+[ext_resource type="Material" uid="uid://efl58etuu7fx" path="res://assets/blue_grid.tres" id="1"]
 [ext_resource type="Script" uid="uid://c0a2fdxen86r7" path="res://scenes/interaction/lever_smooth.gd" id="1_qgvvn"]
 [ext_resource type="Script" uid="uid://dmjks2qw0vi83" path="res://addons/godot-xr-tools/interactables/interactable_hinge.gd" id="2"]
-[ext_resource type="Material" path="res://Assets/brown_grid_triplanar.tres" id="3"]
+[ext_resource type="Material" uid="uid://bm7ddbtfd6q8y" path="res://assets/brown_grid_triplanar.tres" id="3"]
 [ext_resource type="Script" uid="uid://c2yq5phg85362" path="res://addons/godot-xr-tools/interactables/interactable_handle.gd" id="4"]
 [ext_resource type="PackedScene" uid="uid://c25yxb0vt53vc" path="res://addons/godot-xr-tools/objects/grab_points/grab_point_hand_left.tscn" id="4_psbg5"]
 [ext_resource type="Animation" uid="uid://db62hs5s4n2b3" path="res://addons/godot-xr-tools/hands/animations/left/Grip 4.res" id="5_ha7r4"]
@@ -51,6 +51,7 @@ radius = 0.06
 script = ExtResource("1_qgvvn")
 
 [node name="Frame" type="StaticBody3D" parent="."]
+collision_layer = 2
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Frame"]
 shape = SubResource("1")
@@ -64,6 +65,7 @@ transform = Transform3D(1, -1.06581e-14, 0, 1.06581e-14, 1, 0, 0, 0, 1, 0, 0, 0)
 
 [node name="InteractableLever" type="Node3D" parent="LeverOrigin"]
 script = ExtResource("2")
+hinge_limit_min = 0.0
 
 [node name="HingeBody" type="StaticBody3D" parent="LeverOrigin/InteractableLever"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.1)
@@ -111,4 +113,6 @@ target = NodePath("../../../HingeBody/HandleMesh/GrabPointHandLeft")
 [node name="GrabPointRedirectRight" parent="LeverOrigin/InteractableLever/HandleOrigin/InteractableHandle" node_paths=PackedStringArray("target") instance=ExtResource("10_2yftn")]
 target = NodePath("../../../HingeBody/HandleMesh/GrabPointHandRight")
 
+[connection signal="grabbed" from="LeverOrigin/InteractableLever" to="." method="_on_interactable_lever_grabbed"]
 [connection signal="hinge_moved" from="LeverOrigin/InteractableLever" to="." method="_on_interactable_lever_hinge_moved"]
+[connection signal="released" from="LeverOrigin/InteractableLever" to="." method="_on_interactable_lever_released"]

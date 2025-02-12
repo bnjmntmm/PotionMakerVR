@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bea0avop45fp8"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_vh8gb"]
-[ext_resource type="Resource" uid="uid://dpafttt56mrst" path="res://Assets/Ingredients/lunar_water.tres" id="2_vh8gb"]
+[ext_resource type="Resource" uid="uid://dpafttt56mrst" path="res://assets/Ingredients/lunar_water.tres" id="2_vh8gb"]
 
 [node name="Lunar Water" instance=ExtResource("1_vh8gb")]
 ingredient_resource = ExtResource("2_vh8gb")
