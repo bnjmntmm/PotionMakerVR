@@ -10,3 +10,4 @@
 recipe_name = "Stonefist Fortifier"
 effect = "Increases physical strength and resilience, at the cost of slower movement."
 ingredientsInRecipe = Array[ExtResource("2_r7tkm")]([ExtResource("3_m5y8y"), ExtResource("4_jbygh"), ExtResource("5_lhdci")])
+potion_quest_array = Array[String](["I’m about to challenge a giant to an arm-wrestling match.", "I’m strong, but not giant-strong.", "Is there anything to give me a fighting chance?"])

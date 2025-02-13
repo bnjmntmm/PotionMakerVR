@@ -5,3 +5,5 @@ class_name BaseRecipe
 @export var effect : String = ""
 
 @export var ingredientsInRecipe : Array[IngredientResource] = []
+
+@export var potion_quest_array : Array[String]

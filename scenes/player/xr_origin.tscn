@@ -14,7 +14,7 @@ script = ExtResource("1_co78m")
 
 [node name="PlayerBody" parent="." instance=ExtResource("4_yxgtc")]
 transform = Transform3D(0.999999, -0.00107353, 0.000363451, 0.00107346, 0.999999, 0.000205984, -0.000363669, -0.000205599, 1, 0, 0, 0)
-collision_mask = 1021
+collision_mask = 953
 player_calibrate_height = false
 push_rigid_bodies = false
 

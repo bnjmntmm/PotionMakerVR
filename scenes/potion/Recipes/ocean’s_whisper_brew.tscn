@@ -10,3 +10,4 @@
 recipe_name = "Ocean’s Whisper Brew"
 effect = "Grants water-breathing and increased swimming speed."
 ingredientsInRecipe = Array[ExtResource("2_orip2")]([ExtResource("3_dxsbv"), ExtResource("4_a3tpm"), ExtResource("5_5ib51")])
+potion_quest_array = Array[String](["There's a sunken ship off the coast loaded with treasure.", "I can't stay underwater nearly long enough to search it.", "Is there a drink that can help me breathe down there?"])

@@ -10,3 +10,4 @@
 recipe_name = "Draconic Fire Ward"
 effect = "Provides temporary immunity to high temperatures and minor flames."
 ingredientsInRecipe = Array[ExtResource("2_h6fue")]([ExtResource("3_cpfw1"), ExtResource("4_x43dv"), ExtResource("5_d065r")])
+potion_quest_array = Array[String](["I'm working near a roaring forge, and the heat is unbearable.", "Can you brew me a potion that protects me from these intense flames?", "I need that fire-resistant potion before I get burned."])

@@ -10,3 +10,4 @@
 recipe_name = "Featherlight Tonic"
 effect = "Reduces the drinker’s weight, allowing higher jumps and graceful landings."
 ingredientsInRecipe = Array[ExtResource("2_8qlig")]([ExtResource("3_s343s"), ExtResource("4_vbud4"), ExtResource("5_23n53")])
+potion_quest_array = Array[String](["I've been tasked with scaling the highest peak to collect rare herbs.", "My climbing skills aren't exactly legendary.", "Got anything that can lighten the load and keep me from falling?"])

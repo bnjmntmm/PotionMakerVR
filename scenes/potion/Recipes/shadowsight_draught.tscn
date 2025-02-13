@@ -10,3 +10,4 @@
 recipe_name = "Shadowsight Draught#"
 effect = "Grants the ability to see in complete darkness and slightly fade from view."
 ingredientsInRecipe = Array[ExtResource("2_bd5ef")]([ExtResource("3_fvbm5"), ExtResource("4_wnn2j"), ExtResource("5_qll2a")])
+potion_quest_array = Array[String](["I'm about to explore ancient ruins cloaked in darkness.", "Could you mix me a potion that lets me see in the dark and vanish from sight?", "I need that potion to safely navigate the shadows.\""])

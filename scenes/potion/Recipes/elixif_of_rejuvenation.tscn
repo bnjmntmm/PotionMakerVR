@@ -10,3 +10,4 @@
 recipe_name = "Elixir of Rejuvenation"
 effect = "Rapidly restores vitality and heals minor wounds."
 ingredientsInRecipe = Array[ExtResource("2_fvsed")]([ExtResource("3_xdnfn"), ExtResource("4_7mhtq"), ExtResource("5_j5f4s")])
+potion_quest_array = Array[String](["Last night, I got in a scuffle with a wolf and I'm still bleeding.", "I've tried bandages, but I feel weak.", "Do you have anything that can speed up my recovery?"])

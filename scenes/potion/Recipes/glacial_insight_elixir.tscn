@@ -10,3 +10,4 @@
 recipe_name = "Glacial Insight Elixir"
 effect = "Sharpens mental clarity while cooling the body, useful for resisting hot climates or fatigue."
 ingredientsInRecipe = Array[ExtResource("2_ha5p1")]([ExtResource("3_uj6uu"), ExtResource("4_ofqll"), ExtResource("5_fdvyr")])
+potion_quest_array = Array[String](["I've got riddles to solve, and my mind keeps wandering.", "I'm sweating bullets just trying to focus.", "Can you make something that chills me out and sharpens my wits?"])

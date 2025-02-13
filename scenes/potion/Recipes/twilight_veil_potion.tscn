@@ -10,3 +10,4 @@
 recipe_name = "Twilight Veil Potion"
 effect = "Cloaks the user in subtle twilight, enhancing stealth and granting mild night vision."
 ingredientsInRecipe = Array[ExtResource("2_nwwy5")]([ExtResource("3_7a1w1"), ExtResource("4_8k3j0"), ExtResource("5_su8cp")])
+potion_quest_array = Array[String](["I need to slip past a few guards tonight—unnoticed.", "I can't afford to make even a peep.", "Do you have a brew that shrouds me in darkness?"])

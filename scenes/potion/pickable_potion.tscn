@@ -108,7 +108,7 @@ albedo_color = Color(0.290677, 0.504206, 1, 0.607843)
 radius = 0.09
 height = 0.18
 
-[node name="PickablePotion" instance=ExtResource("1_em3m3")]
+[node name="PickablePotion" groups=["Potion"] instance=ExtResource("1_em3m3")]
 collision_layer = 68
 
 [node name="CollisionShape3D" parent="." index="0"]

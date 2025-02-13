@@ -10,3 +10,4 @@
 recipe_name = "Celestial Beacon"
 effect = "Conjures a guiding light from within the drinker, useful for navigation in dark or magical storms."
 ingredientsInRecipe = Array[ExtResource("2_g62at")]([ExtResource("3_hdlix"), ExtResource("4_6xgrj"), ExtResource("5_nju84")])
+potion_quest_array = Array[String](["I'm traveling through a dense fog where lamps are useless.", "I keep losing my way in that soupy haze.", "Do you have a potion that can light my path from within?"])

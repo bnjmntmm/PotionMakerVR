@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cpct8hcd7n7sx"]
+
+[ext_resource type="PackedScene" uid="uid://ce7vysyvondf8" path="res://addons/godot-xr-tools/objects/snap_zone.tscn" id="1_si4pl"]
+[ext_resource type="PackedScene" uid="uid://da2qgxxwwitl6" path="res://addons/godot-xr-tools/objects/highlight/highlight_ring.tscn" id="2_8fpxt"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_fmgt6"]
+resource_local_to_scene = true
+radius = 0.3
+
+[node name="PotionSnapZone" instance=ExtResource("1_si4pl")]
+snap_mode = 1
+snap_require = "Potion"
+
+[node name="CollisionShape3D" parent="." index="0"]
+shape = SubResource("SphereShape3D_fmgt6")
+
+[node name="HighlightRing" parent="." index="2" instance=ExtResource("2_8fpxt")]

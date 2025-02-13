@@ -10,3 +10,4 @@
 recipe_name = "Venomous Might Brew"
 effect = "Grants powerful offensive capabilities, though prolonged use may cause toxic side effects."
 ingredientsInRecipe = Array[ExtResource("2_4rnve")]([ExtResource("3_ctvlq"), ExtResource("4_d03pn"), ExtResource("5_qytsp")])
+potion_quest_array = Array[String](["I'm facing a beast that's immune to normal weapons.", "I need something extra lethal to tip the scales.", "Got a potion that boosts my attacks and packs a venomous punch?"])

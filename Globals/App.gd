@@ -1,6 +1,7 @@
 extends Node
 
 signal recipe_cooked
+signal instantiated_recipe_scenes
 
 ## should emit when lever is pulled down
 signal lever_pushed_down
@@ -18,3 +19,4 @@ func instantiate_packed_scenes() -> void:
 		var instance : PackedScene = load(path)
 		var instantiated = instance.instantiate()
 		recipe_scenes.append(instantiated)
+	instantiated_recipe_scenes.emit()
