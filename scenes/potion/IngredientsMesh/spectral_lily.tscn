@@ -1,7 +1,20 @@
-[gd_scene load_steps=3 format=3 uid="uid://qdewyjqiblwv"]
+[gd_scene load_steps=6 format=3 uid="uid://11pe4g2rc614"]
 
-[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_1lpk3"]
-[ext_resource type="Resource" uid="uid://bpe58maritvw6" path="res://assets/Ingredients/spectral_lily.tres" id="2_1lpk3"]
+[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_eq0si"]
+[ext_resource type="Texture2D" uid="uid://ubdltx4nyibe" path="res://assets/Ingredients/Textures/spectral_lily.png" id="2_7e5gl"]
+[ext_resource type="Resource" uid="uid://bpe58maritvw6" path="res://assets/Ingredients/spectral_lily.tres" id="3_mgh2w"]
 
-[node name="Spectral Lily" instance=ExtResource("1_1lpk3")]
-ingredient_resource = ExtResource("2_1lpk3")
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u5eev"]
+resource_local_to_scene = true
+shading_mode = 0
+albedo_texture = ExtResource("2_7e5gl")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_c1atv"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
+
+[node name="spectral_lily" instance=ExtResource("1_eq0si")]
+material_override = SubResource("StandardMaterial3D_u5eev")
+mesh = SubResource("PlaneMesh_c1atv")
+texture = ExtResource("2_7e5gl")
+ingredient_resource = ExtResource("3_mgh2w")

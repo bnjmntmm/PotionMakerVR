@@ -1,7 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://dwp06xamhn07c"]
-
-[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_ww2uj"]
-[ext_resource type="Resource" uid="uid://7ask87rd7hhx" path="res://assets/Ingredients/frost_berry.tres" id="2_ww2uj"]
-
-[node name="Frost Berry" instance=ExtResource("1_ww2uj")]
-ingredient_resource = ExtResource("2_ww2uj")

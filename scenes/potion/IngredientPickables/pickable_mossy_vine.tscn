@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://okvrd1emme6h"]
-
-[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_autvn"]
-[ext_resource type="PackedScene" uid="uid://d34qh2ifmsndl" path="res://scenes/potion/IngredientsMesh/mossy_vine.tscn" id="2_ee7ey"]
-
-[node name="PickableMossyVine" instance=ExtResource("1_autvn")]
-collision_layer = 36
-
-[node name="Mossy Vine" parent="." index="1" instance=ExtResource("2_ee7ey")]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=4 uid="uid://dmi3s42gwkct0"]
+[gd_scene load_steps=34 format=4 uid="uid://dmi3s42gwkct0"]
 
 [ext_resource type="PackedScene" uid="uid://vbgcpilqskvm" path="res://scenes/player/xr_origin.tscn" id="1_o5qli"]
 [ext_resource type="PackedScene" uid="uid://clc5dre31iskm" path="res://addons/godot-xr-tools/xr/start_xr.tscn" id="1_o6xl0"]
@@ -9,9 +9,6 @@
 [ext_resource type="PackedScene" uid="uid://brrdtcuss5bc3" path="res://scenes/house/house.tscn" id="8_tipki"]
 [ext_resource type="PackedScene" uid="uid://cs6dxfu5owcgo" path="res://scenes/interaction/lever_smooth.tscn" id="9_85g3d"]
 [ext_resource type="PackedScene" uid="uid://cospri4nox8ge" path="res://scenes/potion/pickable_potion.tscn" id="9_choun"]
-[ext_resource type="PackedScene" uid="uid://cg8o5px87f11" path="res://scenes/potion/IngredientPickables/pickable_lunar_water.tscn" id="10_eb6dy"]
-[ext_resource type="PackedScene" uid="uid://okvrd1emme6h" path="res://scenes/potion/IngredientPickables/pickable_mossy_vine.tscn" id="11_trceg"]
-[ext_resource type="PackedScene" uid="uid://djc46j6mk63vp" path="res://scenes/potion/IngredientPickables/pickable_crimson_leaf.tscn" id="12_a8y0u"]
 [ext_resource type="Texture2D" uid="uid://c01movs3kbi3i" path="res://assets/textures/grass1/Ground037_2K-JPG_Color.jpg" id="13_og1vs"]
 [ext_resource type="Script" uid="uid://do4mlu3spcfw6" path="res://addons/yamms/MultiScatter.gd" id="14_muem4"]
 [ext_resource type="ArrayMesh" uid="uid://dkyph3a7371dn" path="res://scenes/nature/pine_tree_1.tres" id="15_dp3eg"]
@@ -73,7 +70,6 @@ fog_mode = 1
 fog_light_color = Color(0.385063, 0.41719, 0.467687, 1)
 fog_density = 1.0
 fog_aerial_perspective = 0.458
-fog_depth_curve = 1.0
 fog_depth_begin = 2.0
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_sugp2"]
@@ -213,15 +209,6 @@ shape = SubResource("ConcavePolygonShape3D_jyhfs")
 [node name="PickablePotion" parent="Pickables" instance=ExtResource("9_choun")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.29075, 0.589764, -0.900922)
 
-[node name="PickableLunarWater" parent="Pickables" instance=ExtResource("10_eb6dy")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.718324, 0.572227, -0.843783)
-
-[node name="PickableMossyVine" parent="Pickables" instance=ExtResource("11_trceg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.851969, 0.542386, -0.592383)
-
-[node name="PickableCrimsonLeaf" parent="Pickables" instance=ExtResource("12_a8y0u")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.839892, 0.539082, -1.02925)
-
 [node name="Nature" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9793, 0, 0)
 
@@ -266,154 +253,154 @@ metadata/_custom_type_script = ExtResource("17_dp3eg")
 
 [node name="ScatterCollision" type="Node3D" parent="Nature/NavigationRegion3D"]
 
-[node name="ScatterCollision" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.08851, 0.5, -29.6759)
 
-[node name="ScatterCollision2" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision2" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.2916, 0.5, -4.00541)
 
-[node name="ScatterCollision3" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision3" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.2615, 0.5, 12.1587)
 
-[node name="ScatterCollision4" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision4" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.1745, 0.5, 8.2998)
 
-[node name="ScatterCollision5" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision5" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.1506, 0.5, 6.67789)
 
-[node name="ScatterCollision6" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision6" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.5261, 0.5, 23.4356)
 
-[node name="ScatterCollision7" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision7" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.9476, 0.5, -4.51894)
 
-[node name="ScatterCollision8" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision8" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.5929, 0.5, -5.42608)
 
-[node name="ScatterCollision9" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision9" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.2792, 0.5, 35.3008)
 
-[node name="ScatterCollision10" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision10" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45216, 0.5, -17.4947)
 
-[node name="ScatterCollision11" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision11" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.5681, 0.5, -1.19516)
 
-[node name="ScatterCollision12" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision12" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.8242, 0.5, -25.8616)
 
-[node name="ScatterCollision13" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision13" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.6298, 0.5, -28.2147)
 
-[node name="ScatterCollision14" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision14" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1688, 0.5, 14.5204)
 
-[node name="ScatterCollision15" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision15" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.622, 0.5, -17.6728)
 
-[node name="ScatterCollision16" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision16" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.5927, 0.5, 35.3203)
 
-[node name="ScatterCollision17" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision17" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.1442, 0.5, -23.8162)
 
-[node name="ScatterCollision18" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision18" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.54615, 0.5, 26.4171)
 
-[node name="ScatterCollision19" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision19" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.90531, 0.5, -9.74134)
 
-[node name="ScatterCollision20" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision20" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.8275, 0.5, 37.3158)
 
-[node name="ScatterCollision21" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision21" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.3861, 0.5, 39.324)
 
-[node name="ScatterCollision22" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision22" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.8169, 0.5, 14.3894)
 
-[node name="ScatterCollision23" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision23" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.83536, 0.5, 34.5389)
 
-[node name="ScatterCollision24" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision24" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.616, 0.5, -17.0716)
 
-[node name="ScatterCollision25" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision25" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.55221, 0.5, -30.6754)
 
-[node name="ScatterCollision26" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision26" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.37815, 0.5, 21.933)
 
-[node name="ScatterCollision27" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision27" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.3773, 0.5, -3.15541)
 
-[node name="ScatterCollision28" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision28" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.9358, 0.5, -39.4161)
 
-[node name="ScatterCollision29" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision29" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.3974, 0.5, 17.1076)
 
-[node name="ScatterCollision30" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision30" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.2863, 0.5, -23.6448)
 
-[node name="ScatterCollision31" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision31" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.6907, 0.5, 16.3246)
 
-[node name="ScatterCollision32" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision32" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.8323, 0.5, 2.15615)
 
-[node name="ScatterCollision33" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision33" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0.5, 3.31058)
 
-[node name="ScatterCollision34" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision34" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.2084, 0.5, 12.9203)
 
-[node name="ScatterCollision35" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision35" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.136, 0.5, -11.9526)
 
-[node name="ScatterCollision36" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision36" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.7616, 0.5, -28.3106)
 
-[node name="ScatterCollision37" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision37" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.671, 0.5, -8.59296)
 
-[node name="ScatterCollision38" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision38" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.7459, 0.5, -9.44102)
 
-[node name="ScatterCollision39" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision39" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.4073, 0.5, -16.9825)
 
-[node name="ScatterCollision40" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision40" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.45132, 0.5, -3.73922)
 
-[node name="ScatterCollision41" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision41" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.47532, 0.5, -28.224)
 
-[node name="ScatterCollision42" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision42" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.8064, 0.5, -21.4532)
 
-[node name="ScatterCollision43" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision43" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.07188, 0.5, 10.9458)
 
-[node name="ScatterCollision44" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision44" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.7143, 0.5, -29.3201)
 
-[node name="ScatterCollision45" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision45" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.8282, 0.5, -33.9247)
 
-[node name="ScatterCollision46" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision46" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.0415, 0.5, 25.3958)
 
-[node name="ScatterCollision47" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision47" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.4746, 0.5, -9.73837)
 
-[node name="ScatterCollision48" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision48" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.1808, 0.5, 26.6106)
 
-[node name="ScatterCollision49" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision49" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.7141, 0.5, 3.7774)
 
-[node name="ScatterCollision50" type="StaticBody3D" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
+[node name="ScatterCollision50" parent="Nature/NavigationRegion3D/ScatterCollision" instance=ExtResource("17_0ld40")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.3631, 0.5, -1.9768)
 
 [node name="MultiScatter" type="Path3D" parent="Nature"]

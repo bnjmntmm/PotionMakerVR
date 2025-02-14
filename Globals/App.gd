@@ -7,9 +7,7 @@ signal instantiated_recipe_scenes
 signal lever_pushed_down
 var lever_can_be_pulled_down : bool = true
 
-var packed_recipe_scenes = ["res://scenes/potion/Recipes/draconic_fire_ward.tscn","res://scenes/potion/Recipes/elixif_of_rejuvenation.tscn","res://scenes/potion/Recipes/featherlight_tonic.tscn","res://scenes/potion/Recipes/glacial_insight_elixir.tscn",
-"res://scenes/potion/Recipes/ocean’s_whisper_brew.tscn","res://scenes/potion/Recipes/shadowsight_draught.tscn","res://scenes/potion/Recipes/stonefist_fortifier.tscn","res://scenes/potion/Recipes/twilight_veil_potion.tscn",
-"res://scenes/potion/Recipes/venomous_might_brew.tscn"]
+var packed_recipe_scenes = ["res://scenes/potion/Recipes/recipe_dragons_fire_guard.tscn", "res://scenes/potion/Recipes/recipe_ember_blood_surge.tscn", "res://scenes/potion/Recipes/recipe_ghostflight_essence.tscn", "res://scenes/potion/Recipes/recipe_soaring_ember_shield.tscn", "res://scenes/potion/Recipes/recipe_spectral_vitality_brew.tscn", "res://scenes/potion/Recipes/recipe_vital_renewal_elixir.tscn"]
 
 var recipe_scenes : Array = []
 

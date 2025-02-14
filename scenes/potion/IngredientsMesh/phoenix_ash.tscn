@@ -1,7 +1,20 @@
-[gd_scene load_steps=3 format=3 uid="uid://oh7s7pt53v5u"]
+[gd_scene load_steps=6 format=3 uid="uid://k6fqvbsd20h3"]
 
-[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_p8a4f"]
-[ext_resource type="Resource" uid="uid://dml0wukktygxu" path="res://assets/Ingredients/phoenix_ash.tres" id="2_p8a4f"]
+[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_mhxhd"]
+[ext_resource type="Texture2D" uid="uid://6lytbfxpg7ha" path="res://assets/Ingredients/Textures/phoenix_ash.png" id="2_iqsv0"]
+[ext_resource type="Resource" path="res://assets/Ingredients/phoenix_ash.tres" id="3_lr75a"]
 
-[node name="Phoenix Ash" instance=ExtResource("1_p8a4f")]
-ingredient_resource = ExtResource("2_p8a4f")
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cblmc"]
+resource_local_to_scene = true
+shading_mode = 0
+albedo_texture = ExtResource("2_iqsv0")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_26dne"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
+
+[node name="phoenix_ash" instance=ExtResource("1_mhxhd")]
+material_override = SubResource("StandardMaterial3D_cblmc")
+mesh = SubResource("PlaneMesh_26dne")
+texture = ExtResource("2_iqsv0")
+ingredient_resource = ExtResource("3_lr75a")

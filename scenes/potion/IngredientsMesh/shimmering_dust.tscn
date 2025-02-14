@@ -1,7 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://cmqg3rugol4g5"]
-
-[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_jtvok"]
-[ext_resource type="Resource" uid="uid://c6uds8l4fsora" path="res://assets/Ingredients/shimmering_dust.tres" id="2_jtvok"]
-
-[node name="Shimmering Dust" instance=ExtResource("1_jtvok")]
-ingredient_resource = ExtResource("2_jtvok")

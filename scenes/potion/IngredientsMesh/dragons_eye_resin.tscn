@@ -1,0 +1,20 @@
+[gd_scene load_steps=6 format=3 uid="uid://bflahhltv6ro"]
+
+[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_utf0n"]
+[ext_resource type="Texture2D" uid="uid://cyp3mpql8tyba" path="res://assets/Ingredients/Textures/dragons_eye_resin.png" id="2_qvnuh"]
+[ext_resource type="Resource" uid="uid://qwfs3ep0i4lu" path="res://assets/Ingredients/dragons_eye_resin.tres" id="3_ouu1a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1jk8g"]
+resource_local_to_scene = true
+shading_mode = 0
+albedo_texture = ExtResource("2_qvnuh")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_m83i3"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
+
+[node name="dragons_eye_resin" instance=ExtResource("1_utf0n")]
+material_override = SubResource("StandardMaterial3D_1jk8g")
+mesh = SubResource("PlaneMesh_m83i3")
+texture = ExtResource("2_qvnuh")
+ingredient_resource = ExtResource("3_ouu1a")

@@ -1,19 +1,21 @@
-[gd_scene load_steps=6 format=3 uid="uid://djc46j6mk63vp"]
+[gd_scene load_steps=6 format=3 uid="uid://q0cspqou43tj"]
 
 [ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_tm682"]
-[ext_resource type="PackedScene" uid="uid://c2tn1erqv7awj" path="res://scenes/potion/IngredientsMesh/crimson_leaf.tscn" id="2_f377j"]
+[ext_resource type="PackedScene" uid="uid://m38ufce3r853" path="res://scenes/potion/IngredientsMesh/crimson_leaf.tscn" id="2_f377j"]
 [ext_resource type="Texture2D" uid="uid://bt620pe4xauw4" path="res://assets/Ingredients/Textures/crimson_leaf.png" id="3_pd24r"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sj3uw"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pd24r"]
+resource_local_to_scene = true
+shading_mode = 0
 albedo_texture = ExtResource("3_pd24r")
 
-[sub_resource type="QuadMesh" id="QuadMesh_4mwy0"]
+[sub_resource type="PlaneMesh" id="PlaneMesh_sj3uw"]
+resource_local_to_scene = true
 size = Vector2(0.1, 0.1)
-orientation = 1
 
 [node name="PickableCrimsonLeaf" instance=ExtResource("1_tm682")]
 collision_layer = 36
 
-[node name="Crimson Leaf" parent="." index="1" instance=ExtResource("2_f377j")]
-material_override = SubResource("StandardMaterial3D_sj3uw")
-mesh = SubResource("QuadMesh_4mwy0")
+[node name="crimson_leaf" parent="." index="1" instance=ExtResource("2_f377j")]
+material_override = SubResource("StandardMaterial3D_pd24r")
+mesh = SubResource("PlaneMesh_sj3uw")

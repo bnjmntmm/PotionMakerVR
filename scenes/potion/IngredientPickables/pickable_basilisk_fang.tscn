@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://cpotgutf40g6y"]
-
-[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_rae76"]
-[ext_resource type="PackedScene" uid="uid://bblr4j7ekevqu" path="res://scenes/potion/IngredientsMesh/basilisk_fang.tscn" id="2_sobx8"]
-
-[node name="PickableBasiliskFang" instance=ExtResource("1_rae76")]
-collision_layer = 36
-
-[node name="Basilisk Fang" parent="." index="1" instance=ExtResource("2_sobx8")]

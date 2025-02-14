@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://ccwsww4k4hum8"]
-
-[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_bddq7"]
-[ext_resource type="PackedScene" uid="uid://v6qfeeaqi8hi" path="res://scenes/potion/IngredientsMesh/scorpion_venom.tscn" id="2_adjff"]
-
-[node name="PickableScorpionVenom" instance=ExtResource("1_bddq7")]
-collision_layer = 36
-
-[node name="Scorpion Venom" parent="." index="1" instance=ExtResource("2_adjff")]

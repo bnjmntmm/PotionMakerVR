@@ -1,7 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://dwhtmwbol778w"]
-
-[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_r1wfl"]
-[ext_resource type="Resource" uid="uid://cv8qnggq7s5d8" path="res://assets/Ingredients/twilight_bloom.tres" id="2_r1wfl"]
-
-[node name="Twilight Bloom" instance=ExtResource("1_r1wfl")]
-ingredient_resource = ExtResource("2_r1wfl")

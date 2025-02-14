@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://crmahjvpsedx"]
-
-[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_7102a"]
-[ext_resource type="PackedScene" uid="uid://rk3jlvam6hv7" path="res://scenes/potion/IngredientsMesh/mandrake_root.tscn" id="2_jrg4y"]
-
-[node name="PickableMandrakeRoot" instance=ExtResource("1_7102a")]
-collision_layer = 36
-
-[node name="Mandrake Root" parent="." index="1" instance=ExtResource("2_jrg4y")]

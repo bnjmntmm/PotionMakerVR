@@ -1,0 +1,13 @@
+[gd_scene load_steps=6 format=3 uid="uid://ck165mr34077o"]
+
+[ext_resource type="PackedScene" uid="uid://dglp2dfa7j1ny" path="res://scenes/potion/Recipes/Base/base_recipe.tscn" id="1_eyca1"]
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://assets/Ingredients/Base/BaseIngredient.gd" id="2_kgoag"]
+[ext_resource type="Resource" path="res://assets/Ingredients/phoenix_ash.tres" id="3_dmf0n"]
+[ext_resource type="Resource" uid="uid://cw6dd2fpklk75" path="res://assets/Ingredients/griffin_feather.tres" id="4_sovwu"]
+[ext_resource type="Resource" uid="uid://b25m6vlqlo0i8" path="res://assets/Ingredients/crimson_leaf.tres" id="5_ndbru"]
+
+[node name="Recipe_Ascendant_Vitality_Elixir" instance=ExtResource("1_eyca1")]
+recipe_name = "Ascendant Vitality Elixir"
+effect = "Revitalizes the body by healing injuries and lightening the step for increased speed."
+ingredientsInRecipe = Array[ExtResource("2_kgoag")]([ExtResource("3_dmf0n"), ExtResource("4_sovwu"), ExtResource("5_ndbru")])
+potion_quest_array = Array[String](["My journey has left me battered and weighed down.", "Can you brew me an elixir with Phoenix Ash first, then Griffin Feather, and finally Crimson Leaf?", "I need that potion to restore my vitality and prepare me for the challenges ahead."])

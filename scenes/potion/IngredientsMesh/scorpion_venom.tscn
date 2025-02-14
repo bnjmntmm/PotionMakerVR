@@ -1,7 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://v6qfeeaqi8hi"]
-
-[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_rnd3l"]
-[ext_resource type="Resource" uid="uid://x7h1lluacu2s" path="res://assets/Ingredients/scorpion_venom.tres" id="2_rnd3l"]
-
-[node name="Scorpion Venom" instance=ExtResource("1_rnd3l")]
-ingredient_resource = ExtResource("2_rnd3l")

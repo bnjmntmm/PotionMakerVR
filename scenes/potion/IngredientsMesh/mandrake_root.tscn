@@ -1,7 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://rk3jlvam6hv7"]
-
-[ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_xuu4n"]
-[ext_resource type="Resource" uid="uid://rvj1vrrw16db" path="res://assets/Ingredients/mandrake_root.tres" id="2_xuu4n"]
-
-[node name="Mandrake Root" instance=ExtResource("1_xuu4n")]
-ingredient_resource = ExtResource("2_xuu4n")

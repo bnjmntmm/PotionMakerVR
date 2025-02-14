@@ -1,9 +1,20 @@
-[gd_scene load_steps=4 format=3 uid="uid://c2tn1erqv7awj"]
+[gd_scene load_steps=6 format=3 uid="uid://m38ufce3r853"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_rl36s"]
 [ext_resource type="Texture2D" uid="uid://bt620pe4xauw4" path="res://assets/Ingredients/Textures/crimson_leaf.png" id="2_6tqg2"]
 [ext_resource type="Resource" uid="uid://b25m6vlqlo0i8" path="res://assets/Ingredients/crimson_leaf.tres" id="3_6tqg2"]
 
-[node name="Crimson Leaf" instance=ExtResource("1_rl36s")]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6tqg2"]
+resource_local_to_scene = true
+shading_mode = 0
+albedo_texture = ExtResource("2_6tqg2")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_xyp6p"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
+
+[node name="crimson_leaf" instance=ExtResource("1_rl36s")]
+material_override = SubResource("StandardMaterial3D_6tqg2")
+mesh = SubResource("PlaneMesh_xyp6p")
 texture = ExtResource("2_6tqg2")
 ingredient_resource = ExtResource("3_6tqg2")

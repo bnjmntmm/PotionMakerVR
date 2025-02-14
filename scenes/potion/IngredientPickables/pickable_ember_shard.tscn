@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://dt00prenj6rot"]
-
-[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_t4egb"]
-[ext_resource type="PackedScene" uid="uid://ciie2skerty81" path="res://scenes/potion/IngredientsMesh/ember_shard.tscn" id="2_1g78i"]
-
-[node name="PickableEmberShard" instance=ExtResource("1_t4egb")]
-collision_layer = 36
-
-[node name="Ember Shard" parent="." index="1" instance=ExtResource("2_1g78i")]

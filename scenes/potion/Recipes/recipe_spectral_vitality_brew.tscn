@@ -1,0 +1,12 @@
+[gd_scene load_steps=5 format=3 uid="uid://bkxk5tijpbtji"]
+
+[ext_resource type="PackedScene" uid="uid://dglp2dfa7j1ny" path="res://scenes/potion/Recipes/Base/base_recipe.tscn" id="1_blp4k"]
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://assets/Ingredients/Base/BaseIngredient.gd" id="2_q2qs5"]
+[ext_resource type="Resource" uid="uid://b25m6vlqlo0i8" path="res://assets/Ingredients/crimson_leaf.tres" id="3_888js"]
+[ext_resource type="Resource" uid="uid://bpe58maritvw6" path="res://assets/Ingredients/spectral_lily.tres" id="4_vfe8w"]
+
+[node name="Recipe_Spectral_Vitality_Brew" instance=ExtResource("1_blp4k")]
+recipe_name = "Spectral Vitality Brew"
+effect = "Restores health while granting a temporary cloak of invisibility."
+ingredientsInRecipe = Array[ExtResource("2_q2qs5")]([ExtResource("3_888js"), ExtResource("4_vfe8w")])
+potion_quest_array = Array[String](["I'm wounded and need to vanish quickly from danger.", "Can you brew me a potion with Crimson Leaf first, then Spectral Lily?", "I need that potion to both heal my injuries and help me slip away unseen."])

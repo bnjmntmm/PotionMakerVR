@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://bj7ryaf1dawb4"]
-
-[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_7jge0"]
-[ext_resource type="PackedScene" uid="uid://dmybxhx1ljp85" path="res://scenes/potion/IngredientsMesh/star_shard.tscn" id="2_fmmhn"]
-
-[node name="PickableStarShard" instance=ExtResource("1_7jge0")]
-collision_layer = 36
-
-[node name="Star Shard" parent="." index="1" instance=ExtResource("2_fmmhn")]

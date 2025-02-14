@@ -1,9 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://4c73v7381bku"]
-
-[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_yn0c6"]
-[ext_resource type="PackedScene" uid="uid://dq2a13pknbqdr" path="res://scenes/potion/IngredientsMesh/whale_tears.tscn" id="2_2h32h"]
-
-[node name="PickableWhaleTears" instance=ExtResource("1_yn0c6")]
-collision_layer = 36
-
-[node name="Whale Tears" parent="." index="1" instance=ExtResource("2_2h32h")]

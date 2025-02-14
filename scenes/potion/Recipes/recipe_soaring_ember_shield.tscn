@@ -1,0 +1,13 @@
+[gd_scene load_steps=6 format=3 uid="uid://b3oss2i7s47sb"]
+
+[ext_resource type="PackedScene" uid="uid://dglp2dfa7j1ny" path="res://scenes/potion/Recipes/Base/base_recipe.tscn" id="1_jd2pu"]
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://assets/Ingredients/Base/BaseIngredient.gd" id="2_t1ke3"]
+[ext_resource type="Resource" uid="uid://cw6dd2fpklk75" path="res://assets/Ingredients/griffin_feather.tres" id="3_p2ylw"]
+[ext_resource type="Resource" path="res://assets/Ingredients/phoenix_ash.tres" id="4_jr82a"]
+[ext_resource type="Resource" uid="uid://qwfs3ep0i4lu" path="res://assets/Ingredients/dragons_eye_resin.tres" id="5_h145c"]
+
+[node name="Recipe_Soaring_Ember_Shield" instance=ExtResource("1_jd2pu")]
+recipe_name = "Soaring Ember Shield"
+effect = "Boosts agility and provides fire protection, energizing the body for battle."
+ingredientsInRecipe = Array[ExtResource("2_t1ke3")]([ExtResource("3_p2ylw"), ExtResource("4_jr82a"), ExtResource("5_h145c")])
+potion_quest_array = Array[String](["I'm about to face a raging firestorm and need every advantage.", "Can you brew me a potion with Griffin Feather first, then Phoenix Ash, and finally Dragon's Eye Resin?", "I need that potion for both enhanced agility and protection from flames"])
