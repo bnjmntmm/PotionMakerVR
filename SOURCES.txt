@@ -1,0 +1,9 @@
+Character: https://kaylousberg.com/game-assets/characters-adventurers
+Modular Village (House): https://fertile-soil-productions.itch.io/modular-village-pack
+Cauldron: https://poly.pizza/m/ctLCiQVn7u
+RecipeWallpaper: https://www.freepik.com/free-vector/aged-paper-texture-background-design_14765966.htm#fromView=keyword&page=1&position=0&uuid=a49b210d-bbf7-45f6-8a21-de928a6d2a1a&query=Old+Paper
+Trees: https://quaternius.itch.io/textured-lowpoly-trees
+Ground: https://ambientcg.com/view?id=Ground037
+Potion-Flask:https://poly.pizza/m/WJxYta4Z96
+
+Sky Shader: https://github.com/krzmig/godot-simple-sky-project/tree/main
