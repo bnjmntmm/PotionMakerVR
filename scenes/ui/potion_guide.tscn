@@ -1,0 +1,276 @@
+[gd_scene load_steps=11 format=3 uid="uid://cphw2dscmuo41"]
+
+[ext_resource type="Texture2D" uid="uid://ba0tovhxvdfg3" path="res://assets/OLD_PAPER_TEXTURE.jpg" id="1_87kph"]
+[ext_resource type="FontFile" uid="uid://bstngsrfagpp4" path="res://assets/Enchanted Land.otf" id="2_e18li"]
+[ext_resource type="Texture2D" uid="uid://bt620pe4xauw4" path="res://assets/Ingredients/Textures/crimson_leaf.png" id="3_2cfns"]
+[ext_resource type="Texture2D" uid="uid://6lytbfxpg7ha" path="res://assets/Ingredients/Textures/phoenix_ash.png" id="4_oyye2"]
+[ext_resource type="Texture2D" uid="uid://ubdltx4nyibe" path="res://assets/Ingredients/Textures/spectral_lily.png" id="5_kkmrk"]
+[ext_resource type="Texture2D" uid="uid://ewj2ykt3atb3" path="res://assets/Ingredients/Textures/griffin_feather.png" id="6_mq6mq"]
+[ext_resource type="Texture2D" uid="uid://cyp3mpql8tyba" path="res://assets/Ingredients/Textures/dragons_eye_resin.png" id="7_bgwri"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_awui2"]
+texture = ExtResource("1_87kph")
+
+[sub_resource type="Theme" id="Theme_n5j23"]
+Label/colors/font_color = Color(0, 0, 0, 1)
+Label/font_sizes/font_size = 30
+Label/fonts/font = ExtResource("2_e18li")
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_odrbo"]
+thickness = 2
+
+[node name="PotionGuide" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_awui2")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -426.0
+offset_top = -268.0
+offset_right = 409.0
+offset_bottom = 281.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_n5j23")
+alignment = 1
+
+[node name="VitalRenewalElixir" type="HBoxContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+alignment = 1
+
+[node name="PotionEffects" type="Label" parent="VBoxContainer/VitalRenewalElixir"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Vital Renewal Elixir
+Effect: Healing"
+
+[node name="FirstIngred" type="TextureRect" parent="VBoxContainer/VitalRenewalElixir"]
+layout_mode = 2
+texture = ExtResource("3_2cfns")
+expand_mode = 2
+
+[node name="Add" type="Label" parent="VBoxContainer/VitalRenewalElixir"]
+layout_mode = 2
+text = "+"
+
+[node name="SecondIngred" type="TextureRect" parent="VBoxContainer/VitalRenewalElixir"]
+layout_mode = 2
+texture = ExtResource("4_oyye2")
+expand_mode = 2
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 2
+theme_override_styles/separator = SubResource("StyleBoxLine_odrbo")
+
+[node name="EmberBlood" type="HBoxContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+alignment = 1
+
+[node name="PotionEffects" type="Label" parent="VBoxContainer/EmberBlood"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Ember Blood Surge
+Effect: Energy & Vitality"
+
+[node name="FirstIngred" type="TextureRect" parent="VBoxContainer/EmberBlood"]
+layout_mode = 2
+texture = ExtResource("4_oyye2")
+expand_mode = 2
+
+[node name="Add" type="Label" parent="VBoxContainer/EmberBlood"]
+layout_mode = 2
+text = "+"
+
+[node name="SecondIngred" type="TextureRect" parent="VBoxContainer/EmberBlood"]
+layout_mode = 2
+texture = ExtResource("3_2cfns")
+expand_mode = 2
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 2
+theme_override_styles/separator = SubResource("StyleBoxLine_odrbo")
+
+[node name="Ghostflight" type="HBoxContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+alignment = 1
+
+[node name="PotionEffects" type="Label" parent="VBoxContainer/Ghostflight"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Ghostflight Essence
+Effect: Stealth & Agility"
+
+[node name="FirstIngred" type="TextureRect" parent="VBoxContainer/Ghostflight"]
+layout_mode = 2
+texture = ExtResource("5_kkmrk")
+expand_mode = 2
+
+[node name="Add" type="Label" parent="VBoxContainer/Ghostflight"]
+layout_mode = 2
+text = "+"
+
+[node name="SecondIngred" type="TextureRect" parent="VBoxContainer/Ghostflight"]
+layout_mode = 2
+texture = ExtResource("6_mq6mq")
+expand_mode = 2
+
+[node name="HSeparator3" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 2
+theme_override_styles/separator = SubResource("StyleBoxLine_odrbo")
+
+[node name="Dragonsfire" type="HBoxContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+alignment = 1
+
+[node name="PotionEffects" type="Label" parent="VBoxContainer/Dragonsfire"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Dragon's Fire Guard
+Effect: Fire Resistance"
+
+[node name="FirstIngred" type="TextureRect" parent="VBoxContainer/Dragonsfire"]
+layout_mode = 2
+texture = ExtResource("7_bgwri")
+expand_mode = 2
+
+[node name="Add" type="Label" parent="VBoxContainer/Dragonsfire"]
+layout_mode = 2
+text = "+"
+
+[node name="SecondIngred" type="TextureRect" parent="VBoxContainer/Dragonsfire"]
+layout_mode = 2
+texture = ExtResource("4_oyye2")
+expand_mode = 2
+
+[node name="HSeparator4" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 2
+theme_override_styles/separator = SubResource("StyleBoxLine_odrbo")
+
+[node name="SpectralVitality" type="HBoxContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+alignment = 1
+
+[node name="PotionEffects" type="Label" parent="VBoxContainer/SpectralVitality"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Spectral Vitality Brew
+Effect: Healing & Invisibility"
+
+[node name="FirstIngred" type="TextureRect" parent="VBoxContainer/SpectralVitality"]
+layout_mode = 2
+texture = ExtResource("3_2cfns")
+expand_mode = 2
+
+[node name="Add" type="Label" parent="VBoxContainer/SpectralVitality"]
+layout_mode = 2
+text = "+"
+
+[node name="SecondIngred" type="TextureRect" parent="VBoxContainer/SpectralVitality"]
+layout_mode = 2
+texture = ExtResource("5_kkmrk")
+expand_mode = 2
+
+[node name="HSeparator5" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 2
+theme_override_styles/separator = SubResource("StyleBoxLine_odrbo")
+
+[node name="SoaringEmber" type="HBoxContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+alignment = 1
+
+[node name="PotionEffects" type="Label" parent="VBoxContainer/SoaringEmber"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Soaring Ember Shield
+Effect: Agility & Fire Resistance"
+
+[node name="FirstIngred" type="TextureRect" parent="VBoxContainer/SoaringEmber"]
+layout_mode = 2
+texture = ExtResource("6_mq6mq")
+expand_mode = 2
+
+[node name="Add" type="Label" parent="VBoxContainer/SoaringEmber"]
+layout_mode = 2
+text = "+"
+
+[node name="SecondIngred" type="TextureRect" parent="VBoxContainer/SoaringEmber"]
+layout_mode = 2
+texture = ExtResource("4_oyye2")
+expand_mode = 2
+
+[node name="Add2" type="Label" parent="VBoxContainer/SoaringEmber"]
+layout_mode = 2
+text = "+"
+
+[node name="ThirdIngred" type="TextureRect" parent="VBoxContainer/SoaringEmber"]
+layout_mode = 2
+texture = ExtResource("7_bgwri")
+expand_mode = 2
+
+[node name="HSeparator6" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 2
+theme_override_styles/separator = SubResource("StyleBoxLine_odrbo")
+
+[node name="AscendantVitality" type="HBoxContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+alignment = 1
+
+[node name="PotionEffects" type="Label" parent="VBoxContainer/AscendantVitality"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Ascendant Vitality Elixir
+Effect: Healing & Agility"
+
+[node name="FirstIngred" type="TextureRect" parent="VBoxContainer/AscendantVitality"]
+layout_mode = 2
+texture = ExtResource("4_oyye2")
+expand_mode = 2
+
+[node name="Add" type="Label" parent="VBoxContainer/AscendantVitality"]
+layout_mode = 2
+text = "+"
+
+[node name="SecondIngred" type="TextureRect" parent="VBoxContainer/AscendantVitality"]
+layout_mode = 2
+texture = ExtResource("6_mq6mq")
+expand_mode = 2
+
+[node name="Add2" type="Label" parent="VBoxContainer/AscendantVitality"]
+layout_mode = 2
+text = "+"
+
+[node name="ThirdIngred" type="TextureRect" parent="VBoxContainer/AscendantVitality"]
+layout_mode = 2
+texture = ExtResource("3_2cfns")
+expand_mode = 2

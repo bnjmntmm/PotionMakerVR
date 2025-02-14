@@ -103,7 +103,6 @@ func _on_navigation_agent_3d_navigation_finished() -> void:
 	else:
 		look_at(store_inside_position)
 		
-	pass # Replace with function body.
 
 func update_animation_parameters(delta: float) -> void:
 	# Get the current blend value
