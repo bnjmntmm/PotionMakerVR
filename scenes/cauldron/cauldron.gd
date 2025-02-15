@@ -65,7 +65,7 @@ func _on_ingredient_area_body_entered(body: Node3D) -> void:
 				current_Ingredients.append(child.ingredient_resource)
 				house_main.update_IngredientSprite(child.texture)
 				change_color_of_liquid(child.ingredient_resource.water_tint)
-		if current_Ingredients.size() == 3:
+		if current_Ingredients.size() == 1:
 			interactable_hinge.visible = true
 			interactable_handle.enabled = true
 			

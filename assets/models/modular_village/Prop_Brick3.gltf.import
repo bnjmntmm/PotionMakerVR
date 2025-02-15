@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b2kt3lgdg2uqp"
-path="res://.godot/imported/Prop_Brick3.gltf-e6c3a98624b9eac52aa822ccedb7e47c.scn"
+path="res://.godot/imported/Prop_Brick3.gltf-07868030c0f7eb02c2ece9104bc206a6.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Prop_Brick3.gltf"
-dest_files=["res://.godot/imported/Prop_Brick3.gltf-e6c3a98624b9eac52aa822ccedb7e47c.scn"]
+source_file="res://Assets/models/modular_village/Prop_Brick3.gltf"
+dest_files=["res://.godot/imported/Prop_Brick3.gltf-07868030c0f7eb02c2ece9104bc206a6.scn"]
 
 [params]
 

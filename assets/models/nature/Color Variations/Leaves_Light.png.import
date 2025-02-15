@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://t3engynvnv4s"
-path="res://.godot/imported/Leaves_Light.png-a97beca6f80f4fd7483a42faedfda791.ctex"
+path="res://.godot/imported/Leaves_Light.png-bfd7803f5c862fbf0ae2eb60587b0063.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/models/nature/Color Variations/Leaves_Light.png"
-dest_files=["res://.godot/imported/Leaves_Light.png-a97beca6f80f4fd7483a42faedfda791.ctex"]
+source_file="res://Assets/models/nature/Color Variations/Leaves_Light.png"
+dest_files=["res://.godot/imported/Leaves_Light.png-bfd7803f5c862fbf0ae2eb60587b0063.ctex"]
 
 [params]
 

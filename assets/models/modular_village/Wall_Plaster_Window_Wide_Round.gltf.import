@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bpt4856ghw8yf"
-path="res://.godot/imported/Wall_Plaster_Window_Wide_Round.gltf-a1f7339c9227816fc459b007f687c07f.scn"
+path="res://.godot/imported/Wall_Plaster_Window_Wide_Round.gltf-2e1eb0178b2b4c3146e8cc801c4fc284.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Wall_Plaster_Window_Wide_Round.gltf"
-dest_files=["res://.godot/imported/Wall_Plaster_Window_Wide_Round.gltf-a1f7339c9227816fc459b007f687c07f.scn"]
+source_file="res://Assets/models/modular_village/Wall_Plaster_Window_Wide_Round.gltf"
+dest_files=["res://.godot/imported/Wall_Plaster_Window_Wide_Round.gltf-2e1eb0178b2b4c3146e8cc801c4fc284.scn"]
 
 [params]
 

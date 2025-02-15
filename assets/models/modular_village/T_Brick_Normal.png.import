@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lwf1ql8q0cfd"
-path.s3tc="res://.godot/imported/T_Brick_Normal.png-fa52f74c0b4183ca361cf9b5f075a241.s3tc.ctex"
-path.etc2="res://.godot/imported/T_Brick_Normal.png-fa52f74c0b4183ca361cf9b5f075a241.etc2.ctex"
+path.s3tc="res://.godot/imported/T_Brick_Normal.png-210d1797ff8ea81bf77ac3d7d0c3aab7.s3tc.ctex"
+path.etc2="res://.godot/imported/T_Brick_Normal.png-210d1797ff8ea81bf77ac3d7d0c3aab7.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/modular_village/T_Brick_Normal.png"
-dest_files=["res://.godot/imported/T_Brick_Normal.png-fa52f74c0b4183ca361cf9b5f075a241.s3tc.ctex", "res://.godot/imported/T_Brick_Normal.png-fa52f74c0b4183ca361cf9b5f075a241.etc2.ctex"]
+source_file="res://Assets/models/modular_village/T_Brick_Normal.png"
+dest_files=["res://.godot/imported/T_Brick_Normal.png-210d1797ff8ea81bf77ac3d7d0c3aab7.s3tc.ctex", "res://.godot/imported/T_Brick_Normal.png-210d1797ff8ea81bf77ac3d7d0c3aab7.etc2.ctex"]
 
 [params]
 

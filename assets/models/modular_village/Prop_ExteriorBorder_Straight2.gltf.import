@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dmyocuaby1kse"
-path="res://.godot/imported/Prop_ExteriorBorder_Straight2.gltf-71a7da1dbe8137b89ee0edab9dc5e246.scn"
+path="res://.godot/imported/Prop_ExteriorBorder_Straight2.gltf-ba0a47a4c6e25dfcdbe0ba6408a7d9e6.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Prop_ExteriorBorder_Straight2.gltf"
-dest_files=["res://.godot/imported/Prop_ExteriorBorder_Straight2.gltf-71a7da1dbe8137b89ee0edab9dc5e246.scn"]
+source_file="res://Assets/models/modular_village/Prop_ExteriorBorder_Straight2.gltf"
+dest_files=["res://.godot/imported/Prop_ExteriorBorder_Straight2.gltf-ba0a47a4c6e25dfcdbe0ba6408a7d9e6.scn"]
 
 [params]
 

@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bct5hr5t84wum"
-path.s3tc="res://.godot/imported/Rogue_Hooded_rogue_texture.png-c8deba7d6492cbb019316f3a702aef06.s3tc.ctex"
-path.etc2="res://.godot/imported/Rogue_Hooded_rogue_texture.png-c8deba7d6492cbb019316f3a702aef06.etc2.ctex"
+path.s3tc="res://.godot/imported/Rogue_Hooded_rogue_texture.png-06b3ebcc6363b097fd69da98912606d8.s3tc.ctex"
+path.etc2="res://.godot/imported/Rogue_Hooded_rogue_texture.png-06b3ebcc6363b097fd69da98912606d8.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/models/characters/Rogue_Hooded_rogue_texture.png"
-dest_files=["res://.godot/imported/Rogue_Hooded_rogue_texture.png-c8deba7d6492cbb019316f3a702aef06.s3tc.ctex", "res://.godot/imported/Rogue_Hooded_rogue_texture.png-c8deba7d6492cbb019316f3a702aef06.etc2.ctex"]
+source_file="res://Assets/models/characters/Rogue_Hooded_rogue_texture.png"
+dest_files=["res://.godot/imported/Rogue_Hooded_rogue_texture.png-06b3ebcc6363b097fd69da98912606d8.s3tc.ctex", "res://.godot/imported/Rogue_Hooded_rogue_texture.png-06b3ebcc6363b097fd69da98912606d8.etc2.ctex"]
 
 [params]
 

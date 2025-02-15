@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxu0bokssqepj"
-path="res://.godot/imported/T_RockTrim_Normal.png-1610b9298a4875d2f21c8cd1182fcf5f.ctex"
+path="res://.godot/imported/T_RockTrim_Normal.png-facd3ce9d85737f97d99ad042e2f586b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/models/modular_village/Textures/Normals Godot-Unity/T_RockTrim_Normal.png"
-dest_files=["res://.godot/imported/T_RockTrim_Normal.png-1610b9298a4875d2f21c8cd1182fcf5f.ctex"]
+source_file="res://Assets/models/modular_village/Textures/Normals Godot-Unity/T_RockTrim_Normal.png"
+dest_files=["res://.godot/imported/T_RockTrim_Normal.png-facd3ce9d85737f97d99ad042e2f586b.ctex"]
 
 [params]
 

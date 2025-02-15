@@ -25,6 +25,10 @@ App="*res://Globals/App.gd"
 
 enabled=PackedStringArray("res://addons/godot-xr-tools/plugin.cfg", "res://addons/yamms/plugin.cfg")
 
+[filesystem]
+
+import/blender/enabled=false
+
 [layer_names]
 
 3d_physics/layer_1="Static World"
@@ -34,6 +38,7 @@ enabled=PackedStringArray("res://addons/godot-xr-tools/plugin.cfg", "res://addon
 3d_physics/layer_5="Grappling Target"
 3d_physics/layer_6="CauldronIngredients"
 3d_physics/layer_7="Potion"
+3d_physics/layer_8="ItemCollision"
 3d_physics/layer_17="Held Objects"
 3d_physics/layer_18="Player Hands"
 3d_physics/layer_19="Grab Handles"

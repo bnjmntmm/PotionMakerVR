@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bhcqxx5bdcyh7"
-path="res://.godot/imported/Candles.glb-99e8c79a418eaa7ea093be37570acd12.scn"
+path="res://.godot/imported/Candles.glb-aafc130a26836511a4cf139e1765d0e1.scn"
 
 [deps]
 
-source_file="res://assets/models/Candles.glb"
-dest_files=["res://.godot/imported/Candles.glb-99e8c79a418eaa7ea093be37570acd12.scn"]
+source_file="res://Assets/models/Candles.glb"
+dest_files=["res://.godot/imported/Candles.glb-aafc130a26836511a4cf139e1765d0e1.scn"]
 
 [params]
 

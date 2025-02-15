@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://tsoeug6etj0p"
-path="res://.godot/imported/Door_2_Flat.gltf-ad92f38d35dbf264013fcc5e589c6a39.scn"
+path="res://.godot/imported/Door_2_Flat.gltf-644f70b500f831f31cc7d7caa2729e90.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Door_2_Flat.gltf"
-dest_files=["res://.godot/imported/Door_2_Flat.gltf-ad92f38d35dbf264013fcc5e589c6a39.scn"]
+source_file="res://Assets/models/modular_village/Door_2_Flat.gltf"
+dest_files=["res://.godot/imported/Door_2_Flat.gltf-644f70b500f831f31cc7d7caa2729e90.scn"]
 
 [params]
 

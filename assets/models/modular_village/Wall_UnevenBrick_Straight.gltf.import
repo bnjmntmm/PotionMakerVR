@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cent0skga0eel"
-path="res://.godot/imported/Wall_UnevenBrick_Straight.gltf-8c59374f9a31bf4ba69fc05c94182f97.scn"
+path="res://.godot/imported/Wall_UnevenBrick_Straight.gltf-dcdc76f4c548594df20232dac8758bc6.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Wall_UnevenBrick_Straight.gltf"
-dest_files=["res://.godot/imported/Wall_UnevenBrick_Straight.gltf-8c59374f9a31bf4ba69fc05c94182f97.scn"]
+source_file="res://Assets/models/modular_village/Wall_UnevenBrick_Straight.gltf"
+dest_files=["res://.godot/imported/Wall_UnevenBrick_Straight.gltf-dcdc76f4c548594df20232dac8758bc6.scn"]
 
 [params]
 

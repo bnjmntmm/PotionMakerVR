@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ivofdf67jdu2"
-path="res://.godot/imported/Leaves_Red.png-8c8da356444098539d1cdec575a6f086.ctex"
+path="res://.godot/imported/Leaves_Red.png-a8af2a2bf2e4724eb6bd2566ae41190a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/models/nature/Color Variations/Leaves_Red.png"
-dest_files=["res://.godot/imported/Leaves_Red.png-8c8da356444098539d1cdec575a6f086.ctex"]
+source_file="res://Assets/models/nature/Color Variations/Leaves_Red.png"
+dest_files=["res://.godot/imported/Leaves_Red.png-a8af2a2bf2e4724eb6bd2566ae41190a.ctex"]
 
 [params]
 

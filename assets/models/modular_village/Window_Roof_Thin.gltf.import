@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cder4bh1itywc"
-path="res://.godot/imported/Window_Roof_Thin.gltf-3d145009befe7df4d0b1ddaa38525911.scn"
+path="res://.godot/imported/Window_Roof_Thin.gltf-86837867fcd15b841d84897e4f9f9f25.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Window_Roof_Thin.gltf"
-dest_files=["res://.godot/imported/Window_Roof_Thin.gltf-3d145009befe7df4d0b1ddaa38525911.scn"]
+source_file="res://Assets/models/modular_village/Window_Roof_Thin.gltf"
+dest_files=["res://.godot/imported/Window_Roof_Thin.gltf-86837867fcd15b841d84897e4f9f9f25.scn"]
 
 [params]
 

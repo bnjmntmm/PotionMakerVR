@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ewj2ykt3atb3"
-path.s3tc="res://.godot/imported/griffin_feather.png-b84841f745aa282ada361f5ea4fc9491.s3tc.ctex"
-path.etc2="res://.godot/imported/griffin_feather.png-b84841f745aa282ada361f5ea4fc9491.etc2.ctex"
+path.s3tc="res://.godot/imported/griffin_feather.png-e93295b6fbe293c26647db6f39043803.s3tc.ctex"
+path.etc2="res://.godot/imported/griffin_feather.png-e93295b6fbe293c26647db6f39043803.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/Ingredients/Textures/griffin_feather.png"
-dest_files=["res://.godot/imported/griffin_feather.png-b84841f745aa282ada361f5ea4fc9491.s3tc.ctex", "res://.godot/imported/griffin_feather.png-b84841f745aa282ada361f5ea4fc9491.etc2.ctex"]
+source_file="res://Assets/Ingredients/Textures/griffin_feather.png"
+dest_files=["res://.godot/imported/griffin_feather.png-e93295b6fbe293c26647db6f39043803.s3tc.ctex", "res://.godot/imported/griffin_feather.png-e93295b6fbe293c26647db6f39043803.etc2.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://8a51634pblj3"
-path="res://.godot/imported/Wall_Plaster_WoodGrid.gltf-5891e1ec93049d9ce91cd80672605f13.scn"
+path="res://.godot/imported/Wall_Plaster_WoodGrid.gltf-06046dbc19fe0c58e847180a233e1041.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Wall_Plaster_WoodGrid.gltf"
-dest_files=["res://.godot/imported/Wall_Plaster_WoodGrid.gltf-5891e1ec93049d9ce91cd80672605f13.scn"]
+source_file="res://Assets/models/modular_village/Wall_Plaster_WoodGrid.gltf"
+dest_files=["res://.godot/imported/Wall_Plaster_WoodGrid.gltf-06046dbc19fe0c58e847180a233e1041.scn"]
 
 [params]
 

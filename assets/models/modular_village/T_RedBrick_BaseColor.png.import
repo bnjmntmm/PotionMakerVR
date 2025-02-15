@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc4k72mlkthuw"
-path.s3tc="res://.godot/imported/T_RedBrick_BaseColor.png-288d1234819a7a36e9ac05fdb5a30f1e.s3tc.ctex"
-path.etc2="res://.godot/imported/T_RedBrick_BaseColor.png-288d1234819a7a36e9ac05fdb5a30f1e.etc2.ctex"
+path.s3tc="res://.godot/imported/T_RedBrick_BaseColor.png-80c3c6ff3b0ea08c4b1de64111a87584.s3tc.ctex"
+path.etc2="res://.godot/imported/T_RedBrick_BaseColor.png-80c3c6ff3b0ea08c4b1de64111a87584.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/modular_village/T_RedBrick_BaseColor.png"
-dest_files=["res://.godot/imported/T_RedBrick_BaseColor.png-288d1234819a7a36e9ac05fdb5a30f1e.s3tc.ctex", "res://.godot/imported/T_RedBrick_BaseColor.png-288d1234819a7a36e9ac05fdb5a30f1e.etc2.ctex"]
+source_file="res://Assets/models/modular_village/T_RedBrick_BaseColor.png"
+dest_files=["res://.godot/imported/T_RedBrick_BaseColor.png-80c3c6ff3b0ea08c4b1de64111a87584.s3tc.ctex", "res://.godot/imported/T_RedBrick_BaseColor.png-80c3c6ff3b0ea08c4b1de64111a87584.etc2.ctex"]
 
 [params]
 

@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wq7nhc2wpfit"
-path.s3tc="res://.godot/imported/Candles_halloweenbits_texture.png-4f5e90fb0429b7fec6e7ba54dde72721.s3tc.ctex"
-path.etc2="res://.godot/imported/Candles_halloweenbits_texture.png-4f5e90fb0429b7fec6e7ba54dde72721.etc2.ctex"
+path.s3tc="res://.godot/imported/Candles_halloweenbits_texture.png-69f72a8ae769e07a1848fdb8a2228262.s3tc.ctex"
+path.etc2="res://.godot/imported/Candles_halloweenbits_texture.png-69f72a8ae769e07a1848fdb8a2228262.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/models/Candles_halloweenbits_texture.png"
-dest_files=["res://.godot/imported/Candles_halloweenbits_texture.png-4f5e90fb0429b7fec6e7ba54dde72721.s3tc.ctex", "res://.godot/imported/Candles_halloweenbits_texture.png-4f5e90fb0429b7fec6e7ba54dde72721.etc2.ctex"]
+source_file="res://Assets/models/Candles_halloweenbits_texture.png"
+dest_files=["res://.godot/imported/Candles_halloweenbits_texture.png-69f72a8ae769e07a1848fdb8a2228262.s3tc.ctex", "res://.godot/imported/Candles_halloweenbits_texture.png-69f72a8ae769e07a1848fdb8a2228262.etc2.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3nhvek15v6gc"
-path="res://.godot/imported/PaintedWood005_1K-JPG_Displacement.jpg-1754397c6d2a463023227218e0240fa8.ctex"
+path="res://.godot/imported/PaintedWood005_1K-JPG_Displacement.jpg-5c8427c3db1128f4c90fe58ac92587f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/wood/PaintedWood005_1K-JPG_Displacement.jpg"
-dest_files=["res://.godot/imported/PaintedWood005_1K-JPG_Displacement.jpg-1754397c6d2a463023227218e0240fa8.ctex"]
+source_file="res://Assets/textures/wood/PaintedWood005_1K-JPG_Displacement.jpg"
+dest_files=["res://.godot/imported/PaintedWood005_1K-JPG_Displacement.jpg-5c8427c3db1128f4c90fe58ac92587f6.ctex"]
 
 [params]
 

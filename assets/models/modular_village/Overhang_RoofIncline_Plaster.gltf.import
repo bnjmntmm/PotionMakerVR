@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://lr47byhj7flr"
-path="res://.godot/imported/Overhang_RoofIncline_Plaster.gltf-7651e4b71b1cab0b7702cd1b2175054f.scn"
+path="res://.godot/imported/Overhang_RoofIncline_Plaster.gltf-8f3d35dcdcb3e6fbad7f77b46956f095.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Overhang_RoofIncline_Plaster.gltf"
-dest_files=["res://.godot/imported/Overhang_RoofIncline_Plaster.gltf-7651e4b71b1cab0b7702cd1b2175054f.scn"]
+source_file="res://Assets/models/modular_village/Overhang_RoofIncline_Plaster.gltf"
+dest_files=["res://.godot/imported/Overhang_RoofIncline_Plaster.gltf-8f3d35dcdcb3e6fbad7f77b46956f095.scn"]
 
 [params]
 

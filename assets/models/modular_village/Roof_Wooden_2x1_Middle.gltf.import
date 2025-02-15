@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c14yqxdfctvyd"
-path="res://.godot/imported/Roof_Wooden_2x1_Middle.gltf-6f9b7ce6eb63b930b98bb826070b9502.scn"
+path="res://.godot/imported/Roof_Wooden_2x1_Middle.gltf-85acc8358a8a1b0972d788c10abdb53f.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Roof_Wooden_2x1_Middle.gltf"
-dest_files=["res://.godot/imported/Roof_Wooden_2x1_Middle.gltf-6f9b7ce6eb63b930b98bb826070b9502.scn"]
+source_file="res://Assets/models/modular_village/Roof_Wooden_2x1_Middle.gltf"
+dest_files=["res://.godot/imported/Roof_Wooden_2x1_Middle.gltf-85acc8358a8a1b0972d788c10abdb53f.scn"]
 
 [params]
 

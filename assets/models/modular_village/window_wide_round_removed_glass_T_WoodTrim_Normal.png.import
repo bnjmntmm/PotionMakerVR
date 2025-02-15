@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chmdly2gabgdg"
-path.s3tc="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Normal.png-6c43191c46881b3aa579395177239649.s3tc.ctex"
-path.etc2="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Normal.png-6c43191c46881b3aa579395177239649.etc2.ctex"
+path.s3tc="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Normal.png-43fec8836144bad5bae43c1861777c45.s3tc.ctex"
+path.etc2="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Normal.png-43fec8836144bad5bae43c1861777c45.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/models/modular_village/window_wide_round_removed_glass_T_WoodTrim_Normal.png"
-dest_files=["res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Normal.png-6c43191c46881b3aa579395177239649.s3tc.ctex", "res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Normal.png-6c43191c46881b3aa579395177239649.etc2.ctex"]
+source_file="res://Assets/models/modular_village/window_wide_round_removed_glass_T_WoodTrim_Normal.png"
+dest_files=["res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Normal.png-43fec8836144bad5bae43c1861777c45.s3tc.ctex", "res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Normal.png-43fec8836144bad5bae43c1861777c45.etc2.ctex"]
 
 [params]
 

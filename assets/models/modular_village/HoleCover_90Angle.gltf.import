@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bpsameid3lqgq"
-path="res://.godot/imported/HoleCover_90Angle.gltf-b7df0a6bd2147e563a1084dd9239b2f3.scn"
+path="res://.godot/imported/HoleCover_90Angle.gltf-023ca64e0b57207dbdcfe59a7becd7fe.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/HoleCover_90Angle.gltf"
-dest_files=["res://.godot/imported/HoleCover_90Angle.gltf-b7df0a6bd2147e563a1084dd9239b2f3.scn"]
+source_file="res://Assets/models/modular_village/HoleCover_90Angle.gltf"
+dest_files=["res://.godot/imported/HoleCover_90Angle.gltf-023ca64e0b57207dbdcfe59a7becd7fe.scn"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://du1iw46ng05iu"
-path="res://.godot/imported/Prince Valiant.ttf-6570804380584d648145853d3df05855.fontdata"
+path="res://.godot/imported/Prince Valiant.ttf-2b735a375cce0311a207b32ebd9c6530.fontdata"
 
 [deps]
 
-source_file="res://assets/Prince Valiant.ttf"
-dest_files=["res://.godot/imported/Prince Valiant.ttf-6570804380584d648145853d3df05855.fontdata"]
+source_file="res://Assets/Prince Valiant.ttf"
+dest_files=["res://.godot/imported/Prince Valiant.ttf-2b735a375cce0311a207b32ebd9c6530.fontdata"]
 
 [params]
 

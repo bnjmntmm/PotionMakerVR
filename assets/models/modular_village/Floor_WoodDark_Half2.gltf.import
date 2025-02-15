@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cirb3nas6d4t1"
-path="res://.godot/imported/Floor_WoodDark_Half2.gltf-3ef91cb7769d4646bd36de83d5de1861.scn"
+path="res://.godot/imported/Floor_WoodDark_Half2.gltf-7e49df2096e3a587fc9dac0232d3f2c7.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Floor_WoodDark_Half2.gltf"
-dest_files=["res://.godot/imported/Floor_WoodDark_Half2.gltf-3ef91cb7769d4646bd36de83d5de1861.scn"]
+source_file="res://Assets/models/modular_village/Floor_WoodDark_Half2.gltf"
+dest_files=["res://.godot/imported/Floor_WoodDark_Half2.gltf-7e49df2096e3a587fc9dac0232d3f2c7.scn"]
 
 [params]
 

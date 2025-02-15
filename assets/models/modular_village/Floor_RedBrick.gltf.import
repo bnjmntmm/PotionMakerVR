@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://r5ckeb33srka"
-path="res://.godot/imported/Floor_RedBrick.gltf-2aa0144fc9234bd7f03155a8b5f30e87.scn"
+path="res://.godot/imported/Floor_RedBrick.gltf-9269d3648539b108cc463cefb1c99c19.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Floor_RedBrick.gltf"
-dest_files=["res://.godot/imported/Floor_RedBrick.gltf-2aa0144fc9234bd7f03155a8b5f30e87.scn"]
+source_file="res://Assets/models/modular_village/Floor_RedBrick.gltf"
+dest_files=["res://.godot/imported/Floor_RedBrick.gltf-9269d3648539b108cc463cefb1c99c19.scn"]
 
 [params]
 

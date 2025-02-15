@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bb42otyvqjbfq"
-path="res://.godot/imported/Wall_BottomCover.gltf-9162a63b0d634e768184a7d09861ae30.scn"
+path="res://.godot/imported/Wall_BottomCover.gltf-1bb020e53edcc7e976ce5ebbabfb7b62.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Wall_BottomCover.gltf"
-dest_files=["res://.godot/imported/Wall_BottomCover.gltf-9162a63b0d634e768184a7d09861ae30.scn"]
+source_file="res://Assets/models/modular_village/Wall_BottomCover.gltf"
+dest_files=["res://.godot/imported/Wall_BottomCover.gltf-1bb020e53edcc7e976ce5ebbabfb7b62.scn"]
 
 [params]
 

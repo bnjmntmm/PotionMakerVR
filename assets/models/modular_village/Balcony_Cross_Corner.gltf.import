@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://be5q5xjc04xcc"
-path="res://.godot/imported/Balcony_Cross_Corner.gltf-35d5c01bb4f796b1d526adbdae5f2ff0.scn"
+path="res://.godot/imported/Balcony_Cross_Corner.gltf-3eafdb8e8e5fef47b18f4830eb638845.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Balcony_Cross_Corner.gltf"
-dest_files=["res://.godot/imported/Balcony_Cross_Corner.gltf-35d5c01bb4f796b1d526adbdae5f2ff0.scn"]
+source_file="res://Assets/models/modular_village/Balcony_Cross_Corner.gltf"
+dest_files=["res://.godot/imported/Balcony_Cross_Corner.gltf-3eafdb8e8e5fef47b18f4830eb638845.scn"]
 
 [params]
 

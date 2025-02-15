@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b3nok8wgh7kfk"
-path="res://.godot/imported/Roof_Log.gltf-c8811270820d0c42b0fdc136715c5770.scn"
+path="res://.godot/imported/Roof_Log.gltf-58bc132c827ca1033ca91c773f9b9e38.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Roof_Log.gltf"
-dest_files=["res://.godot/imported/Roof_Log.gltf-c8811270820d0c42b0fdc136715c5770.scn"]
+source_file="res://Assets/models/modular_village/Roof_Log.gltf"
+dest_files=["res://.godot/imported/Roof_Log.gltf-58bc132c827ca1033ca91c773f9b9e38.scn"]
 
 [params]
 

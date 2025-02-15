@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d14b0l7r81yaf"
-path="res://.godot/imported/Corner_Interior_Big.gltf-cf96f49f189d1ccdba9b2b7acc19ee72.scn"
+path="res://.godot/imported/Corner_Interior_Big.gltf-59c05c3b5341c55b3f6eec6fd8084251.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Corner_Interior_Big.gltf"
-dest_files=["res://.godot/imported/Corner_Interior_Big.gltf-cf96f49f189d1ccdba9b2b7acc19ee72.scn"]
+source_file="res://Assets/models/modular_village/Corner_Interior_Big.gltf"
+dest_files=["res://.godot/imported/Corner_Interior_Big.gltf-59c05c3b5341c55b3f6eec6fd8084251.scn"]
 
 [params]
 

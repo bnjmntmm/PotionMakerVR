@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bwskj3i6dxcoc"
-path="res://.godot/imported/bubbling.wav-517a044415881e59b49c3b5cdf7ee70f.sample"
+path="res://.godot/imported/bubbling.wav-851a1f8b1a534ccf95037d1be84e6960.sample"
 
 [deps]
 
-source_file="res://assets/Sounds/bubbling.wav"
-dest_files=["res://.godot/imported/bubbling.wav-517a044415881e59b49c3b5cdf7ee70f.sample"]
+source_file="res://Assets/Sounds/bubbling.wav"
+dest_files=["res://.godot/imported/bubbling.wav-851a1f8b1a534ccf95037d1be84e6960.sample"]
 
 [params]
 

@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ywsg5pnxxkfc"
-path.s3tc="res://.godot/imported/T_MetalOrnaments_BaseColor.png-f838b6b8e6a4df5c36514e14f77075e4.s3tc.ctex"
-path.etc2="res://.godot/imported/T_MetalOrnaments_BaseColor.png-f838b6b8e6a4df5c36514e14f77075e4.etc2.ctex"
+path.s3tc="res://.godot/imported/T_MetalOrnaments_BaseColor.png-341900ea8fadd4a6998e7d9f62b2ed9b.s3tc.ctex"
+path.etc2="res://.godot/imported/T_MetalOrnaments_BaseColor.png-341900ea8fadd4a6998e7d9f62b2ed9b.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/modular_village/T_MetalOrnaments_BaseColor.png"
-dest_files=["res://.godot/imported/T_MetalOrnaments_BaseColor.png-f838b6b8e6a4df5c36514e14f77075e4.s3tc.ctex", "res://.godot/imported/T_MetalOrnaments_BaseColor.png-f838b6b8e6a4df5c36514e14f77075e4.etc2.ctex"]
+source_file="res://Assets/models/modular_village/T_MetalOrnaments_BaseColor.png"
+dest_files=["res://.godot/imported/T_MetalOrnaments_BaseColor.png-341900ea8fadd4a6998e7d9f62b2ed9b.s3tc.ctex", "res://.godot/imported/T_MetalOrnaments_BaseColor.png-341900ea8fadd4a6998e7d9f62b2ed9b.etc2.ctex"]
 
 [params]
 

@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cymbdw6rioj71"
-path.s3tc="res://.godot/imported/Pine_Leaves.png-ae606b64aebc8285807efd7f0a225abe.s3tc.ctex"
-path.etc2="res://.godot/imported/Pine_Leaves.png-ae606b64aebc8285807efd7f0a225abe.etc2.ctex"
+path.s3tc="res://.godot/imported/Pine_Leaves.png-6231baa375b1df527d78851716145c02.s3tc.ctex"
+path.etc2="res://.godot/imported/Pine_Leaves.png-6231baa375b1df527d78851716145c02.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/nature/Pine_Leaves.png"
-dest_files=["res://.godot/imported/Pine_Leaves.png-ae606b64aebc8285807efd7f0a225abe.s3tc.ctex", "res://.godot/imported/Pine_Leaves.png-ae606b64aebc8285807efd7f0a225abe.etc2.ctex"]
+source_file="res://Assets/models/nature/Pine_Leaves.png"
+dest_files=["res://.godot/imported/Pine_Leaves.png-6231baa375b1df527d78851716145c02.s3tc.ctex", "res://.godot/imported/Pine_Leaves.png-6231baa375b1df527d78851716145c02.etc2.ctex"]
 
 [params]
 

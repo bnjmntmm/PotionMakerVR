@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c0wfbg12r3tpu"
-path="res://.godot/imported/WindowShutters_Thin_Flat_Closed.gltf-59962a008b30868f46cf3c8c1a8e3f7d.scn"
+path="res://.godot/imported/WindowShutters_Thin_Flat_Closed.gltf-aa1fe8d30c440dd51483676c63613454.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/WindowShutters_Thin_Flat_Closed.gltf"
-dest_files=["res://.godot/imported/WindowShutters_Thin_Flat_Closed.gltf-59962a008b30868f46cf3c8c1a8e3f7d.scn"]
+source_file="res://Assets/models/modular_village/WindowShutters_Thin_Flat_Closed.gltf"
+dest_files=["res://.godot/imported/WindowShutters_Thin_Flat_Closed.gltf-aa1fe8d30c440dd51483676c63613454.scn"]
 
 [params]
 

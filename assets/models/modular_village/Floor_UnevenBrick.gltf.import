@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d178svc46eb8d"
-path="res://.godot/imported/Floor_UnevenBrick.gltf-d13477ffffabd9cf5dec9433f675c27c.scn"
+path="res://.godot/imported/Floor_UnevenBrick.gltf-91ce4cffed7d9b5e2f83a7b963c88674.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Floor_UnevenBrick.gltf"
-dest_files=["res://.godot/imported/Floor_UnevenBrick.gltf-d13477ffffabd9cf5dec9433f675c27c.scn"]
+source_file="res://Assets/models/modular_village/Floor_UnevenBrick.gltf"
+dest_files=["res://.godot/imported/Floor_UnevenBrick.gltf-91ce4cffed7d9b5e2f83a7b963c88674.scn"]
 
 [params]
 

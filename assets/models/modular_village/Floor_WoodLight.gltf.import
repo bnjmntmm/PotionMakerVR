@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c7abhdta3xvqo"
-path="res://.godot/imported/Floor_WoodLight.gltf-a29bcbd304b1d6f36b1229e93050b6f5.scn"
+path="res://.godot/imported/Floor_WoodLight.gltf-067cdfb757a9f66bb42e0f69c9e95e0d.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Floor_WoodLight.gltf"
-dest_files=["res://.godot/imported/Floor_WoodLight.gltf-a29bcbd304b1d6f36b1229e93050b6f5.scn"]
+source_file="res://Assets/models/modular_village/Floor_WoodLight.gltf"
+dest_files=["res://.godot/imported/Floor_WoodLight.gltf-067cdfb757a9f66bb42e0f69c9e95e0d.scn"]
 
 [params]
 

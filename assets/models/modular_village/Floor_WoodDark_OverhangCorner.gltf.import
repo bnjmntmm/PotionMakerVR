@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://du7hqmx4gibye"
-path="res://.godot/imported/Floor_WoodDark_OverhangCorner.gltf-3e655276f7004da78bba1485553aca27.scn"
+path="res://.godot/imported/Floor_WoodDark_OverhangCorner.gltf-1ca99372690f3d6aaeee57cac651c92b.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Floor_WoodDark_OverhangCorner.gltf"
-dest_files=["res://.godot/imported/Floor_WoodDark_OverhangCorner.gltf-3e655276f7004da78bba1485553aca27.scn"]
+source_file="res://Assets/models/modular_village/Floor_WoodDark_OverhangCorner.gltf"
+dest_files=["res://.godot/imported/Floor_WoodDark_OverhangCorner.gltf-1ca99372690f3d6aaeee57cac651c92b.scn"]
 
 [params]
 

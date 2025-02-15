@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c3clfn8gsff3g"
-path="res://.godot/imported/Corner_ExteriorWide_Wood.gltf-d3de678df511c27a5b1486085d911388.scn"
+path="res://.godot/imported/Corner_ExteriorWide_Wood.gltf-8a05ab7889992d2ccb236fc77b941ba2.scn"
 
 [deps]
 
-source_file="res://assets/models/modular_village/Corner_ExteriorWide_Wood.gltf"
-dest_files=["res://.godot/imported/Corner_ExteriorWide_Wood.gltf-d3de678df511c27a5b1486085d911388.scn"]
+source_file="res://Assets/models/modular_village/Corner_ExteriorWide_Wood.gltf"
+dest_files=["res://.godot/imported/Corner_ExteriorWide_Wood.gltf-8a05ab7889992d2ccb236fc77b941ba2.scn"]
 
 [params]
 

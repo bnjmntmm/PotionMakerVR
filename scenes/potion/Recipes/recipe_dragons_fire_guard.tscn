@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://ksfuxi37t3iu"]
 
 [ext_resource type="PackedScene" uid="uid://dglp2dfa7j1ny" path="res://scenes/potion/Recipes/Base/base_recipe.tscn" id="1_b8gaj"]
-[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://assets/Ingredients/Base/BaseIngredient.gd" id="2_fh803"]
-[ext_resource type="Resource" uid="uid://qwfs3ep0i4lu" path="res://assets/Ingredients/dragons_eye_resin.tres" id="3_5yhlj"]
-[ext_resource type="Resource" path="res://assets/Ingredients/phoenix_ash.tres" id="4_rfyuo"]
+[ext_resource type="Script" uid="uid://cqmpmcmhhiuif" path="res://Assets/Ingredients/Base/BaseIngredient.gd" id="2_fh803"]
+[ext_resource type="Resource" uid="uid://qwfs3ep0i4lu" path="res://Assets/Ingredients/dragons_eye_resin.tres" id="3_5yhlj"]
+[ext_resource type="Resource" uid="uid://dml0wukktygxu" path="res://assets/Ingredients/phoenix_ash.tres" id="4_rfyuo"]
 
 [node name="Recipe_Dragons_Fire_Guard" instance=ExtResource("1_b8gaj")]
 recipe_name = "Dragon's Fire Guard"

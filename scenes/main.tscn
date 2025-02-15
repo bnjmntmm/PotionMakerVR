@@ -1,30 +1,96 @@
-[gd_scene load_steps=36 format=4 uid="uid://dmi3s42gwkct0"]
+[gd_scene load_steps=59 format=3 uid="uid://dmi3s42gwkct0"]
 
 [ext_resource type="PackedScene" uid="uid://vbgcpilqskvm" path="res://scenes/player/xr_origin.tscn" id="1_o5qli"]
 [ext_resource type="PackedScene" uid="uid://clc5dre31iskm" path="res://addons/godot-xr-tools/xr/start_xr.tscn" id="1_o6xl0"]
-[ext_resource type="Shader" uid="uid://b85hpwuhpdqd3" path="res://assets/Sky.gdshader" id="2_tefeu"]
-[ext_resource type="Texture2D" uid="uid://d3v8cveyjnwkf" path="res://assets/stars.png" id="3_o6xl0"]
+[ext_resource type="Shader" uid="uid://b85hpwuhpdqd3" path="res://Assets/Sky.gdshader" id="2_tefeu"]
+[ext_resource type="Texture2D" uid="uid://d3v8cveyjnwkf" path="res://Assets/stars.png" id="3_o6xl0"]
 [ext_resource type="PackedScene" uid="uid://bbnv3f1ao1f46" path="res://scenes/cauldron/cauldron.tscn" id="4_jyhfs"]
 [ext_resource type="PackedScene" uid="uid://clujaf3u776a3" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.tscn" id="5_0ld40"]
 [ext_resource type="PackedScene" uid="uid://cphw2dscmuo41" path="res://scenes/ui/potion_guide.tscn" id="6_gqmmt"]
 [ext_resource type="Script" uid="uid://cu06ogumxqurh" path="res://scenes/cauldron/house_main.gd" id="8_85g3d"]
+[ext_resource type="PackedScene" uid="uid://m38ufce3r853" path="res://scenes/potion/IngredientsMesh/crimson_leaf.tscn" id="8_pm3ni"]
 [ext_resource type="PackedScene" uid="uid://brrdtcuss5bc3" path="res://scenes/house/house.tscn" id="8_tipki"]
 [ext_resource type="PackedScene" uid="uid://cs6dxfu5owcgo" path="res://scenes/interaction/lever_smooth.tscn" id="9_85g3d"]
-[ext_resource type="PackedScene" uid="uid://cospri4nox8ge" path="res://scenes/potion/pickable_potion.tscn" id="9_choun"]
-[ext_resource type="Texture2D" uid="uid://c01movs3kbi3i" path="res://assets/textures/grass1/Ground037_2K-JPG_Color.jpg" id="13_og1vs"]
+[ext_resource type="Texture2D" uid="uid://bt620pe4xauw4" path="res://Assets/Ingredients/Textures/crimson_leaf.png" id="9_y6deb"]
+[ext_resource type="PackedScene" uid="uid://bflahhltv6ro" path="res://scenes/potion/IngredientsMesh/dragons_eye_resin.tscn" id="10_og1vs"]
+[ext_resource type="Texture2D" uid="uid://cyp3mpql8tyba" path="res://Assets/Ingredients/Textures/dragons_eye_resin.png" id="11_2wyq8"]
+[ext_resource type="PackedScene" uid="uid://ea4po1ld24l" path="res://Assets/models/table/Table Big.glb" id="11_gqmmt"]
+[ext_resource type="PackedScene" uid="uid://bk6aciql2012h" path="res://scenes/potion/IngredientsMesh/griffin_feather.tscn" id="12_tel4y"]
+[ext_resource type="Script" uid="uid://dkryus6plktnv" path="res://scenes/pickables.gd" id="12_yc10j"]
+[ext_resource type="Texture2D" uid="uid://c01movs3kbi3i" path="res://Assets/textures/grass1/Ground037_2K-JPG_Color.jpg" id="13_og1vs"]
+[ext_resource type="Texture2D" uid="uid://ewj2ykt3atb3" path="res://Assets/Ingredients/Textures/griffin_feather.png" id="13_qkpxi"]
+[ext_resource type="PackedScene" uid="uid://npq0pkgx0maw" path="res://scenes/potion/potion.tscn" id="13_yc10j"]
+[ext_resource type="PackedScene" uid="uid://k6fqvbsd20h3" path="res://scenes/potion/IngredientsMesh/phoenix_ash.tscn" id="14_5q0nq"]
 [ext_resource type="Script" uid="uid://do4mlu3spcfw6" path="res://addons/yamms/MultiScatter.gd" id="14_muem4"]
+[ext_resource type="Texture2D" uid="uid://6lytbfxpg7ha" path="res://Assets/Ingredients/Textures/phoenix_ash.png" id="15_dgi5k"]
 [ext_resource type="ArrayMesh" uid="uid://dkyph3a7371dn" path="res://scenes/nature/pine_tree_1.tres" id="15_dp3eg"]
 [ext_resource type="Script" uid="uid://bvpkmb3l0vkc1" path="res://addons/yamms/MultiScatterItem.gd" id="16_0ld40"]
+[ext_resource type="PackedScene" uid="uid://11pe4g2rc614" path="res://scenes/potion/IngredientsMesh/spectral_lily.tscn" id="16_j8jky"]
 [ext_resource type="PackedScene" uid="uid://dqrq8llhepmsn" path="res://scenes/nature/tree_collision.tscn" id="17_0ld40"]
 [ext_resource type="Script" uid="uid://pxjauh5scqlk" path="res://addons/yamms/MultiScatterExclude.gd" id="17_dp3eg"]
+[ext_resource type="Texture2D" uid="uid://ubdltx4nyibe" path="res://Assets/Ingredients/Textures/spectral_lily.png" id="17_kmb1v"]
 [ext_resource type="ArrayMesh" uid="uid://dsqta52ec68vx" path="res://scenes/nature/pine_tree_2.tres" id="19_gqmmt"]
 [ext_resource type="Script" uid="uid://bxeloxe0s68ee" path="res://scenes/Customer/npc_main.gd" id="26_2wyq8"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jscy8"]
+size = Vector3(0.279266, 0.308472, 0.283997)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gqmmt"]
+size = Vector3(1, 0.586914, 1.62299)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_85g3d"]
 albedo_color = Color(0.717883, 0.513453, 0.384852, 1)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_choun"]
 size = Vector2(0.4, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_og1vs"]
+resource_local_to_scene = true
+shading_mode = 0
+albedo_texture = ExtResource("9_y6deb")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_2wyq8"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tel4y"]
+size = Vector3(0.15, 0.1, 0.15)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vxglm"]
+resource_local_to_scene = true
+shading_mode = 0
+albedo_texture = ExtResource("11_2wyq8")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_2f3dj"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fuf3a"]
+resource_local_to_scene = true
+shading_mode = 0
+albedo_texture = ExtResource("13_qkpxi")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_pibwh"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c6pm6"]
+resource_local_to_scene = true
+shading_mode = 0
+albedo_texture = ExtResource("15_dgi5k")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_5he1u"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5poiv"]
+resource_local_to_scene = true
+shading_mode = 0
+albedo_texture = ExtResource("17_kmb1v")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_2cjbq"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_o6xl0"]
 shader = ExtResource("2_tefeu")
@@ -73,20 +139,6 @@ fog_light_color = Color(0.385063, 0.41719, 0.467687, 1)
 fog_density = 1.0
 fog_aerial_perspective = 0.458
 fog_depth_begin = 2.0
-
-[sub_resource type="ArrayMesh" id="ArrayMesh_sugp2"]
-_surfaces = [{
-"aabb": AABB(-0.478102, 0.0025236, -1.23041, 1.08, 0.531, 2.5),
-"attribute_data": PackedByteArray("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"),
-"format": 34359738391,
-"primitive": 3,
-"uv_scale": Vector4(0, 0, 0, 0),
-"vertex_count": 432,
-"vertex_data": PackedByteArray("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/38AAP//AAD/fwAA//8AAP9/AAAAAAAA/38AAP//AAD/fwAAAAAAAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAAAAAAD/fwAA//8AAP9/AAD//wAA/38AAAAAAAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAAAAAAA/38AAAAAAAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAAAAAAA/38AAP//AAD/fwAA//8AAP9/AAAAAAAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/3///wAAAAD/f///AAAAAP9///8AAAAA/3//fwAA/z//f/9/AAD/P/9//38AAP8//3///wAAAAD/f///AAAAAP9//////wAA/3//////AAD/f///AAAAAP9//////wAA/3///wAAAAD/f/////8AAP9///8AAAAA/3//////AAD/f///AAAAAP9//////wAA/3///wAAAAD/f///AAAAAP9///8AAAAA/3//////AAD/f///AAAAAP9//////wAA/3///wAAAAD/f///AAAAAP9//////wAA/3//////AAD/f///AAAAAP9///8AAAAA/3///wAAAAD/f///AAAAAP9//////wAA/3///wAAAAD/f/////8AAP9//////wAA/3///wAAAAD/f///AAAAAP9//////wAA/3///wAAAAD/f///AAAAAP9///8AAAAA/3///wAAAAD/f///AAAAAP9///8AAAAA/3///wAAAAD/f///AAAAAP9///8AAAAA/3///wAAAAD/f///AAAAAP9///8AAAAA/3//////AAD/f///AAAAAP9///8AAAAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/3///wAAAAD/f///AAAAAP9///8AAAAA/3///wAAAAD/f///AAAAAP9//////wAA/3///wAAAAD/f/////8AAP9//////wAA/3///wAAAAD/f/////8AAP9//////wAA////f/9//n////9//3/+f////3//f/5//3///wAAAAD/f/////8AAP9//////wAA/3///wAAAAD/f/////8AAP9//////wAA/3///wAAAAD/f/////8AAP9//////wAA/3///wAAAAD/f/////8AAP9//////wAA/3///wAAAAD/f/////8AAP9//////wAA/////wAA/z//////AAD/P/////8AAP8/////f/9//n////9//3/+f////3//f/5//38AAP//AAD/fwAA//8AAP9/AAAAAAAA/3//////AAD/f///AAAAAP9//////wAA/3//////AAD/f///AAAAAP9//////wAA/3///wAAAAD/f///AAAAAP9//////wAA/3///wAAAAD/f///AAAAAP9//////wAA/3///wAAAAD/f/////8AAP9//////wAAAAD/f/9//n8AAP9//3/+fwAA/3//f/5//3//////AAD/f///AAAAAP9///8AAAAAAAD/f/9//n8AAP9//3/+fwAA/3//f/5//38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAAAAAAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/////wAA/z//////AAD/P/////8AAP8//38AAP//AAD/fwAA//8AAP9/AAD//wAAAAD/f/9//n8AAP9//3/+fwAA/3//f/5//38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/38AAP//AAD/fwAA//8AAP9/AAD//wAA/3///wAAAAD/f///AAAAAP9//////wAA/3//////AAD/f///AAAAAP9//////wAA/3///wAAAAD/f/////8AAP9///8AAAAAAAD/f/9//n8AAP9//3/+fwAA/3//f/5/AAAl0dku/z8AANfNJzL/PwAABtj4J/8///85zAAAHCb//wPJAACCJP//09IAAGkpW4f/f/7/UTyIgf9///87P52R/3///zA37XX/f+z1/z/LcP9/yvD/P4iB/3///zs/mGf/f5jn/z9nY/9/ZuP/P8tw/3/K8P8/qFv/f6jb/z8HWP9/Btj/P2dj/39m4/8////G6QAA4zT//2HuAAAwN///ZuEAAExP//+F3QAAPFH//2bhAABMT///RNYAACIr///T0gAAaSn//0TWAAAiK///OcwAABwm//8DyQAAgiT//znMAAAcJv//28UAAO4i8w3/fwAABfnNEv9/AACY9gwD/38AAHj+kBv/f4+b/z+WH/9/lp//P80S/3/Mkv8/Z2P/f2bj/z+YZ/9/mOf/P6hb/3+o2/8////bxQAA7iL//9vFAADuIv//A8kAAIIk//9E1gAAIiv//9PSAABpKf//hd0AADxRAABvx484/z8AAEnEtTv/PwAA180nMv8/AACUtGpL/z8AAFSxqk7/PwAA67oTRf8/AACWn2hg/z8AAI+bb2T/PwAAEaftWP8/AACZqmVV/z8AABGn7Vj/PwAAVLGqTv8/AABJxLU7/z8AAAy+8kH/PwAA67oTRf8/AACo21Yk/z8AAAbY+Cf/PwAAZuOYHP8/N5b/f///4zSdkf9///8wN5ie/3///0xPeKL/f/7/PFGYnv9///9MT7mp/3///yIrK63/f/7/aSm5qf9///8iK8Wz/3///xwmAAALg/N8/z8MA/9/C4P/PwAA840Lcv8/AADMkjJt/z8AAPONC3L/PwAAj5tvZP8/+rb/f///fVvFs/9///8cJiK6/3/+/xFdAACY52YY/z8AAGbjmBz/PwAAyvA0D/8/AADs9RIK/z8AAMrwNA//P///dv4AADs///+j+AAAUTz//3b+AAA7P///Ye4AADA3mJ7/f///TE94ov9//v88UTeW/3///+M0uan/f///Iisrrf9//v9pKXii/3/+/zxRAABJxLU7/z8AAG/Hjzj/PwAADL7yQf8/AAARp+1Y/z8AAJmqZVX/PwAAlp9oYP8/AABUsapO/z8AAJS0akv/PwAAmaplVf8/AADruhNF/z8AAAy+8kH/PwAAlLRqS/8/AADXzScy/z8AACXR2S7/PwAAb8ePOP8/AAAG2Pgn/z8AAKjbViT/PwAAJdHZLv8/xbP/f///HCb6tv9///99Wyut/3/+/2kpIrr/f/7/EV36tv9///99WyK6/3/+/xFdlTT/f5S0/z9UMf9/VLH/P+s6/3/ruv8/mir/f5mq/z8SJ/9/Eaf/P1Qx/39Usf8/DAP/fwAAeP4AAAuD//94/vMN/38AAAX5zRL/f8yS/z/zDf9/843/P5Ab/3+Pm/8/lh//f5af/z+QG/9/j5v/PxIn/38Rp/8/y3D/f8rw/z/tdf9/7PX/P5hn/3+Y5/8/iIH/f///Oz9bh/9//v9RPO11/3/s9f8/AACPm29k/z8AAJafaGD/PwAAzJIybf8/Eif/fxGn/z+aKv9/mar/P5Yf/3+Wn/8/VDH/f1Sx/z+VNP9/lLT/P5oq/3+Zqv8/6zr/f+u6/z8NPv9/DL7/P5U0/3+UtP8/SkT/f0nE/z9wR/9/b8f/Pw0+/38Mvv8/2E3/f9fN/z8mUf9/JdH/P3BH/39vx/8/B1j/fwbY/z+oW/9/qNv/PyZR/38l0f8///9m4QAATE///4XdAAA8Uf//xukAAOM0JlH/fyXR/z/YTf9/183/PwdY/38G2P8/nZH/f///MDc3lv9////jNFuH/3/+/1E8AADzjQty/z8AAMySMm3/PwAAC4PzfP8/cEf/f2/H/z9KRP9/ScT/P9hN/3/Xzf8///9h7gAAMDf//8bpAADjNP//o/gAAFE8AADs9RIK/z///3b+AAA7P///o/gAAFE8AADK8DQP/z8AAOz1Egr/PwAAmOdmGP8/AABm45gc/z8AAJjnZhj/PwAAqNtWJP8/6zr/f+u6/z9KRP9/ScT/Pw0+/38Mvv8/")
-}]
-
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_jyhfs"]
-data = PackedVector3Array(0.3395, 0.0025, -0.144, 0.6019, 0.0025, -1.2304, 0.3135, 0.0025, -0.2122, 0.6019, 0.0025, 1.2696, 0.3395, 0.0025, 0.144, 0.3135, 0.0025, 0.2122, 0.6019, 0.0025, 1.2696, 0.3554, 0.0025, 0.0728, 0.3395, 0.0025, 0.144, 0.3554, 0.0025, 0.0728, 0.6019, 0.0025, 1.2696, 0.3607, 0.0025, 0, 0.3607, 0.0025, 0, 0.6019, 0.0025, 1.2696, 0.3554, 0.0025, -0.0728, 0.6019, 0.0025, 1.2696, 0.3135, 0.0025, 0.2122, 0.2777, 0.0025, 0.2759, 0.6019, 0.0025, 1.2696, 0.2777, 0.0025, 0.2759, 0.2331, 0.0025, 0.3337, 0.6019, 0.5335, 1.2696, 0.6019, 0.0025, 1.2696, -0.4781, 0.0025, 1.2696, 0.6019, 0.0025, 1.2696, 0.1806, 0.0025, 0.3843, 0.1212, 0.0025, 0.4268, 0.6019, 0.0025, 1.2696, 0.1212, 0.0025, 0.4268, 0.0563, 0.0025, 0.4602, 0.6019, 0.0025, 1.2696, 0.0563, 0.0025, 0.4602, -0.0128, 0.0025, 0.4837, 0.6019, 0.0025, 1.2696, -0.0128, 0.0025, 0.4837, -0.0846, 0.0025, 0.497, 0.3554, 0.0025, -0.0728, 0.6019, 0.0025, 1.2696, 0.6019, 0.0025, -1.2304, 0.3554, 0.0025, -0.0728, 0.6019, 0.0025, -1.2304, 0.3395, 0.0025, -0.144, 0.6019, 0.0025, 1.2696, 0.2331, 0.0025, 0.3337, 0.1806, 0.0025, 0.3843, 0.3135, 0.0025, -0.2122, 0.6019, 0.0025, -1.2304, 0.2777, 0.0025, -0.2759, 0.2777, 0.0025, -0.2759, 0.6019, 0.0025, -1.2304, 0.2331, 0.0025, -0.3337, 0.2331, 0.0025, -0.3337, 0.6019, 0.0025, -1.2304, 0.1806, 0.0025, -0.3843, 0.6019, 0.0025, -1.2304, 0.1212, 0.0025, -0.4268, 0.1806, 0.0025, -0.3843, 0.6019, 0.0025, -1.2304, 0.0563, 0.0025, -0.4602, 0.1212, 0.0025, -0.4268, 0.6019, 0.0025, -1.2304, -0.0128, 0.0025, -0.4837, 0.0563, 0.0025, -0.4602, -0.0128, 0.0025, -0.4837, 0.6019, 0.0025, -1.2304, -0.0846, 0.0025, -0.497, -0.0846, 0.0025, -0.497, 0.6019, 0.0025, -1.2304, -0.1575, 0.0025, -0.4997, -0.1575, 0.5335, 0.4997, 0.6019, 0.5335, 1.2696, -0.4781, 0.5335, 1.2696, -0.4781, 0.5335, 1.2696, 0.6019, 0.5335, 1.2696, -0.4781, 0.0025, 1.2696, -0.1575, 0.5335, 0.4997, -0.4781, 0.5335, 1.2696, -0.2301, 0.5335, 0.4917, -0.2301, 0.5335, 0.4917, -0.4781, 0.5335, 1.2696, -0.3007, 0.5335, 0.4732, 0.6019, 0.5335, -1.2304, 0.3554, 0.5335, -0.0728, 0.3395, 0.5335, -0.144, 0.2331, 0.5335, 0.3337, 0.6019, 0.5335, 1.2696, 0.1806, 0.5335, 0.3843, 0.3554, 0.5335, 0.0728, 0.6019, 0.5335, -1.2304, 0.6019, 0.5335, 1.2696, 0.3395, 0.5335, 0.144, 0.6019, 0.5335, 1.2696, 0.3135, 0.5335, 0.2122, 0.3554, 0.5335, 0.0728, 0.6019, 0.5335, 1.2696, 0.3395, 0.5335, 0.144, 0.3135, 0.5335, 0.2122, 0.6019, 0.5335, 1.2696, 0.2777, 0.5335, 0.2759, 0.2777, 0.5335, 0.2759, 0.6019, 0.5335, 1.2696, 0.2331, 0.5335, 0.3337, 0.6019, 0.5335, 1.2696, 0.1212, 0.5335, 0.4268, 0.1806, 0.5335, 0.3843, 0.6019, 0.5335, 1.2696, 0.0563, 0.5335, 0.4602, 0.1212, 0.5335, 0.4268, 0.6019, 0.5335, 1.2696, -0.0128, 0.5335, 0.4837, 0.0563, 0.5335, 0.4602, -0.0128, 0.5335, 0.4837, 0.6019, 0.5335, 1.2696, -0.0846, 0.5335, 0.497, -0.0846, 0.5335, 0.497, 0.6019, 0.5335, 1.2696, -0.1575, 0.5335, 0.4997, 0.3607, 0.5335, 0, 0.6019, 0.5335, -1.2304, 0.3554, 0.5335, 0.0728, 0.3554, 0.5335, -0.0728, 0.6019, 0.5335, -1.2304, 0.3607, 0.5335, 0, -0.3679, 0.0025, -0.4447, -0.4781, 0.0025, -1.2304, -0.4302, 0.0025, -0.4066, 0.6019, 0.5335, -1.2304, 0.3395, 0.5335, -0.144, 0.3135, 0.5335, -0.2122, 0.6019, 0.5335, -1.2304, 0.3135, 0.5335, -0.2122, 0.2777, 0.5335, -0.2759, 0.6019, 0.5335, -1.2304, 0.2777, 0.5335, -0.2759, 0.2331, 0.5335, -0.3337, 0.6019, 0.5335, -1.2304, 0.2331, 0.5335, -0.3337, 0.1806, 0.5335, -0.3843, 0.6019, 0.5335, 1.2696, 0.6019, 0.5335, -1.2304, 0.6019, 0.0025, -1.2304, 0.6019, 0.5335, -1.2304, 0.1806, 0.5335, -0.3843, 0.1212, 0.5335, -0.4268, 0.6019, 0.5335, -1.2304, 0.1212, 0.5335, -0.4268, 0.0563, 0.5335, -0.4602, 0.6019, 0.5335, -1.2304, 0.0563, 0.5335, -0.4602, -0.0128, 0.5335, -0.4837, 0.6019, 0.5335, -1.2304, -0.0128, 0.5335, -0.4837, -0.0846, 0.5335, -0.497, 0.6019, 0.5335, -1.2304, -0.0846, 0.5335, -0.497, -0.1575, 0.5335, -0.4997, 0.6019, 0.0025, -1.2304, 0.6019, 0.5335, -1.2304, -0.4781, 0.5335, -1.2304, 0.6019, 0.0025, 1.2696, 0.6019, 0.5335, 1.2696, 0.6019, 0.0025, -1.2304, -0.3007, 0.0025, 0.4732, -0.4781, 0.0025, 1.2696, -0.2301, 0.0025, 0.4917, -0.2301, 0.5335, -0.4917, -0.4781, 0.5335, -1.2304, -0.1575, 0.5335, -0.4997, -0.3007, 0.5335, -0.4732, -0.4781, 0.5335, -1.2304, -0.2301, 0.5335, -0.4917, -0.3679, 0.5335, -0.4447, -0.4781, 0.5335, -1.2304, -0.3007, 0.5335, -0.4732, -0.4781, 0.5335, -1.2304, -0.3679, 0.5335, -0.4447, -0.4302, 0.5335, -0.4066, -0.4781, 0.5335, -1.2304, -0.4302, 0.5335, -0.4066, -0.4781, 0.5335, -0.3668, -0.4781, 0.0025, -0.3668, -0.4781, 0.5335, -1.2304, -0.4781, 0.5335, -0.3668, -0.3007, 0.5335, 0.4732, -0.4781, 0.5335, 1.2696, -0.3679, 0.5335, 0.4447, -0.4781, 0.0025, 1.2696, -0.4781, 0.0025, 0.3668, -0.4781, 0.5335, 1.2696, -0.1575, 0.0025, 0.4997, -0.4781, 0.0025, 1.2696, -0.0846, 0.0025, 0.497, -0.2301, 0.0025, 0.4917, -0.4781, 0.0025, 1.2696, -0.1575, 0.0025, 0.4997, 0.6019, 0.0025, 1.2696, -0.0846, 0.0025, 0.497, -0.4781, 0.0025, 1.2696, -0.3007, 0.0025, 0.4732, -0.3679, 0.0025, 0.4447, -0.4781, 0.0025, 1.2696, -0.4781, 0.0025, 1.2696, -0.3679, 0.0025, 0.4447, -0.4302, 0.0025, 0.4066, -0.4781, 0.0025, 1.2696, -0.4302, 0.0025, 0.4066, -0.4781, 0.0025, 0.3668, 0.6019, 0.0025, -1.2304, -0.4781, 0.5335, -1.2304, -0.4781, 0.0025, -1.2304, -0.1575, 0.0025, -0.4997, 0.6019, 0.0025, -1.2304, -0.4781, 0.0025, -1.2304, -0.4781, 0.0025, -1.2304, -0.4781, 0.5335, -1.2304, -0.4781, 0.0025, -0.3668, -0.1575, 0.0025, -0.4997, -0.4781, 0.0025, -1.2304, -0.2301, 0.0025, -0.4917, -0.2301, 0.0025, -0.4917, -0.4781, 0.0025, -1.2304, -0.3007, 0.0025, -0.4732, -0.3007, 0.0025, -0.4732, -0.4781, 0.0025, -1.2304, -0.3679, 0.0025, -0.4447, -0.4302, 0.0025, -0.4066, -0.4781, 0.0025, -1.2304, -0.4781, 0.0025, -0.3668, -0.3679, 0.5335, 0.4447, -0.4781, 0.5335, 1.2696, -0.4302, 0.5335, 0.4066, -0.4302, 0.5335, 0.4066, -0.4781, 0.5335, 1.2696, -0.4781, 0.5335, 0.3668, 0.6019, 0.5335, -1.2304, -0.1575, 0.5335, -0.4997, -0.4781, 0.5335, -1.2304, -0.4781, 0.5335, 1.2696, -0.4781, 0.0025, 0.3668, -0.4781, 0.5335, 0.3668, 0.1212, 0.0025, 0.4268, 0.1212, 0.5335, 0.4268, 0.0563, 0.5335, 0.4602, -0.4302, 0.5335, 0.4066, -0.4302, 0.0025, 0.4066, -0.3679, 0.0025, 0.4447, -0.1575, 0.5335, -0.4997, -0.1575, 0.0025, -0.4997, -0.2301, 0.0025, -0.4917, -0.0846, 0.5335, -0.497, -0.0846, 0.0025, -0.497, -0.1575, 0.0025, -0.4997, -0.0128, 0.5335, -0.4837, -0.0128, 0.0025, -0.4837, -0.0846, 0.0025, -0.497, 0.0563, 0.5335, -0.4602, 0.0563, 0.0025, -0.4602, -0.0128, 0.0025, -0.4837, -0.2301, 0.0025, 0.4917, -0.2301, 0.5335, 0.4917, -0.3007, 0.5335, 0.4732, -0.3007, 0.0025, 0.4732, -0.3007, 0.5335, 0.4732, -0.3679, 0.5335, 0.4447, -0.3679, 0.0025, 0.4447, -0.3679, 0.5335, 0.4447, -0.4302, 0.5335, 0.4066, -0.4302, 0.0025, 0.4066, -0.4302, 0.5335, 0.4066, -0.4781, 0.5335, 0.3668, 0.3554, 0.0025, -0.0728, 0.3554, 0.5335, -0.0728, 0.3607, 0.5335, 0, 0.3395, 0.0025, -0.144, 0.3395, 0.5335, -0.144, 0.3554, 0.5335, -0.0728, -0.0128, 0.0025, -0.4837, -0.0128, 0.5335, -0.4837, 0.0563, 0.5335, -0.4602, -0.4781, 0.5335, 0.3668, -0.4781, 0.0025, 0.3668, -0.4302, 0.0025, 0.4066, -0.3679, 0.5335, 0.4447, -0.3679, 0.0025, 0.4447, -0.3007, 0.0025, 0.4732, 0.1806, 0.0025, 0.3843, 0.1806, 0.5335, 0.3843, 0.1212, 0.5335, 0.4268, 0.2777, 0.0025, 0.2759, 0.2777, 0.5335, 0.2759, 0.2331, 0.5335, 0.3337, 0.3395, 0.0025, 0.144, 0.3395, 0.5335, 0.144, 0.3135, 0.5335, 0.2122, 0.3135, 0.0025, 0.2122, 0.3135, 0.5335, 0.2122, 0.2777, 0.5335, 0.2759, 0.1806, 0.5335, 0.3843, 0.2331, 0.0025, 0.3337, 0.2331, 0.5335, 0.3337, 0.0563, 0.0025, 0.4602, 0.0563, 0.5335, 0.4602, -0.0128, 0.5335, 0.4837, -0.2301, 0.5335, -0.4917, -0.2301, 0.0025, -0.4917, -0.3007, 0.0025, -0.4732, -0.3007, 0.5335, -0.4732, -0.3007, 0.0025, -0.4732, -0.3679, 0.0025, -0.4447, -0.3679, 0.5335, -0.4447, -0.3679, 0.0025, -0.4447, -0.4302, 0.0025, -0.4066, 0.3607, 0.0025, 0, 0.3607, 0.5335, 0, 0.3554, 0.5335, 0.0728, 0.3554, 0.0025, 0.0728, 0.3554, 0.5335, 0.0728, 0.3395, 0.5335, 0.144, -0.4302, 0.5335, -0.4066, -0.4302, 0.0025, -0.4066, -0.4781, 0.0025, -0.3668, -0.0128, 0.0025, 0.4837, -0.0128, 0.5335, 0.4837, -0.0846, 0.5335, 0.497, -0.0846, 0.0025, 0.497, -0.0846, 0.5335, 0.497, -0.1575, 0.5335, 0.4997, -0.1575, 0.0025, 0.4997, -0.1575, 0.5335, 0.4997, -0.2301, 0.5335, 0.4917, -0.3007, 0.0025, -0.4732, -0.3007, 0.5335, -0.4732, -0.2301, 0.5335, -0.4917, -0.3679, 0.0025, -0.4447, -0.3679, 0.5335, -0.4447, -0.3007, 0.5335, -0.4732, 0.1806, 0.5335, 0.3843, 0.1806, 0.0025, 0.3843, 0.2331, 0.0025, 0.3337, 0.3135, 0.5335, 0.2122, 0.3135, 0.0025, 0.2122, 0.3395, 0.0025, 0.144, 0.2777, 0.5335, 0.2759, 0.2777, 0.0025, 0.2759, 0.3135, 0.0025, 0.2122, 0.2331, 0.5335, 0.3337, 0.2331, 0.0025, 0.3337, 0.2777, 0.0025, 0.2759, 0.1212, 0.5335, 0.4268, 0.1212, 0.0025, 0.4268, 0.1806, 0.0025, 0.3843, 0.0563, 0.5335, 0.4602, 0.0563, 0.0025, 0.4602, 0.1212, 0.0025, 0.4268, -0.4302, 0.0025, -0.4066, -0.4302, 0.5335, -0.4066, -0.3679, 0.5335, -0.4447, -0.4781, 0.5335, -0.3668, -0.4302, 0.5335, -0.4066, -0.4781, 0.0025, -0.3668, 0.2777, 0.5335, -0.2759, 0.2777, 0.0025, -0.2759, 0.2331, 0.0025, -0.3337, 0.3135, 0.5335, -0.2122, 0.3135, 0.0025, -0.2122, 0.2777, 0.0025, -0.2759, 0.3607, 0.5335, 0, 0.3607, 0.0025, 0, 0.3554, 0.0025, -0.0728, 0.3554, 0.5335, -0.0728, 0.3554, 0.0025, -0.0728, 0.3395, 0.0025, -0.144, 0.3395, 0.5335, -0.144, 0.3395, 0.0025, -0.144, 0.3135, 0.0025, -0.2122, -0.0846, 0.0025, -0.497, -0.0846, 0.5335, -0.497, -0.0128, 0.5335, -0.4837, -0.1575, 0.0025, -0.4997, -0.1575, 0.5335, -0.4997, -0.0846, 0.5335, -0.497, 0.3395, 0.5335, 0.144, 0.3395, 0.0025, 0.144, 0.3554, 0.0025, 0.0728, 0.3135, 0.0025, -0.2122, 0.3135, 0.5335, -0.2122, 0.3395, 0.5335, -0.144, 0.2777, 0.0025, -0.2759, 0.2777, 0.5335, -0.2759, 0.3135, 0.5335, -0.2122, 0.2331, 0.0025, -0.3337, 0.2331, 0.5335, -0.3337, 0.2777, 0.5335, -0.2759, 0.1806, 0.0025, -0.3843, 0.1806, 0.5335, -0.3843, 0.2331, 0.5335, -0.3337, 0.1212, 0.0025, -0.4268, 0.1212, 0.5335, -0.4268, 0.1806, 0.5335, -0.3843, 0.0563, 0.0025, -0.4602, 0.0563, 0.5335, -0.4602, 0.1212, 0.5335, -0.4268, -0.3007, 0.5335, 0.4732, -0.3007, 0.0025, 0.4732, -0.2301, 0.0025, 0.4917, 0.1212, 0.5335, -0.4268, 0.1212, 0.0025, -0.4268, 0.0563, 0.0025, -0.4602, -0.2301, 0.0025, -0.4917, -0.2301, 0.5335, -0.4917, -0.1575, 0.5335, -0.4997, 0.3554, 0.5335, 0.0728, 0.3554, 0.0025, 0.0728, 0.3607, 0.0025, 0, 0.1806, 0.5335, -0.3843, 0.1806, 0.0025, -0.3843, 0.1212, 0.0025, -0.4268, -0.2301, 0.5335, 0.4917, -0.2301, 0.0025, 0.4917, -0.1575, 0.0025, 0.4997, -0.0846, 0.0025, 0.497, -0.1575, 0.5335, 0.4997, -0.1575, 0.0025, 0.4997, -0.0846, 0.5335, 0.497, -0.0846, 0.0025, 0.497, -0.0128, 0.0025, 0.4837, -0.0128, 0.5335, 0.4837, -0.0128, 0.0025, 0.4837, 0.0563, 0.0025, 0.4602, 0.2331, 0.0025, -0.3337, 0.1806, 0.0025, -0.3843, 0.2331, 0.5335, -0.3337)
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_og1vs"]
 vertices = PackedVector3Array(-19.25, 1, -24.5, -19.25, 1, -23.75, -18.25, 1, -23.75, -13, 1, -25.75, -13.75, 1, -27, -24.25, 1, -25, -22.75, 1, -25, -22.5, 1, -25.5, -7, 1, -34.25, -5.5, 1, -34.25, -4.75, 1, -34.75, -4.75, 1, -49.5, -20.25, 1, -25.25, -13.25, 1, -30.5, -12, 1, -31.75, -8.5, 1, -32.25, -49.5, 1, -49.5, -49.5, 1, -22.75, -26, 1, -22.75, 0.5, 1, -32.75, 0.5, 1, -32, 1.5, 1, -32, 7.5, 1, -38.5, 7.5, 1, -39.25, 8, 1, -39.5, 8, 1, -41.5, 9.5, 1, -43, 12, 1, -43.5, 12, 1, -49.5, 8.25, 1, -37.25, -0.75, 1, -33.5, 17.75, 1, -31.5, 18, 1, -30.5, 18.75, 1, -30.25, 21.25, 1, -31, 22.25, 1, -32, 32.5, 1, -34, 33, 1, -34.25, 32.75, 1, -35.75, 24, 1, -32.5, 26.5, 1, -32, 14.25, 1, -42.75, 14.5, 1, -41.75, 15.75, 1, -41.75, 16.25, 1, -32.5, 16.25, 1, -31.75, 27.25, 1, -31.5, 27.25, 1, -30.75, 28.75, 1, -30.5, 32, 1, -30, 29, 1, -28, 30.25, 1, -29.5, 23.75, 1, -32, 31.75, 1, -29.5, 33.5, 1, -29.75, 33.75, 1, -30.75, 32.5, 1, -32.75, 18.75, 1, -28.5, 20.75, 1, -28.5, 20.5, 1, -30, 34.25, 1, -37.5, 36.75, 1, -49.5, 16.25, 1, -41, 16, 1, -38, 14.75, 1, -37.75, 14.25, 1, -36.25, 15.5, 1, -33, 12.75, 1, -35.75, 13.25, 1, -33.5, 36.75, 1, -38, 38.75, 1, -37.5, 39.25, 1, -36.25, 40.75, 1, -36.25, 41, 1, -34.25, 49.5, 1, -34.25, 49.5, 1, -49.5, 11.5, 8.25, -39, 12.25, 8.25, -39, 12, 8.25, -40, 11.25, 8.25, -39.75, 11.25, 1, -33, 12.75, 1, -33, 11.5, 1, -35.5, 10.5, 1, -36.75, 9, 1, -36.25, 10, 1, -31.75, 2.25, 1, -29.75, 9.75, 1, -29.5, 9.5, 1, -31, 2, 1, -31.75, 36.25, 8.25, -34.25, 36.25, 8.25, -33.75, 37, 8.25, -33.5, 37, 8.25, -34.5, 36.5, 1, -30, 36.5, 1.25, -30.75, 35.75, 1, -30.75, 35, 1, -29.25, 38.75, 1, -22, 38.5, 1, -20.75, 38.75, 1, -20.5, 40.5, 1, -20.5, 40.75, 1, -21, 40.25, 1, -22.25, 44, 1, -20, 44, 1, -19.25, 45.5, 1, -19, 35.5, 1, -31.25, 41, 1, -32.5, 39.5, 1, -32.25, 39.5, 1, -31.25, 37.5, 1, -30, 36.75, 1, -28, 38.25, 1, -27.25, 43, 1, -20.75, 49.5, 1, -17.25, 40.25, 1, -25.75, 38.75, 1, -26.25, 35.25, 1, -28.25, 45.75, 1, -17.25, -5, 8.25, -30.25, -4.25, 8.25, -30.25, -4.5, 8.25, -31.25, -5.25, 8.25, -31, -2.5, 8.25, -29.25, -1.75, 8.25, -29.25, -2, 8.25, -30.25, -2.75, 8.25, -30, 14, 8.25, -28, 14.75, 8.25, -27.75, 14.75, 8.25, -28.75, 13.75, 8.25, -30, 13, 8.25, -29.5, 11.25, 1, -25.25, 11, 1, -26.25, 10.25, 1, -26.5, 2, 1, -28.25, 0.75, 1, -28, 0.75, 1, -27, 3.75, 1, -21.75, 7, 1, -20.5, 7, 1, -19.75, 8.75, 1, -19.5, 1.75, 1, -21, 3.5, 1, -21, 0, 1, -26.5, 11.25, 1, -17.25, 11.75, 1, -18, 11.5, 1, -19.5, 8.75, 1, -17.5, 13, 1, -21.25, 14.75, 1, -21.25, 15.25, 1, -21.75, 14.75, 1, -24.25, 12.5, 1, -25, 13.25, 1, -25.5, 6, 1, -21.25, 12.25, 1, -20.5, 9.5, 1, -28, 24, 8.25, -28.25, 25, 8.25, -28, 25, 8.25, -29, -10, 8.25, -28, -9.25, 8.25, -27.75, -9.25, 8.5, -28.75, -10, 8.25, -28.75, 17.75, 1, -20.75, 18.75, 1, -20.75, 19, 1, -21.25, 17, 1, -21.5, 16.75, 1, -25, 20.5, 1, -27, 18.75, 1, -26.75, 22, 1, -25.25, 21, 1, -20.75, 17.5, 1, -26.5, -2.5, 1, -25.75, -3.5, 1, -27, -4.25, 1, -26.5, -6.75, 1, -13.25, -6.5, 1, -12, -5.25, 1, -12, 0.5, 1, -15.75, -6.75, 1, -26.5, -7.25, 1, -25, 0.25, 1, -19.25, -9.25, 1, -24.25, -9, 1, -14, 28.25, 1, -25.5, 29, 1, -26.5, 27.5, 1, -26.5, 27.25, 1, -25.25, 28, 1, -22.5, 25.5, 1, -24.5, 24.25, 1, -24.5, 23.5, 1, -19.25, 23.75, 1, -18.75, 29.5, 1, -20.5, 22, 1, -20.25, 22, 1, -19.5, 23.5, 1, -25.5, 32.25, 8.25, -26.25, 32.25, 8.25, -25.75, 33, 8.25, -25.5, 33, 8.25, -26.5, -15.25, 1, -9, -14.5, 1, -9, -13.75, 1, -9.5, -14, 1, -11, -15.5, 1, -12, -17, 1, -12.75, -17, 1, -12, -12.5, 1, -25, -17.5, 1, -23.25, -17.5, 1, -20.25, -19, 1, -19.75, -19.5, 1, -18.25, -20.25, 1, -13.75, -18.5, 1, -13.75, -11, 1, -25.5, -12.25, 1, -13, -21.5, 1, -17.5, -20.75, 1, -13.25, 31.75, 8.25, -23.5, 32.5, 8.25, -23.25, 32.5, 8.25, -24.25, 31.75, 8.25, -24.25, 35.5, 8.25, -24, 36.25, 8.25, -23.5, 36.25, 8.5, -24.25, -49.5, 1, -20, -26, 1, -20, -22.25, 8.25, -21, -21.5, 8.25, -21, -21.75, 8.25, -22, -22.5, 8.25, -21.75, 32, 1, -19.75, 32, 1.25, -20.5, 31, 1, -20.75, 23.75, 1, -15.5, 23.25, 1, -15.25, 25, 1, -14.75, 36.25, 1, -15.5, 37, 1, -16, 37, 1, -17, 37.5, 1, -17.25, 37.25, 1, -18.75, 37, 1, -20, 34.5, 1, -15.5, 33, 1, -19.75, 35.75, 1, -20, 34.5, 1, -20.75, 33, 1, -13.5, -22.25, 1, -17.5, -23.25, 1, -18.75, -24.75, 1, -18.25, -23.5, 1, -11.75, -22, 1, -13.25, -49.5, 1, -9.75, -23.75, 1, -9.5, 15, 8.25, -18, 15.25, 8.25, -17.25, 16, 8.25, -17.5, 15.75, 8.25, -18.25, 3.75, 8.25, -17.75, 4, 8.25, -17, 4.5, 8.25, -17.25, 4.5, 8.5, -18, 9.25, 1, -12.25, 10.75, 1, -12.25, 11, 1, -12.75, 8.75, 1, -16, 7.25, 1, -15.75, 7.25, 1, -14.75, 15.5, 1, -13.75, 14.25, 1, -15, 12.5, 1, -14.5, 14.25, 1, -11.75, 6.75, 1, -14.5, 8, 1, -10.75, 19, 8.25, -17, 19.75, 8.25, -16.75, 19.75, 8.5, -17.5, 19, 8.25, -17.5, 40.75, 8.25, -17.25, 40.75, 8.25, -16.75, 41.5, 8.25, -16.5, 41.5, 8.5, -17.5, 37.5, 1, -8.25, 37.25, 1, -7.75, 38.5, 1, -7.5, 39.25, 1, -8.75, 44.75, 1, -3.25, 47, 1, 1.75, 49.5, 1, 3.5, 45.25, 1, 0.75, 45.25, 1, 1.5, 45.5, 1, -15.5, 44.25, 1, -15.25, 44, 1, -14, 38.75, 1, -6.25, 40.25, 1, -6.25, 41.25, 1, -10.5, 40, 1, -10.25, 42.5, 1, -4.75, 40.5, 1, -5.25, 43, 1, -3.5, 47, 1, 3.5, 44.75, 1, 0.5, 41.25, 1, -13, 7.25, 1, -8.5, 7.75, 1, -8.75, 7.5, 1, -10.25, 4.75, 1, -7.75, 2.75, 1, -7.25, 4.5, 1, -7.25, 7.5, 1, -7.25, 4.25, 1, -13.75, 3, 1, -14.75, 1.5, 1, -14.25, -4.75, 1, -11.75, 5.5, 1, -13.75, -4.75, 1, -8.25, 1.25, 1, -5.25, -5.25, 1, -8, 19.25, 1, -13.25, 19.25, 1.25, -13.75, 18.5, 1, -13.75, 22.25, 1, -15.25, 22.25, 1, -14.25, 14.25, 1, -11, 15.75, 1, -10.5, 20.5, 1, -13.25, 15.75, 1, -7.25, 24.75, 1, -3, 25.25, 1, -3, 18.25, 1, -14.25, 35.5, 1, -8.25, 36.5, 1, -8.25, 35.75, 1, -9.25, 35, 1, -8.75, 30, 1, -2.25, 32, 1, -3, 32.5, 1, -6.25, 25.5, 1, -2.25, 26.25, 1, -2.25, 35.25, 1, -7.5, 33.75, 1, -9, 33.75, 1, -7.5, 32.75, 1, -12, 33.25, 1, -12.25, 32.75, 1, -11, 26.5, 1, -1.75, 36.5, 8.25, -12.25, 36.5, 8.25, -11.75, 37.25, 8.25, -11.5, 37.25, 8.25, -12.5, -19.75, 8.25, -9.25, -19, 8.25, -9.5, -19.25, 8.5, -10.25, -20, 8.25, -10.25, -8.75, 8.25, -9.5, -8.75, 8.5, -10.25, -9.5, 8.25, -10.25, -10.5, 8.25, -9.5, -10.25, 8.25, -9, -22.25, 1, -4.25, -21.75, 1, -5, -21.75, 1, -6.5, -23, 1, -7, -49.5, 1, -4, 11, 8.25, -9, 11, 8.25, -8.5, 11.75, 8.25, -8.25, 11.75, 8.25, -9.25, -13.25, 1, -0.5, -14, 1, -0.25, -13.5, 1, 1, -9.5, 1, -4, -10.75, 1, -3.75, -10.75, 1, -2.75, -6.25, 1, -7.75, -6.75, 1, -6.5, 1.25, 1, -2.25, -11.75, 1, 1.25, -13, 1, -1.75, 5.25, 1, 0.25, 4, 1, -1, 2.5, 1, -0.5, 4.75, 1, 7.25, 5.25, 1, 7.25, 3, 1, 9.25, -10, 1, 4.75, -10.25, 1, 8.5, -9.25, 1, -5.75, -11.75, 1, 4.25, 2, 1, -1, 14.5, 1, -6, 14, 1, -5.75, 14.5, 1, -5.25, 14.5, 1, -6.75, 14.5, 1, -3, -14, 8.25, -5, -13.25, 8.25, -5, -13.5, 8.25, -6, -14.25, 8.25, -5.75, -18.5, 8.25, -4.5, -17.75, 8.25, -4.25, -17.75, 8.5, -5, -18.5, 8.25, -5, -20.25, 1, 1.75, -19.75, 1, 1.25, -20.75, 1, 1, -18.5, 1, 7.75, -18.25, 1, 6.5, -19, 1, 6.5, -23.25, 1, 15.25, -23.25, 1, 16.75, -23, 1, 16.75, -22.75, 1, 14.5, -30, 1, 13.5, -22.25, 1, -3.25, -49.5, 1, 15.5, -31.5, 1, 15.5, -21.25, 1, 12.75, -19.75, 1, 12.75, -19.5, 1, 12.25, -25, 1, 14.75, -25.5, 1, 13.5, -21.75, 1, -1, -21.5, 1, -2.25, -20, 1, 5.25, -26.75, 1, 13, -17.5, 1, 12.5, -17.25, 1, 9.75, 36, 8.25, -3.75, 36.75, 8.25, -3.75, 36.5, 8.5, -4.5, 35.75, 8.25, -4.5, 4.75, 8.25, -4, 5, 8.25, -3.25, 5.5, 8.25, -3.5, 5.5, 8.5, -4.25, 10, 8.25, -2.75, 10.75, 8.25, -2.75, 10.5, 8.25, -3.75, 9.75, 8.25, -3.5, 25, 1, -2, 17.25, 1, 4.75, 18.75, 1, 6, 25, 1, 4.5, 14.5, 1, -1.75, 17.75, 1, 6, 13.25, 1, -1.5, 13, 1, -0.25, 16, 1, 4.25, 12, 1, 0.25, 12.75, 1, 4.75, 34.75, 1, 0.25, 35.75, 1, -0.75, 34.5, 1, -1.25, 33.25, 1, -0.75, 34.75, 1, 3.75, 30.25, 1, 3.75, -18, 8.25, -2.25, -18, 8.25, -1.75, -17.25, 8.25, -1.5, -17.25, 8.5, -2.5, 40, 8.25, -1.5, 40, 8.25, -1, 40.75, 8.25, -0.75, 40.75, 8.25, -1.75, 6, 1, 7.25, 6.25, 1, 6.75, 9.75, 1, 0, 8.75, 1, -0.5, 8.25, 1, 0, 10, 1, 0.75, 9.5, 1, 7.75, 9.5, 1, 8.5, 10.75, 1, 8.75, 11.25, 1, 8.25, 11, 1, 6.5, 8.25, 1, 7, 6.5, 1, -0.25, 26.75, 1, -0.25, 26.75, 1, 3, 28.25, 1, 3, 28.25, 1, -0.25, 38.25, 8.25, 2.25, 39, 8.25, 2.5, 39, 8.5, 1.75, 38.25, 8.25, 1.75, -16.5, 8.25, 2.75, -16.75, 8.25, 3.25, -16.5, 8.25, 3.75, -15.75, 8.25, 3.75, -15.75, 8.25, 2.75, 42.25, 8.25, 4.25, 43, 8.25, 4.25, 42.75, 8.5, 3.25, 42, 8.25, 3.5, 32.75, 1, 21.75, 34, 1, 21.75, 34.25, 1, 21.25, 30, 1, 15.5, 39.75, 1, 7, 39.25, 1, 6, 38.5, 1, 6, 31.5, 1, 14.25, 30, 1, 14.75, 36.25, 1, 21.5, 37.5, 1, 22.25, 37.5, 1, 23, 39.25, 1, 23.5, 47, 1, 5.25, 45.5, 1, 5.5, 45.25, 1, 6.75, 42.25, 1, 7.75, 41.25, 1, 6.5, 31.5, 1, 11.25, 38.5, 1.25, 5.25, 36, 1, 5.25, 39.25, 1, 25, 49.5, 1, 25, 43.25, 1, 7.75, 29.5, 1, 9.5, 29.75, 1, 10.5, 31.25, 1, 10.75, 30.25, 1, 4.75, 29.5, 1, 5, 23.25, 1, 10, 23.5, 1, 10.5, 24.75, 1, 9.25, 26.25, 1, 9.25, 26.5, 1, 8.75, 21.5, 1, 8.75, 21.75, 1, 9.75, 28.75, 1, 4.5, 26.5, 1, 4.5, 26.25, 1, 5, 25.25, 1, 5, 19.25, 1, 6.25, 19.75, 1, 8.25, -14.75, 8.25, 6.75, -14, 8.25, 7, -14, 8.5, 6.25, -14.75, 8.25, 6.25, 14.75, 8.25, 8.75, 15.5, 8.25, 8.75, 15.25, 8.25, 7.75, 14.5, 8.25, 8, -14.5, 1, 10.5, -14.5, 1.25, 10, -15.25, 1, 10, -11.5, 1, 8.5, -11.5, 1, 9.5, -16.25, 1, 13.25, -16.25, 1, 14, -14.5, 1, 14.25, -15.5, 1, 9.5, -0.25, 1, 23, 0, 1, 24, 1.5, 1, 24.25, 3, 1, 23, 1.75, 1, 24.75, 3.75, 1, 24.25, 3.5, 1, 19.75, 5, 1, 18.25, 3.5, 1, 13.5, 2.75, 1, 12, -5, 1, 22.75, -2.25, 1, 22.25, 5.75, 1, 15.5, 6, 1, 14, 4, 1, 14, 6.5, 1, 18.25, 7.25, 1, 17.5, 3.25, 1, 10.5, -13.25, 1, 10.5, -14.5, 1, 17.5, -5.5, 1, 23.25, 6.5, 8.25, 11, 7.25, 8.25, 11.25, 7.25, 8.5, 10.5, 6.5, 8.25, 10.5, 18.75, 8.25, 11.5, 18.5, 8.25, 12, 18.5, 8.25, 12.5, 19.5, 8.25, 12.5, 19.5, 8.25, 11.5, 26.5, 8.25, 12.75, 27.25, 8.25, 13.25, 27.25, 8.25, 12.25, 14.25, 8.25, 14, 14.25, 8.25, 14.5, 15, 8.25, 14.75, 15, 8.25, 13.75, 8.75, 1, 17.25, 8, 1, 17.5, 7.75, 1, 18, 9.5, 1, 18.5, 9.75, 1, 18.5, 20, 1, 16, 17.75, 1, 16, 17.25, 1, 17.5, 18, 1, 19.75, 20.75, 1, 19.25, 15.5, 1, 18.25, 16.5, 1, 21.5, 9.75, 1, 19.5, 22.75, 1, 13.75, 22, 1, 14, 21.75, 1, 15.25, 24.25, 1, 16, 11.25, 1, 18.25, 11.5, 1, 20, 14.5, 1, 18.25, 11.5, 1, 23.5, 16.25, 1, 24, 14.5, 1.25, 17.5, 12.75, 1, 17.25, 22.75, 1, 20, 11, 1, 23.75, 9.5, 8.25, 14.25, 9.5, 8.25, 14.75, 10.25, 8.25, 15, 10.25, 8.5, 14, -49.5, 1, 18.75, -31.5, 1, 18.75, 30.75, 1, 23, 31.5, 1, 23, 28, 1, 16.75, 24.75, 1, 21.5, 23, 1, 21, 26.75, 1, 16.75, 25.75, 1, 15.75, 24.75, 1, 24.75, 29, 1, 25.25, -19.25, 8.25, 16.5, -18.5, 8.25, 16.75, -18.5, 8.25, 15.75, -19.25, 8.25, 15.75, -28, 8.25, 16.75, -28, 8.25, 17.25, -27.25, 8.25, 17.5, -27.25, 8.25, 16.5, -23.25, 1, 18.5, -21.75, 1, 19.5, -15.25, 1, 33.5, -17.25, 1, 19.75, -19, 1, 20.25, -24.5, 1, 18.75, -25, 1, 20.25, -19, 1.25, 19.5, -27.75, 1, 21, -28.75, 1, 19.75, -30.5, 1, 20.25, -11.25, 1, 39.25, -12.75, 1, 38, -14.25, 1, 38.5, -11.25, 1, 49.5, -15.5, 1, 36.75, -26.75, 1, 21, -49.5, 1, 49.5, -14.75, 1, 38, -3.75, 1, 30.75, -3.5, 1, 29.75, -4, 1, 29.25, -5.75, 1, 29.5, -5.5, 1, 30.5, -14.75, 1, 18, -16, 1, 18, -16, 1, 19, -6.75, 1, 24.75, -13.75, 1, 31.75, -12.25, 1, 31.75, -12, 1, 31.25, -5.75, 1, 31, -6.75, 1, 27.75, -7.5, 1, 31, -9.75, 1, 31.5, -8.5, 1, 32.5, 6.75, 8.25, 22, 7.5, 8.25, 22.25, 7.5, 8.5, 21.5, 6.75, 8.25, 21.5, 20, 8.25, 23.25, 20, 8.25, 23.75, 20.75, 8.25, 23.75, 20.75, 8.25, 22.75, -3, 1, 30.25, -2.75, 1, 31, 1.5, 1, 28, 0.25, 1, 29, -0.75, 1, 32.5, -0.5, 1, 35, 8.25, 1, 25.75, 7, 1, 25.75, 20.25, 1, 27.25, 20.25, 1.25, 26.75, 19.5, 1, 26.75, 7, 1.25, 25.25, 6.25, 1, 25.25, 10, 1, 23.75, 10, 1, 24.75, 16.25, 1, 24.75, 0.25, 1, 28.25, -1, 1, 30, -2.25, 1, 32.25, 19.25, 1, 26.25, 17.5, 1, 26.5, 6, 1, 24.75, 4.25, 1, 25, 18.25, 1, 38, 19.75, 1, 35.75, -1.25, 1, 36.25, 21.5, 1, 35.5, 21, 1, 27.25, 28.75, 1, 26.75, 29.25, 1, 26.5, 24.5, 1, 25.25, 32.75, 1, 30.5, 31.75, 1, 29.25, 31.25, 1, 29.75, 28.25, 1, 33.75, 29.75, 1, 33.75, 30, 1, 33.25, 30, 1, 29.75, 28.75, 1, 27.5, 34, 1, 31.75, 35, 1, 31.75, 34.75, 1, 30, 23, 1, 35.25, 23, 1, 26.5, 23.25, 1, 25.25, 25, 1, 37, 26.75, 1, 37.25, 26.75, 1, 35.5, 24.75, 1, 36, 32.5, 1, 33.75, 34.5, 8.25, 25.5, 35.25, 8.25, 25.75, 35.25, 8.25, 24.75, 34.5, 8.25, 24.75, 35.75, 1, 31.25, 39.25, 1, 26.75, 38, 1, 27, 37.5, 1, 28.5, 38.5, 1, 31.75, 39, 1, 33, 40.75, 1, 33.25, 40.75, 1, 35, 49.5, 1, 35, -3.25, 8.25, 26.25, -2.5, 8.25, 26.75, -2.5, 8.25, 25.75, 32.5, 8.25, 26.25, 32.75, 8.25, 27, 33.5, 8.25, 27, 33.5, 8.25, 26, -5.25, 8.25, 35, -4.5, 8.25, 35, -4.75, 8.25, 34, -5.5, 8.25, 34.25, -11.75, 8.25, 35.75, -11, 8.25, 35.75, -11.25, 8.25, 34.75, -12, 8.25, 35, 36, 8.25, 35, 36.25, 8.25, 35.75, 37, 8.25, 35.5, 36.75, 8.25, 34.75, 40.5, 1, 37, 39.5, 1, 37, 38.75, 1, 38.5, 36.5, 1, 39.25, 36, 1, 49.5, 49.5, 1, 49.5, 18, 1, 39.5, 18.5, 1, 39.25, -2, 1, 36.25, -2.25, 1, 37.5, 19.5, 1, 49.5, 19.5, 1, 42.5, 18, 1, 40.25, -4.75, 1, 49.5, -4.75, 1, 38.5, 30.25, 8.25, 37, 30.25, 8.25, 37.5, 31, 8.25, 37.75, 31, 8.25, 36.75, -7.75, 1, 37.75, -8.5, 1, 37, -9, 1, 38.5, -6.25, 1, 37.25, 35, 1, 38, 34.75, 1, 39, 33.5, 1, 39, 33, 1, 40.5, 31, 1, 41.25, 31, 1, 49.5, 27.75, 1, 40.5, 26.5, 1, 38.5, 26.5, 1, 40.75, 25, 1, 41.25, 24.75, 1, 42.5, 22, 1, 43.25, 21, 1, 42, 29.5, 1, 40, 22, 8.25, 39.75, 22.75, 8.25, 39.75, 22.5, 8.25, 38.75, 21.75, 8.25, 39)
@@ -146,6 +198,29 @@ buffer = PackedFloat32Array(1, 0, 0, -51.9754, 0, 1, 0, 0, 0, 0, 1, -38.4678, 1,
 [node name="HouseMain" type="Node3D" parent="."]
 script = ExtResource("8_85g3d")
 
+[node name="NewPotionArea" type="Area3D" parent="HouseMain"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.851429, 0.73908, -1.12523)
+collision_layer = 128
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HouseMain/NewPotionArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.036026, 0, 0.0414734)
+shape = SubResource("BoxShape3D_jscy8")
+
+[node name="Potion" parent="HouseMain/NewPotionArea" instance=ExtResource("13_yc10j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.133103, 0)
+
+[node name="Table" type="StaticBody3D" parent="HouseMain"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -0.173101, -1.78814e-07, -0.957475)
+collision_layer = 2
+
+[node name="Root Scene" parent="HouseMain/Table" instance=ExtResource("11_gqmmt")]
+transform = Transform3D(0.6, 0, 0, 0, 0.7, 0, 0, 0, 0.5, -0.0238755, 0, -0.0820643)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HouseMain/Table"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.280824, -0.10556)
+shape = SubResource("BoxShape3D_gqmmt")
+
 [node name="RecipePanel" type="MeshInstance3D" parent="HouseMain"]
 transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 1.69307, 0.989666, 0)
 material_override = SubResource("StandardMaterial3D_85g3d")
@@ -172,7 +247,7 @@ transform = Transform3D(-4.37114e-09, 0.1, -4.37114e-09, 0, -4.37114e-09, -0.1, 
 pixel_size = 0.001
 
 [node name="LeverSmooth" parent="HouseMain" instance=ExtResource("9_85g3d")]
-transform = Transform3D(-4.37114e-08, 1, 4.37114e-08, 0, -4.37114e-08, 1, 1, 4.37114e-08, 1.91069e-15, 0.927262, 0.483146, 0.668119)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1.64859, 0.752993, 0.903671)
 
 [node name="House" parent="HouseMain" instance=ExtResource("8_tipki")]
 transform = Transform3D(-3.49691e-08, 0, 0.8, 0, 0.7, 0, -0.8, 0, -3.49691e-08, 0.257542, 0, 0)
@@ -180,16 +255,96 @@ transform = Transform3D(-3.49691e-08, 0, 0.8, 0, 0.7, 0, -0.8, 0, -3.49691e-08, 
 [node name="Lights" type="Node3D" parent="HouseMain"]
 
 [node name="OmniLight3D" type="OmniLight3D" parent="HouseMain/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.40884, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.40884, 0.382185)
 light_color = Color(1, 0.765719, 0.409004, 1)
+light_energy = 3.0
 
-[node name="Viewport2Din3D" parent="HouseMain" instance=ExtResource("5_0ld40")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.199025, 1.11768, 3.02171)
+[node name="Recipes" parent="HouseMain" instance=ExtResource("5_0ld40")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.199025, 1.17836, 3.02171)
 screen_size = Vector2(2.4, 1.35)
 enabled = false
 scene = ExtResource("6_gqmmt")
 viewport_size = Vector2(960, 700)
 scene_properties_keys = PackedStringArray()
+
+[node name="IngredientTable" type="StaticBody3D" parent="HouseMain"]
+transform = Transform3D(-0.714473, 0, 0.699663, 0, 1, 0, -0.699663, 0, -0.714473, 0.79148, -2.98023e-07, 2.00882)
+collision_layer = 2
+
+[node name="Root Scene" parent="HouseMain/IngredientTable" instance=ExtResource("11_gqmmt")]
+transform = Transform3D(0.6, 0, 0, 0, 0.7, 0, 0, 0, 0.5, -0.0238755, 0, -0.0820643)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HouseMain/IngredientTable"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.280824, -0.10556)
+shape = SubResource("BoxShape3D_gqmmt")
+
+[node name="Areas" type="Node3D" parent="HouseMain/IngredientTable"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.58302, 0)
+
+[node name="NewCrimsonLeaf" type="Area3D" parent="HouseMain/IngredientTable/Areas"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.3, 5.96046e-08, 0.457034)
+collision_layer = 128
+collision_mask = 0
+
+[node name="crimson_leaf" parent="HouseMain/IngredientTable/Areas/NewCrimsonLeaf" instance=ExtResource("8_pm3ni")]
+material_override = SubResource("StandardMaterial3D_og1vs")
+mesh = SubResource("PlaneMesh_2wyq8")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HouseMain/IngredientTable/Areas/NewCrimsonLeaf"]
+transform = Transform3D(0.999991, 0, -5.96046e-07, 0, 1, 0, 5.96046e-07, 0, 0.999991, 0, 0, 0)
+shape = SubResource("BoxShape3D_tel4y")
+
+[node name="NewDragonsEyeResin" type="Area3D" parent="HouseMain/IngredientTable/Areas"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.3, 5.96046e-08, 0.215595)
+collision_layer = 128
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HouseMain/IngredientTable/Areas/NewDragonsEyeResin"]
+transform = Transform3D(0.999991, 0, -5.96046e-07, 0, 1, 0, 5.96046e-07, 0, 0.999991, 0, 0, 0)
+shape = SubResource("BoxShape3D_tel4y")
+
+[node name="dragons_eye_resin" parent="HouseMain/IngredientTable/Areas/NewDragonsEyeResin" instance=ExtResource("10_og1vs")]
+material_override = SubResource("StandardMaterial3D_vxglm")
+mesh = SubResource("PlaneMesh_2f3dj")
+
+[node name="NewGriffinFeather" type="Area3D" parent="HouseMain/IngredientTable/Areas"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.3, 5.96046e-08, -0.0286223)
+collision_layer = 128
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HouseMain/IngredientTable/Areas/NewGriffinFeather"]
+transform = Transform3D(0.999991, 0, -5.96046e-07, 0, 1, 0, 5.96046e-07, 0, 0.999991, 0, 0, 0)
+shape = SubResource("BoxShape3D_tel4y")
+
+[node name="griffin_feather" parent="HouseMain/IngredientTable/Areas/NewGriffinFeather" instance=ExtResource("12_tel4y")]
+material_override = SubResource("StandardMaterial3D_fuf3a")
+mesh = SubResource("PlaneMesh_pibwh")
+
+[node name="NewPhoenixAsh" type="Area3D" parent="HouseMain/IngredientTable/Areas"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.3, 5.96046e-08, -0.291721)
+collision_layer = 128
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HouseMain/IngredientTable/Areas/NewPhoenixAsh"]
+transform = Transform3D(0.999991, 0, -5.96046e-07, 0, 1, 0, 5.96046e-07, 0, 0.999991, 0, 0, 0)
+shape = SubResource("BoxShape3D_tel4y")
+
+[node name="phoenix_ash" parent="HouseMain/IngredientTable/Areas/NewPhoenixAsh" instance=ExtResource("14_5q0nq")]
+material_override = SubResource("StandardMaterial3D_c6pm6")
+mesh = SubResource("PlaneMesh_5he1u")
+
+[node name="NewSpectralLily" type="Area3D" parent="HouseMain/IngredientTable/Areas"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.3, 5.96046e-08, -0.57671)
+collision_layer = 128
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="HouseMain/IngredientTable/Areas/NewSpectralLily"]
+transform = Transform3D(0.999991, 0, -5.96046e-07, 0, 1, 0, 5.96046e-07, 0, 0.999991, 0, 0, 0)
+shape = SubResource("BoxShape3D_tel4y")
+
+[node name="spectral_lily" parent="HouseMain/IngredientTable/Areas/NewSpectralLily" instance=ExtResource("16_j8jky")]
+material_override = SubResource("StandardMaterial3D_5poiv")
+mesh = SubResource("PlaneMesh_2cjbq")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_0wfyh")
@@ -201,23 +356,10 @@ shadow_enabled = true
 [node name="Origin" parent="." instance=ExtResource("1_o5qli")]
 
 [node name="Cauldron" parent="." instance=ExtResource("4_jyhfs")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.95289, 0.000258088, -1.0252e-05)
-
-[node name="Table" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.08655, 0, 0)
-collision_layer = 2
-
-[node name="CSGBakedMeshInstance3D" type="MeshInstance3D" parent="Table"]
-mesh = SubResource("ArrayMesh_sugp2")
-skeleton = NodePath("../..")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Table"]
-shape = SubResource("ConcavePolygonShape3D_jyhfs")
+transform = Transform3D(1.4, 0, 0, 0, 1, 0, 0, 0, 1.4, 0.954092, 0.000258088, 0.00234979)
 
 [node name="Pickables" type="Node3D" parent="."]
-
-[node name="PickablePotion" parent="Pickables" instance=ExtResource("9_choun")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.29075, 0.589764, -0.900922)
+script = ExtResource("12_yc10j")
 
 [node name="Nature" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9793, 0, 0)

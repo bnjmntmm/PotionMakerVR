@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2rheju5fh28o"
-path.s3tc="res://.godot/imported/T_Brick_BaseColor.png-f9679bf73b85fa5d43174c31eb89c4d5.s3tc.ctex"
-path.etc2="res://.godot/imported/T_Brick_BaseColor.png-f9679bf73b85fa5d43174c31eb89c4d5.etc2.ctex"
+path.s3tc="res://.godot/imported/T_Brick_BaseColor.png-dcc6ebfd75b368099bc27ffb88536045.s3tc.ctex"
+path.etc2="res://.godot/imported/T_Brick_BaseColor.png-dcc6ebfd75b368099bc27ffb88536045.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/models/modular_village/T_Brick_BaseColor.png"
-dest_files=["res://.godot/imported/T_Brick_BaseColor.png-f9679bf73b85fa5d43174c31eb89c4d5.s3tc.ctex", "res://.godot/imported/T_Brick_BaseColor.png-f9679bf73b85fa5d43174c31eb89c4d5.etc2.ctex"]
+source_file="res://Assets/models/modular_village/T_Brick_BaseColor.png"
+dest_files=["res://.godot/imported/T_Brick_BaseColor.png-dcc6ebfd75b368099bc27ffb88536045.s3tc.ctex", "res://.godot/imported/T_Brick_BaseColor.png-dcc6ebfd75b368099bc27ffb88536045.etc2.ctex"]
 
 [params]
 
