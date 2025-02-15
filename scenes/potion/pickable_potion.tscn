@@ -1,9 +1,10 @@
-[gd_scene load_steps=14 format=4 uid="uid://cospri4nox8ge"]
+[gd_scene load_steps=15 format=4 uid="uid://cospri4nox8ge"]
 
 [ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_em3m3"]
 [ext_resource type="Script" uid="uid://cgubixlu2bc2b" path="res://scenes/potion/potion.gd" id="2_84aww"]
-[ext_resource type="Shader" uid="uid://def3v8dbbv27r" path="res://assets/LiquidShader/Shader/glas.gdshader" id="3_8rmxh"]
+[ext_resource type="Shader" uid="uid://def3v8dbbv27r" path="res://Assets/LiquidShader/Shader/glas.gdshader" id="3_8rmxh"]
 [ext_resource type="PackedScene" uid="uid://ctw7nbntd5pcj" path="res://addons/godot-xr-tools/objects/grab_points/grab_point_hand_right.tscn" id="4_w6fs5"]
+[ext_resource type="AudioStream" uid="uid://c2pkk6vfdelj2" path="res://Assets/Sounds/pickupBottle.wav" id="6_svka1"]
 [ext_resource type="PackedScene" uid="uid://c25yxb0vt53vc" path="res://addons/godot-xr-tools/objects/grab_points/grab_point_hand_left.tscn" id="8_lv3cg"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_84aww"]
@@ -137,3 +138,7 @@ editor_preview_mode = 1
 [node name="GrabPointHandRight" parent="." index="3" instance=ExtResource("4_w6fs5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0709754, 0.142614, -0.0653809)
 editor_preview_mode = 1
+
+[node name="PickupSound" type="AudioStreamPlayer3D" parent="." index="4"]
+stream = ExtResource("6_svka1")
+volume_db = -10.0

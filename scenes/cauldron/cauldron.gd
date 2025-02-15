@@ -1,12 +1,13 @@
 extends Node3D
 
 @onready var interactable_hinge: XRToolsInteractableHinge = $SteeringOrigin/InteractableHinge
-@onready var interactable_handle: XRToolsInteractableHandle = $SteeringOrigin/InteractableHinge/Handle/InteractableHandle
+@onready var interactable_handle: XRToolsInteractableHandle = $SteeringOrigin/InteractableHinge/Handle/InteractableHandleSpoon
 
 @onready var finish_sound: AudioStreamPlayer3D = $FinishSound
 @onready var bubbling_water: AudioStreamPlayer3D = $BubblingWater
 @onready var bubble_particles: GPUParticles3D = $BubbleParticles
 @onready var flush_particles: GPUParticles3D = $FlushParticles
+@onready var sploosh_sound: AudioStreamPlayer3D = $SplooshSound
 
 @onready var house_main: Node3D = $"../HouseMain"
 
@@ -48,7 +49,6 @@ func _on_interactable_hinge_released(interactable: Variant) -> void:
 func _physics_process(delta: float) -> void:
 	if is_moving:
 		current_spoon_value = interactable_hinge.hinge_position
-		$ProcentValue.text = "Value: " + str(snappedf(current_spoon_value,0.01))
 		if current_spoon_value == 1090 and not potion_brewed:
 			App.recipe_cooked.emit()
 			
@@ -58,6 +58,8 @@ func _on_ingredient_area_body_entered(body: Node3D) -> void:
 	if not potion_brewed:
 		for child in body.find_children("*"):
 			if child.is_in_group("Ingredient"):
+				sploosh_sound.pitch_scale = randf_range(1.3,1.7)
+				sploosh_sound.play()
 				if not bubblingSoundPlaying:
 					bubblingSoundPlaying = true
 					bubble_particles.emitting = true
@@ -115,6 +117,7 @@ func clear_cauldron() -> void:
 	interactable_handle.enabled = false
 	potion_brewed = false
 	cooked_recipe = null
+	bubblingSoundPlaying = false
 
 	interactable_hinge.hinge_position = 0.0
 	liquid_material.albedo_color = standard_color
@@ -126,10 +129,11 @@ func clear_cauldron() -> void:
 ## check if potion brewed
 ## 
 func _on_bottle_area_body_entered(body: Node3D) -> void:
-	if potion_brewed and cooked_recipe != null:
+	if potion_brewed:
 		var potion_body =  body.get_child(1)
 		potion_body.liquid_color = liquid_material.albedo_color
-		potion_body.recipe = cooked_recipe
+		if cooked_recipe != null:
+			potion_body.recipe = cooked_recipe
 		
 func check_recipes_for_ingredients():
 	for recipe in App.recipe_scenes:

@@ -1,11 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://bn708v6nxeia1"]
+[gd_scene load_steps=7 format=3 uid="uid://bn708v6nxeia1"]
 
 [ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_fv2eq"]
 [ext_resource type="PackedScene" uid="uid://k6fqvbsd20h3" path="res://scenes/potion/IngredientsMesh/phoenix_ash.tscn" id="2_76pql"]
-[ext_resource type="Texture2D" uid="uid://6lytbfxpg7ha" path="res://assets/Ingredients/Textures/phoenix_ash.png" id="3_84ply"]
+[ext_resource type="Texture2D" uid="uid://6lytbfxpg7ha" path="res://Assets/Ingredients/Textures/phoenix_ash.png" id="3_84ply"]
+[ext_resource type="AudioStream" uid="uid://db0eg4wq88ie4" path="res://Assets/Sounds/pickupSound.wav" id="4_76pql"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p0ew3"]
 resource_local_to_scene = true
+cull_mode = 2
 shading_mode = 0
 albedo_texture = ExtResource("3_84ply")
 
@@ -19,3 +21,9 @@ collision_layer = 36
 [node name="phoenix_ash" parent="." index="1" instance=ExtResource("2_76pql")]
 material_override = SubResource("StandardMaterial3D_p0ew3")
 mesh = SubResource("PlaneMesh_1d6kt")
+
+[node name="PickupSound" type="AudioStreamPlayer3D" parent="." index="2"]
+stream = ExtResource("4_76pql")
+volume_db = -10.0
+pitch_scale = 1.42
+max_distance = 3.0

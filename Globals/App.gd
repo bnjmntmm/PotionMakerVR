@@ -1,5 +1,11 @@
 extends Node
 
+## signal to remove texts
+signal remove_tutorial_texts
+var firstTime = true
+
+signal show_plush
+
 signal recipe_cooked
 signal instantiated_recipe_scenes
 

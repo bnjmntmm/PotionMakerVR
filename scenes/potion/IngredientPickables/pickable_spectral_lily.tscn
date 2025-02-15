@@ -1,11 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://1766mll4cgql"]
+[gd_scene load_steps=7 format=3 uid="uid://1766mll4cgql"]
 
 [ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_qjo2k"]
 [ext_resource type="PackedScene" uid="uid://11pe4g2rc614" path="res://scenes/potion/IngredientsMesh/spectral_lily.tscn" id="2_lyuad"]
-[ext_resource type="Texture2D" uid="uid://ubdltx4nyibe" path="res://assets/Ingredients/Textures/spectral_lily.png" id="3_4hkne"]
+[ext_resource type="Texture2D" uid="uid://ubdltx4nyibe" path="res://Assets/Ingredients/Textures/spectral_lily.png" id="3_4hkne"]
+[ext_resource type="AudioStream" uid="uid://db0eg4wq88ie4" path="res://Assets/Sounds/pickupSound.wav" id="4_lyuad"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5qs8u"]
 resource_local_to_scene = true
+cull_mode = 2
 shading_mode = 0
 albedo_texture = ExtResource("3_4hkne")
 
@@ -19,3 +21,9 @@ collision_layer = 36
 [node name="spectral_lily" parent="." index="1" instance=ExtResource("2_lyuad")]
 material_override = SubResource("StandardMaterial3D_5qs8u")
 mesh = SubResource("PlaneMesh_b24c2")
+
+[node name="PickupSound" type="AudioStreamPlayer3D" parent="." index="2"]
+stream = ExtResource("4_lyuad")
+volume_db = -10.0
+pitch_scale = 1.42
+max_distance = 3.0

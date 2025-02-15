@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bby1rpmi2t23f"]
+
+[ext_resource type="PackedScene" uid="uid://l76da1sleber" path="res://Assets/godot_plush/godot_plush_sitting.glb" id="1_bdl3b"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bdl3b"]
+size = Vector3(0.381763, 0.286646, 0.4)
+
+[node name="GodotPlush" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00911866, 0.0276001, 0)
+shape = SubResource("BoxShape3D_bdl3b")
+
+[node name="godot_plush_sitting" parent="." instance=ExtResource("1_bdl3b")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, -0.116202, 0)

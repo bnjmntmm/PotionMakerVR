@@ -12,6 +12,13 @@ const CUSTOMER = preload("res://scenes/Customer/customer.tscn")
 var customerArray : Array = []
 
 func _ready() -> void:
+	if App.firstTime:
+		App.firstTime = false
+		App.remove_tutorial_texts.connect(spawnNPC)
+		
+	
+	
+func spawnNPC() -> void:
 	for i in range(1):
 		var new_customer = CUSTOMER.instantiate()
 		var spawn_loc = spawn_locations.get_children().pick_random()

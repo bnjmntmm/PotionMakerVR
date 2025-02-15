@@ -39,12 +39,6 @@ ranged_enable = false
 [node name="MovementDirect" parent="Controller_Left" instance=ExtResource("3_h7j80")]
 strafe = true
 
-[node name="FPS" type="Label3D" parent="Controller_Left"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0.024574, 0.172907)
-pixel_size = 0.001
-text = "dasasd"
-outline_size = 1
-
 [node name="GrabCollision" type="Area3D" parent="Controller_Left"]
 collision_layer = 0
 collision_mask = 128
@@ -64,7 +58,6 @@ script = ExtResource("7_uy1kb")
 ranged_enable = false
 
 [node name="MovementTurn" parent="Controller_Right" instance=ExtResource("1_lexhy")]
-turn_mode = 2
 
 [node name="GrabCollision" type="Area3D" parent="Controller_Right"]
 collision_layer = 0
@@ -75,8 +68,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.013002, 0, 0.063329)
 shape = SubResource("SphereShape3D_co78m")
 
 [connection signal="button_pressed" from="Controller_Left" to="Controller_Left" method="_on_button_pressed"]
+[connection signal="has_dropped" from="Controller_Left/FunctionPickup" to="Controller_Left" method="_on_function_pickup_has_dropped"]
+[connection signal="has_picked_up" from="Controller_Left/FunctionPickup" to="Controller_Left" method="_on_function_pickup_has_picked_up"]
 [connection signal="area_entered" from="Controller_Left/GrabCollision" to="Controller_Left" method="_on_grab_collision_area_entered"]
 [connection signal="area_exited" from="Controller_Left/GrabCollision" to="Controller_Left" method="_on_grab_collision_area_exited"]
 [connection signal="button_pressed" from="Controller_Right" to="Controller_Right" method="_on_button_pressed"]
+[connection signal="has_dropped" from="Controller_Right/FunctionPickup" to="Controller_Right" method="_on_function_pickup_has_dropped"]
+[connection signal="has_picked_up" from="Controller_Right/FunctionPickup" to="Controller_Right" method="_on_function_pickup_has_picked_up"]
 [connection signal="area_entered" from="Controller_Right/GrabCollision" to="Controller_Right" method="_on_grab_collision_area_entered"]
 [connection signal="area_exited" from="Controller_Right/GrabCollision" to="Controller_Right" method="_on_grab_collision_area_exited"]
