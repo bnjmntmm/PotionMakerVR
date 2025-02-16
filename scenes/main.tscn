@@ -136,29 +136,33 @@ albedo_color = Color(0.717883, 0.513453, 0.384852, 1)
 [sub_resource type="PlaneMesh" id="PlaneMesh_choun"]
 size = Vector2(0.4, 1)
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_og1vs"]
-resource_local_to_scene = true
-shading_mode = 0
-albedo_texture = ExtResource("9_y6deb")
-
-[sub_resource type="PlaneMesh" id="PlaneMesh_2wyq8"]
-resource_local_to_scene = true
-size = Vector2(0.1, 0.1)
-
 [sub_resource type="BoxShape3D" id="BoxShape3D_tel4y"]
 size = Vector3(0.15, 0.1, 0.15)
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vxglm"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kmb1v"]
 resource_local_to_scene = true
+transparency = 1
+cull_mode = 2
+shading_mode = 0
+albedo_texture = ExtResource("9_y6deb")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_fuf3a"]
+resource_local_to_scene = true
+size = Vector2(0.1, 0.1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dgi5k"]
+resource_local_to_scene = true
+transparency = 1
 shading_mode = 0
 albedo_texture = ExtResource("11_2wyq8")
 
-[sub_resource type="PlaneMesh" id="PlaneMesh_2f3dj"]
+[sub_resource type="PlaneMesh" id="PlaneMesh_j8jky"]
 resource_local_to_scene = true
 size = Vector2(0.1, 0.1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fuf3a"]
 resource_local_to_scene = true
+transparency = 1
 shading_mode = 0
 albedo_texture = ExtResource("13_qkpxi")
 
@@ -168,6 +172,7 @@ size = Vector2(0.1, 0.1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c6pm6"]
 resource_local_to_scene = true
+transparency = 1
 shading_mode = 0
 albedo_texture = ExtResource("15_dgi5k")
 
@@ -175,12 +180,13 @@ albedo_texture = ExtResource("15_dgi5k")
 resource_local_to_scene = true
 size = Vector2(0.1, 0.1)
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5poiv"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j8jky"]
 resource_local_to_scene = true
+transparency = 1
 shading_mode = 0
 albedo_texture = ExtResource("17_kmb1v")
 
-[sub_resource type="PlaneMesh" id="PlaneMesh_2cjbq"]
+[sub_resource type="PlaneMesh" id="PlaneMesh_kmb1v"]
 resource_local_to_scene = true
 size = Vector2(0.1, 0.1)
 
@@ -295,7 +301,7 @@ transform = Transform3D(-0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107
 visible = false
 
 [node name="NewPotionArea" type="Area3D" parent="HouseMain"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.851429, 0.73908, -1.12523)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.851117, 0.739189, -1.12509)
 collision_layer = 128
 collision_mask = 0
 
@@ -362,7 +368,7 @@ light_color = Color(1, 0.765719, 0.409004, 1)
 light_energy = 3.0
 
 [node name="Recipes" parent="HouseMain" instance=ExtResource("5_0ld40")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.199025, 1.17836, 3.02171)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.199382, 1.17954, 3.0222)
 screen_size = Vector2(2.4, 1.35)
 enabled = false
 scene = ExtResource("6_gqmmt")
@@ -388,13 +394,13 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.3, 5
 collision_layer = 128
 collision_mask = 0
 
-[node name="crimson_leaf" parent="HouseMain/IngredientTable/Areas/NewCrimsonLeaf" instance=ExtResource("8_pm3ni")]
-material_override = SubResource("StandardMaterial3D_og1vs")
-mesh = SubResource("PlaneMesh_2wyq8")
-
 [node name="CollisionShape3D" type="CollisionShape3D" parent="HouseMain/IngredientTable/Areas/NewCrimsonLeaf"]
 transform = Transform3D(0.999991, 0, -5.96046e-07, 0, 1, 0, 5.96046e-07, 0, 0.999991, 0, 0, 0)
 shape = SubResource("BoxShape3D_tel4y")
+
+[node name="crimson_leaf" parent="HouseMain/IngredientTable/Areas/NewCrimsonLeaf" instance=ExtResource("8_pm3ni")]
+material_override = SubResource("StandardMaterial3D_kmb1v")
+mesh = SubResource("PlaneMesh_fuf3a")
 
 [node name="NewDragonsEyeResin" type="Area3D" parent="HouseMain/IngredientTable/Areas"]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.3, 5.96046e-08, 0.215595)
@@ -406,8 +412,8 @@ transform = Transform3D(0.999991, 0, -5.96046e-07, 0, 1, 0, 5.96046e-07, 0, 0.99
 shape = SubResource("BoxShape3D_tel4y")
 
 [node name="dragons_eye_resin" parent="HouseMain/IngredientTable/Areas/NewDragonsEyeResin" instance=ExtResource("10_og1vs")]
-material_override = SubResource("StandardMaterial3D_vxglm")
-mesh = SubResource("PlaneMesh_2f3dj")
+material_override = SubResource("StandardMaterial3D_dgi5k")
+mesh = SubResource("PlaneMesh_j8jky")
 
 [node name="NewGriffinFeather" type="Area3D" parent="HouseMain/IngredientTable/Areas"]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.3, 5.96046e-08, -0.0286223)
@@ -445,8 +451,8 @@ transform = Transform3D(0.999991, 0, -5.96046e-07, 0, 1, 0, 5.96046e-07, 0, 0.99
 shape = SubResource("BoxShape3D_tel4y")
 
 [node name="spectral_lily" parent="HouseMain/IngredientTable/Areas/NewSpectralLily" instance=ExtResource("16_j8jky")]
-material_override = SubResource("StandardMaterial3D_5poiv")
-mesh = SubResource("PlaneMesh_2cjbq")
+material_override = SubResource("StandardMaterial3D_j8jky")
+mesh = SubResource("PlaneMesh_kmb1v")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_0wfyh")
@@ -706,9 +712,10 @@ script = ExtResource("32_qkpxi")
 transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -1.1405, 1.03944, 1.35724)
 
 [node name="TutorialTexts" type="Label3D" parent="HelperTexts/LeverSmooth"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.370804, 0.0483882)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.390713, 0.0483882)
 pixel_size = 0.001
-text = "Turn Tutorial Texts off"
+text = "Turn Tutorial Texts off
+and spawn first Customer"
 font_size = 40
 
 [node name="ClearCauldron" type="Label3D" parent="HelperTexts"]

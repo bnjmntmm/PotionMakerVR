@@ -1,11 +1,12 @@
 [gd_scene load_steps=6 format=3 uid="uid://11pe4g2rc614"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_eq0si"]
-[ext_resource type="Texture2D" uid="uid://ubdltx4nyibe" path="res://assets/Ingredients/Textures/spectral_lily.png" id="2_7e5gl"]
-[ext_resource type="Resource" uid="uid://bpe58maritvw6" path="res://assets/Ingredients/spectral_lily.tres" id="3_mgh2w"]
+[ext_resource type="Texture2D" uid="uid://ubdltx4nyibe" path="res://Assets/Ingredients/Textures/spectral_lily.png" id="2_7e5gl"]
+[ext_resource type="Resource" uid="uid://bpe58maritvw6" path="res://Assets/Ingredients/spectral_lily.tres" id="3_mgh2w"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u5eev"]
 resource_local_to_scene = true
+transparency = 1
 shading_mode = 0
 albedo_texture = ExtResource("2_7e5gl")
 

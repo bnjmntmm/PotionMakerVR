@@ -1,11 +1,12 @@
 [gd_scene load_steps=6 format=3 uid="uid://bk6aciql2012h"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_h5y2u"]
-[ext_resource type="Texture2D" uid="uid://ewj2ykt3atb3" path="res://assets/Ingredients/Textures/griffin_feather.png" id="2_jovee"]
-[ext_resource type="Resource" uid="uid://cw6dd2fpklk75" path="res://assets/Ingredients/griffin_feather.tres" id="3_qwl7a"]
+[ext_resource type="Texture2D" uid="uid://ewj2ykt3atb3" path="res://Assets/Ingredients/Textures/griffin_feather.png" id="2_jovee"]
+[ext_resource type="Resource" uid="uid://cw6dd2fpklk75" path="res://Assets/Ingredients/griffin_feather.tres" id="3_qwl7a"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j2yhl"]
 resource_local_to_scene = true
+transparency = 1
 shading_mode = 0
 albedo_texture = ExtResource("2_jovee")
 

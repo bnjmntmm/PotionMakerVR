@@ -1,11 +1,12 @@
 [gd_scene load_steps=6 format=3 uid="uid://k6fqvbsd20h3"]
 
 [ext_resource type="PackedScene" uid="uid://d1a7k0ys0mjmu" path="res://scenes/potion/IngredientsMesh/base/base_ingredientNode.tscn" id="1_mhxhd"]
-[ext_resource type="Texture2D" uid="uid://6lytbfxpg7ha" path="res://assets/Ingredients/Textures/phoenix_ash.png" id="2_iqsv0"]
-[ext_resource type="Resource" path="res://assets/Ingredients/phoenix_ash.tres" id="3_lr75a"]
+[ext_resource type="Texture2D" uid="uid://6lytbfxpg7ha" path="res://Assets/Ingredients/Textures/phoenix_ash.png" id="2_iqsv0"]
+[ext_resource type="Resource" uid="uid://dml0wukktygxu" path="res://assets/Ingredients/phoenix_ash.tres" id="3_lr75a"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cblmc"]
 resource_local_to_scene = true
+transparency = 1
 shading_mode = 0
 albedo_texture = ExtResource("2_iqsv0")
 
