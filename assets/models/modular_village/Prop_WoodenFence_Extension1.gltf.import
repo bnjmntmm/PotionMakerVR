@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cls7vk7234iyw"
-path="res://.godot/imported/Prop_WoodenFence_Extension1.gltf-4f03c021d70977b00fbf98f58d87acb5.scn"
+path="res://.godot/imported/Prop_WoodenFence_Extension1.gltf-7abefc6c58de0ebbdc1e1b60d115d532.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Prop_WoodenFence_Extension1.gltf"
-dest_files=["res://.godot/imported/Prop_WoodenFence_Extension1.gltf-4f03c021d70977b00fbf98f58d87acb5.scn"]
+source_file="res://assets/models/modular_village/Prop_WoodenFence_Extension1.gltf"
+dest_files=["res://.godot/imported/Prop_WoodenFence_Extension1.gltf-7abefc6c58de0ebbdc1e1b60d115d532.scn"]
 
 [params]
 

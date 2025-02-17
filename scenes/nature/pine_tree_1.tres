@@ -1,7 +1,7 @@
 [gd_resource type="ArrayMesh" load_steps=6 format=4 uid="uid://dkyph3a7371dn"]
 
-[ext_resource type="Texture2D" uid="uid://cqej3fvx8s8a6" path="res://Assets/models/nature/Tree_Bark.jpg" id="1_r2pv3"]
-[ext_resource type="Texture2D" uid="uid://cymbdw6rioj71" path="res://Assets/models/nature/Pine_Leaves.png" id="2_q8emt"]
+[ext_resource type="Texture2D" uid="uid://cqej3fvx8s8a6" path="res://assets/models/nature/Tree_Bark.jpg" id="1_r2pv3"]
+[ext_resource type="Texture2D" uid="uid://cymbdw6rioj71" path="res://assets/models/nature/Pine_Leaves.png" id="2_q8emt"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h7ej4"]
 albedo_texture = ExtResource("1_r2pv3")

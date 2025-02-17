@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvn6s0krhm10d"
-path="res://.godot/imported/Leaves_DarkRed.png-27175e7104d654ddde1327a8181a8756.ctex"
+path="res://.godot/imported/Leaves_DarkRed.png-30c03ed1c0c192b8ef860b78dafcfaff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/models/nature/Color Variations/Leaves_DarkRed.png"
-dest_files=["res://.godot/imported/Leaves_DarkRed.png-27175e7104d654ddde1327a8181a8756.ctex"]
+source_file="res://assets/models/nature/Color Variations/Leaves_DarkRed.png"
+dest_files=["res://.godot/imported/Leaves_DarkRed.png-30c03ed1c0c192b8ef860b78dafcfaff.ctex"]
 
 [params]
 

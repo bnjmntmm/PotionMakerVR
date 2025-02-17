@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://s6mjb8bnq0ix"
-path.s3tc="res://.godot/imported/godot_plush_sitting_godot_plush_basecolor.jpg-6cb9ecdbcf14bc0deb9a9775857662cb.s3tc.ctex"
-path.etc2="res://.godot/imported/godot_plush_sitting_godot_plush_basecolor.jpg-6cb9ecdbcf14bc0deb9a9775857662cb.etc2.ctex"
+path.s3tc="res://.godot/imported/godot_plush_sitting_godot_plush_basecolor.jpg-722bd3f94a18c94ce08bdd882794ed78.s3tc.ctex"
+path.etc2="res://.godot/imported/godot_plush_sitting_godot_plush_basecolor.jpg-722bd3f94a18c94ce08bdd882794ed78.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/godot_plush/godot_plush_sitting_godot_plush_basecolor.jpg"
-dest_files=["res://.godot/imported/godot_plush_sitting_godot_plush_basecolor.jpg-6cb9ecdbcf14bc0deb9a9775857662cb.s3tc.ctex", "res://.godot/imported/godot_plush_sitting_godot_plush_basecolor.jpg-6cb9ecdbcf14bc0deb9a9775857662cb.etc2.ctex"]
+source_file="res://assets/godot_plush/godot_plush_sitting_godot_plush_basecolor.jpg"
+dest_files=["res://.godot/imported/godot_plush_sitting_godot_plush_basecolor.jpg-722bd3f94a18c94ce08bdd882794ed78.s3tc.ctex", "res://.godot/imported/godot_plush_sitting_godot_plush_basecolor.jpg-722bd3f94a18c94ce08bdd882794ed78.etc2.ctex"]
 
 [params]
 

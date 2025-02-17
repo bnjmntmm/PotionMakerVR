@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bd30cgbq4oep6"
-path.s3tc="res://.godot/imported/T_RoundTiles_Normal.png-77c39a9fe60916ac6651f127bfee5bc5.s3tc.ctex"
-path.etc2="res://.godot/imported/T_RoundTiles_Normal.png-77c39a9fe60916ac6651f127bfee5bc5.etc2.ctex"
+path.s3tc="res://.godot/imported/T_RoundTiles_Normal.png-8567e27c8104a41d079120faf61f079e.s3tc.ctex"
+path.etc2="res://.godot/imported/T_RoundTiles_Normal.png-8567e27c8104a41d079120faf61f079e.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/models/modular_village/T_RoundTiles_Normal.png"
-dest_files=["res://.godot/imported/T_RoundTiles_Normal.png-77c39a9fe60916ac6651f127bfee5bc5.s3tc.ctex", "res://.godot/imported/T_RoundTiles_Normal.png-77c39a9fe60916ac6651f127bfee5bc5.etc2.ctex"]
+source_file="res://assets/models/modular_village/T_RoundTiles_Normal.png"
+dest_files=["res://.godot/imported/T_RoundTiles_Normal.png-8567e27c8104a41d079120faf61f079e.s3tc.ctex", "res://.godot/imported/T_RoundTiles_Normal.png-8567e27c8104a41d079120faf61f079e.etc2.ctex"]
 
 [params]
 

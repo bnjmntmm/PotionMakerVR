@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ct64v5hj5uq4l"
-path="res://.godot/imported/Balcony_Simple_Corner.gltf-4a758a7ed8c88aa066debeaecf138a53.scn"
+path="res://.godot/imported/Balcony_Simple_Corner.gltf-f07f9f0c64365116399059c5ada92b0c.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Balcony_Simple_Corner.gltf"
-dest_files=["res://.godot/imported/Balcony_Simple_Corner.gltf-4a758a7ed8c88aa066debeaecf138a53.scn"]
+source_file="res://assets/models/modular_village/Balcony_Simple_Corner.gltf"
+dest_files=["res://.godot/imported/Balcony_Simple_Corner.gltf-f07f9f0c64365116399059c5ada92b0c.scn"]
 
 [params]
 

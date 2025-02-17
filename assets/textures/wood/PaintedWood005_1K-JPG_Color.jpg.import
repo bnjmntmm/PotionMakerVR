@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3tje8lq268k0"
-path.s3tc="res://.godot/imported/PaintedWood005_1K-JPG_Color.jpg-449ada24b6995cb51928ab4e74f29059.s3tc.ctex"
-path.etc2="res://.godot/imported/PaintedWood005_1K-JPG_Color.jpg-449ada24b6995cb51928ab4e74f29059.etc2.ctex"
+path.s3tc="res://.godot/imported/PaintedWood005_1K-JPG_Color.jpg-95bafdd0c29358d3c2e654aa1e9f8dca.s3tc.ctex"
+path.etc2="res://.godot/imported/PaintedWood005_1K-JPG_Color.jpg-95bafdd0c29358d3c2e654aa1e9f8dca.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/textures/wood/PaintedWood005_1K-JPG_Color.jpg"
-dest_files=["res://.godot/imported/PaintedWood005_1K-JPG_Color.jpg-449ada24b6995cb51928ab4e74f29059.s3tc.ctex", "res://.godot/imported/PaintedWood005_1K-JPG_Color.jpg-449ada24b6995cb51928ab4e74f29059.etc2.ctex"]
+source_file="res://assets/textures/wood/PaintedWood005_1K-JPG_Color.jpg"
+dest_files=["res://.godot/imported/PaintedWood005_1K-JPG_Color.jpg-95bafdd0c29358d3c2e654aa1e9f8dca.s3tc.ctex", "res://.godot/imported/PaintedWood005_1K-JPG_Color.jpg-95bafdd0c29358d3c2e654aa1e9f8dca.etc2.ctex"]
 
 [params]
 

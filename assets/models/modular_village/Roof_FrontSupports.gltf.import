@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://mnx0anto1qg6"
-path="res://.godot/imported/Roof_FrontSupports.gltf-3f2210268c0cbc7d4816801fcba2b52f.scn"
+path="res://.godot/imported/Roof_FrontSupports.gltf-03b9eae08ec07a549e37ea1afce381df.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Roof_FrontSupports.gltf"
-dest_files=["res://.godot/imported/Roof_FrontSupports.gltf-3f2210268c0cbc7d4816801fcba2b52f.scn"]
+source_file="res://assets/models/modular_village/Roof_FrontSupports.gltf"
+dest_files=["res://.godot/imported/Roof_FrontSupports.gltf-03b9eae08ec07a549e37ea1afce381df.scn"]
 
 [params]
 

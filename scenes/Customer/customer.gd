@@ -2,10 +2,10 @@ extends CharacterBody3D
 
 signal finished_navigation(npc_name)
 
-const JOY_2 = preload("res://Assets/Sounds/customer/joy2.mp3")
-const JOY_3 = preload("res://Assets/Sounds/customer/joy3.mp3")
-const JOY = preload("res://Assets/Sounds/customer/joy.mp3")
-const MUMBLING_MAN = preload("res://Assets/Sounds/customer/mumblingMan.ogg")
+const JOY_2 = preload("res://assets/Sounds/customer/joy2.mp3")
+const JOY_3 = preload("res://assets/Sounds/customer/joy3.mp3")
+const JOY = preload("res://assets/Sounds/customer/joy.mp3")
+const MUMBLING_MAN = preload("res://assets/Sounds/customer/mumblingMan.ogg")
 
 @onready var quest_panel: MeshInstance3D = $QuestPanel
 @onready var quest_text: Label3D = $QuestPanel/Quest 

@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vaokxfrxbg7n"
-path.s3tc="res://.godot/imported/godot_plush_standing_godot_plush_roughness.jpg-f3302e7bdf90e09b23f16ce90c3f2cb6.s3tc.ctex"
-path.etc2="res://.godot/imported/godot_plush_standing_godot_plush_roughness.jpg-f3302e7bdf90e09b23f16ce90c3f2cb6.etc2.ctex"
+path.s3tc="res://.godot/imported/godot_plush_standing_godot_plush_roughness.jpg-1ea04ae7d1f82b86b11ae88cac816718.s3tc.ctex"
+path.etc2="res://.godot/imported/godot_plush_standing_godot_plush_roughness.jpg-1ea04ae7d1f82b86b11ae88cac816718.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/godot_plush/godot_plush_standing_godot_plush_roughness.jpg"
-dest_files=["res://.godot/imported/godot_plush_standing_godot_plush_roughness.jpg-f3302e7bdf90e09b23f16ce90c3f2cb6.s3tc.ctex", "res://.godot/imported/godot_plush_standing_godot_plush_roughness.jpg-f3302e7bdf90e09b23f16ce90c3f2cb6.etc2.ctex"]
+source_file="res://assets/godot_plush/godot_plush_standing_godot_plush_roughness.jpg"
+dest_files=["res://.godot/imported/godot_plush_standing_godot_plush_roughness.jpg-1ea04ae7d1f82b86b11ae88cac816718.s3tc.ctex", "res://.godot/imported/godot_plush_standing_godot_plush_roughness.jpg-1ea04ae7d1f82b86b11ae88cac816718.etc2.ctex"]
 
 [params]
 

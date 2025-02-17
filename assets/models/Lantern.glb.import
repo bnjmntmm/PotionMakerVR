@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bmlmw47lqn0k0"
-path="res://.godot/imported/Lantern.glb-5ac488206f10cf84744dc10f41dcbdaf.scn"
+path="res://.godot/imported/Lantern.glb-10ba4f650ba4ea104a08c6c26aaa0b0c.scn"
 
 [deps]
 
-source_file="res://Assets/models/Lantern.glb"
-dest_files=["res://.godot/imported/Lantern.glb-5ac488206f10cf84744dc10f41dcbdaf.scn"]
+source_file="res://assets/models/Lantern.glb"
+dest_files=["res://.godot/imported/Lantern.glb-10ba4f650ba4ea104a08c6c26aaa0b0c.scn"]
 
 [params]
 

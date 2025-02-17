@@ -2,7 +2,7 @@ extends XRController3D
 @onready var function_pickup: XRToolsFunctionPickup = $FunctionPickup
 
 const PICKABLE_POTION = preload("res://scenes/potion/pickable_potion.tscn")
-var currentObjectToSpawn = ""
+var currentObjectToSpawn = null
 
 var should_vibrate: bool = false
 

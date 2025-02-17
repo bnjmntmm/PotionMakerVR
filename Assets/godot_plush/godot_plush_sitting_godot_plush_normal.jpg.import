@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://br0mbw6wge2ny"
-path.s3tc="res://.godot/imported/godot_plush_sitting_godot_plush_normal.jpg-5b3e2187e41a6787d8ad705a1bca7fcf.s3tc.ctex"
-path.etc2="res://.godot/imported/godot_plush_sitting_godot_plush_normal.jpg-5b3e2187e41a6787d8ad705a1bca7fcf.etc2.ctex"
+path.s3tc="res://.godot/imported/godot_plush_sitting_godot_plush_normal.jpg-5d95f569551eaf6aa26f1bc3debe6392.s3tc.ctex"
+path.etc2="res://.godot/imported/godot_plush_sitting_godot_plush_normal.jpg-5d95f569551eaf6aa26f1bc3debe6392.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/godot_plush/godot_plush_sitting_godot_plush_normal.jpg"
-dest_files=["res://.godot/imported/godot_plush_sitting_godot_plush_normal.jpg-5b3e2187e41a6787d8ad705a1bca7fcf.s3tc.ctex", "res://.godot/imported/godot_plush_sitting_godot_plush_normal.jpg-5b3e2187e41a6787d8ad705a1bca7fcf.etc2.ctex"]
+source_file="res://assets/godot_plush/godot_plush_sitting_godot_plush_normal.jpg"
+dest_files=["res://.godot/imported/godot_plush_sitting_godot_plush_normal.jpg-5d95f569551eaf6aa26f1bc3debe6392.s3tc.ctex", "res://.godot/imported/godot_plush_sitting_godot_plush_normal.jpg-5d95f569551eaf6aa26f1bc3debe6392.etc2.ctex"]
 
 [params]
 

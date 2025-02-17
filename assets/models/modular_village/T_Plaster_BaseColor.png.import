@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dapfq8lm48w86"
-path.s3tc="res://.godot/imported/T_Plaster_BaseColor.png-25f25c180205fe3d7c0fac7e1c9d9b79.s3tc.ctex"
-path.etc2="res://.godot/imported/T_Plaster_BaseColor.png-25f25c180205fe3d7c0fac7e1c9d9b79.etc2.ctex"
+path.s3tc="res://.godot/imported/T_Plaster_BaseColor.png-382bcc6de7d3403073359aafafaf87f4.s3tc.ctex"
+path.etc2="res://.godot/imported/T_Plaster_BaseColor.png-382bcc6de7d3403073359aafafaf87f4.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/models/modular_village/T_Plaster_BaseColor.png"
-dest_files=["res://.godot/imported/T_Plaster_BaseColor.png-25f25c180205fe3d7c0fac7e1c9d9b79.s3tc.ctex", "res://.godot/imported/T_Plaster_BaseColor.png-25f25c180205fe3d7c0fac7e1c9d9b79.etc2.ctex"]
+source_file="res://assets/models/modular_village/T_Plaster_BaseColor.png"
+dest_files=["res://.godot/imported/T_Plaster_BaseColor.png-382bcc6de7d3403073359aafafaf87f4.s3tc.ctex", "res://.godot/imported/T_Plaster_BaseColor.png-382bcc6de7d3403073359aafafaf87f4.etc2.ctex"]
 
 [params]
 

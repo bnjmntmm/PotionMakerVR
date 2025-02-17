@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxsvpdrak7q34"
-path.s3tc="res://.godot/imported/T_Plaster_ORM.png-ed8ff8f57441d3170d70e63dade5fdbf.s3tc.ctex"
-path.etc2="res://.godot/imported/T_Plaster_ORM.png-ed8ff8f57441d3170d70e63dade5fdbf.etc2.ctex"
+path.s3tc="res://.godot/imported/T_Plaster_ORM.png-43b6a20150cf0394abf60e50ce0cfa46.s3tc.ctex"
+path.etc2="res://.godot/imported/T_Plaster_ORM.png-43b6a20150cf0394abf60e50ce0cfa46.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/models/modular_village/T_Plaster_ORM.png"
-dest_files=["res://.godot/imported/T_Plaster_ORM.png-ed8ff8f57441d3170d70e63dade5fdbf.s3tc.ctex", "res://.godot/imported/T_Plaster_ORM.png-ed8ff8f57441d3170d70e63dade5fdbf.etc2.ctex"]
+source_file="res://assets/models/modular_village/T_Plaster_ORM.png"
+dest_files=["res://.godot/imported/T_Plaster_ORM.png-43b6a20150cf0394abf60e50ce0cfa46.s3tc.ctex", "res://.godot/imported/T_Plaster_ORM.png-43b6a20150cf0394abf60e50ce0cfa46.etc2.ctex"]
 
 [params]
 

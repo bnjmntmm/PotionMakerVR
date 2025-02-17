@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c01movs3kbi3i"
-path.s3tc="res://.godot/imported/Ground037_2K-JPG_Color.jpg-c6b88276d51a1a5a3eae3ce18199eaed.s3tc.ctex"
-path.etc2="res://.godot/imported/Ground037_2K-JPG_Color.jpg-c6b88276d51a1a5a3eae3ce18199eaed.etc2.ctex"
+path.s3tc="res://.godot/imported/Ground037_2K-JPG_Color.jpg-cf07614fb194063e5edb78eb0f4b7a7b.s3tc.ctex"
+path.etc2="res://.godot/imported/Ground037_2K-JPG_Color.jpg-cf07614fb194063e5edb78eb0f4b7a7b.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/textures/grass1/Ground037_2K-JPG_Color.jpg"
-dest_files=["res://.godot/imported/Ground037_2K-JPG_Color.jpg-c6b88276d51a1a5a3eae3ce18199eaed.s3tc.ctex", "res://.godot/imported/Ground037_2K-JPG_Color.jpg-c6b88276d51a1a5a3eae3ce18199eaed.etc2.ctex"]
+source_file="res://assets/textures/grass1/Ground037_2K-JPG_Color.jpg"
+dest_files=["res://.godot/imported/Ground037_2K-JPG_Color.jpg-cf07614fb194063e5edb78eb0f4b7a7b.s3tc.ctex", "res://.godot/imported/Ground037_2K-JPG_Color.jpg-cf07614fb194063e5edb78eb0f4b7a7b.etc2.ctex"]
 
 [params]
 

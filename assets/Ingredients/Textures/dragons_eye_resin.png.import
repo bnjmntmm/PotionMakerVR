@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyp3mpql8tyba"
-path.s3tc="res://.godot/imported/dragons_eye_resin.png-e7ae603ca84297ec7777b9e54c270f5a.s3tc.ctex"
-path.etc2="res://.godot/imported/dragons_eye_resin.png-e7ae603ca84297ec7777b9e54c270f5a.etc2.ctex"
+path.s3tc="res://.godot/imported/dragons_eye_resin.png-e2dc6693e70401b73a73043e91907b96.s3tc.ctex"
+path.etc2="res://.godot/imported/dragons_eye_resin.png-e2dc6693e70401b73a73043e91907b96.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Ingredients/Textures/dragons_eye_resin.png"
-dest_files=["res://.godot/imported/dragons_eye_resin.png-e7ae603ca84297ec7777b9e54c270f5a.s3tc.ctex", "res://.godot/imported/dragons_eye_resin.png-e7ae603ca84297ec7777b9e54c270f5a.etc2.ctex"]
+source_file="res://assets/Ingredients/Textures/dragons_eye_resin.png"
+dest_files=["res://.godot/imported/dragons_eye_resin.png-e2dc6693e70401b73a73043e91907b96.s3tc.ctex", "res://.godot/imported/dragons_eye_resin.png-e2dc6693e70401b73a73043e91907b96.etc2.ctex"]
 
 [params]
 

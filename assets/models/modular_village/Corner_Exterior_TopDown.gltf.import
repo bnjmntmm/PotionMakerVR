@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://daop13qmxe4k5"
-path="res://.godot/imported/Corner_Exterior_TopDown.gltf-256e24970506538250bab899d2da1bbb.scn"
+path="res://.godot/imported/Corner_Exterior_TopDown.gltf-a9cedcc8b7acef6e0e7417c52c6d9fe9.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Corner_Exterior_TopDown.gltf"
-dest_files=["res://.godot/imported/Corner_Exterior_TopDown.gltf-256e24970506538250bab899d2da1bbb.scn"]
+source_file="res://assets/models/modular_village/Corner_Exterior_TopDown.gltf"
+dest_files=["res://.godot/imported/Corner_Exterior_TopDown.gltf-a9cedcc8b7acef6e0e7417c52c6d9fe9.scn"]
 
 [params]
 

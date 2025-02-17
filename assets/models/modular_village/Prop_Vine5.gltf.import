@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://brnw3siksvoy"
-path="res://.godot/imported/Prop_Vine5.gltf-691b068e0a44b4c432614a8ff4f167d7.scn"
+path="res://.godot/imported/Prop_Vine5.gltf-35edf6b45b35209b8e129535713abbe1.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Prop_Vine5.gltf"
-dest_files=["res://.godot/imported/Prop_Vine5.gltf-691b068e0a44b4c432614a8ff4f167d7.scn"]
+source_file="res://assets/models/modular_village/Prop_Vine5.gltf"
+dest_files=["res://.godot/imported/Prop_Vine5.gltf-35edf6b45b35209b8e129535713abbe1.scn"]
 
 [params]
 

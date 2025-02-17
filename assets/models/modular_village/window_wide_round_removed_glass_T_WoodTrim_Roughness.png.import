@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4ymw4l88qkni"
-path.s3tc="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Roughness.png-8e9f31a0eb9849aadb50878b6fd0c93d.s3tc.ctex"
-path.etc2="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Roughness.png-8e9f31a0eb9849aadb50878b6fd0c93d.etc2.ctex"
+path.s3tc="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Roughness.png-bc1a4388fad2ca027ed2217e6a57b89d.s3tc.ctex"
+path.etc2="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Roughness.png-bc1a4388fad2ca027ed2217e6a57b89d.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/models/modular_village/window_wide_round_removed_glass_T_WoodTrim_Roughness.png"
-dest_files=["res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Roughness.png-8e9f31a0eb9849aadb50878b6fd0c93d.s3tc.ctex", "res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Roughness.png-8e9f31a0eb9849aadb50878b6fd0c93d.etc2.ctex"]
+source_file="res://assets/models/modular_village/window_wide_round_removed_glass_T_WoodTrim_Roughness.png"
+dest_files=["res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Roughness.png-bc1a4388fad2ca027ed2217e6a57b89d.s3tc.ctex", "res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_Roughness.png-bc1a4388fad2ca027ed2217e6a57b89d.etc2.ctex"]
 
 [params]
 

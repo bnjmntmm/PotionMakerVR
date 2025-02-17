@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc1uwho2qe8xf"
-path.s3tc="res://.godot/imported/T_RoundTiles_BaseColor.png-b485c5f71d284f0a2fec67f782df363f.s3tc.ctex"
-path.etc2="res://.godot/imported/T_RoundTiles_BaseColor.png-b485c5f71d284f0a2fec67f782df363f.etc2.ctex"
+path.s3tc="res://.godot/imported/T_RoundTiles_BaseColor.png-1c429e699ea2c2c82e888a8e99509917.s3tc.ctex"
+path.etc2="res://.godot/imported/T_RoundTiles_BaseColor.png-1c429e699ea2c2c82e888a8e99509917.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/models/modular_village/T_RoundTiles_BaseColor.png"
-dest_files=["res://.godot/imported/T_RoundTiles_BaseColor.png-b485c5f71d284f0a2fec67f782df363f.s3tc.ctex", "res://.godot/imported/T_RoundTiles_BaseColor.png-b485c5f71d284f0a2fec67f782df363f.etc2.ctex"]
+source_file="res://assets/models/modular_village/T_RoundTiles_BaseColor.png"
+dest_files=["res://.godot/imported/T_RoundTiles_BaseColor.png-1c429e699ea2c2c82e888a8e99509917.s3tc.ctex", "res://.godot/imported/T_RoundTiles_BaseColor.png-1c429e699ea2c2c82e888a8e99509917.etc2.ctex"]
 
 [params]
 

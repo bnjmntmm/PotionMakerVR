@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://blfdjf6y5ifj2"
-path="res://.godot/imported/DoorFrame_Flat_WoodDark.gltf-107e7bd5c1c9f693bd65b939c87a6fff.scn"
+path="res://.godot/imported/DoorFrame_Flat_WoodDark.gltf-56b1eeecca67635e16900ee233cbe680.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/DoorFrame_Flat_WoodDark.gltf"
-dest_files=["res://.godot/imported/DoorFrame_Flat_WoodDark.gltf-107e7bd5c1c9f693bd65b939c87a6fff.scn"]
+source_file="res://assets/models/modular_village/DoorFrame_Flat_WoodDark.gltf"
+dest_files=["res://.godot/imported/DoorFrame_Flat_WoodDark.gltf-56b1eeecca67635e16900ee233cbe680.scn"]
 
 [params]
 

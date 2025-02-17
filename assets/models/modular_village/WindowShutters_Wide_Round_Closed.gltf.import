@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bwd4ib04bgofb"
-path="res://.godot/imported/WindowShutters_Wide_Round_Closed.gltf-aa5ee3e1d5bd5e99c2b57e328fd45f13.scn"
+path="res://.godot/imported/WindowShutters_Wide_Round_Closed.gltf-31f5812e63b7beadac614ac222a50db7.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/WindowShutters_Wide_Round_Closed.gltf"
-dest_files=["res://.godot/imported/WindowShutters_Wide_Round_Closed.gltf-aa5ee3e1d5bd5e99c2b57e328fd45f13.scn"]
+source_file="res://assets/models/modular_village/WindowShutters_Wide_Round_Closed.gltf"
+dest_files=["res://.godot/imported/WindowShutters_Wide_Round_Closed.gltf-31f5812e63b7beadac614ac222a50db7.scn"]
 
 [params]
 

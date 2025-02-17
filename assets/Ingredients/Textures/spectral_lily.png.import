@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ubdltx4nyibe"
-path.s3tc="res://.godot/imported/spectral_lily.png-91eab34cedf7707f5366a36ad233f5d5.s3tc.ctex"
-path.etc2="res://.godot/imported/spectral_lily.png-91eab34cedf7707f5366a36ad233f5d5.etc2.ctex"
+path.s3tc="res://.godot/imported/spectral_lily.png-09e17dc75ffd866f8685d87858dd3f77.s3tc.ctex"
+path.etc2="res://.godot/imported/spectral_lily.png-09e17dc75ffd866f8685d87858dd3f77.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/Ingredients/Textures/spectral_lily.png"
-dest_files=["res://.godot/imported/spectral_lily.png-91eab34cedf7707f5366a36ad233f5d5.s3tc.ctex", "res://.godot/imported/spectral_lily.png-91eab34cedf7707f5366a36ad233f5d5.etc2.ctex"]
+source_file="res://assets/Ingredients/Textures/spectral_lily.png"
+dest_files=["res://.godot/imported/spectral_lily.png-09e17dc75ffd866f8685d87858dd3f77.s3tc.ctex", "res://.godot/imported/spectral_lily.png-09e17dc75ffd866f8685d87858dd3f77.etc2.ctex"]
 
 [params]
 

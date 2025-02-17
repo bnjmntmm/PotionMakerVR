@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dl58ighe67rbl"
-path="res://.godot/imported/Prop_Wagon.gltf-471df3775feecb5afcdc008974f95ffb.scn"
+path="res://.godot/imported/Prop_Wagon.gltf-40b3cd2c406fe18b4e1757b4aa88d3a1.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Prop_Wagon.gltf"
-dest_files=["res://.godot/imported/Prop_Wagon.gltf-471df3775feecb5afcdc008974f95ffb.scn"]
+source_file="res://assets/models/modular_village/Prop_Wagon.gltf"
+dest_files=["res://.godot/imported/Prop_Wagon.gltf-40b3cd2c406fe18b4e1757b4aa88d3a1.scn"]
 
 [params]
 

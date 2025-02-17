@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dkh3en4fj3k6k"
-path="res://.godot/imported/Overhang_Side_Plaster_Long_L.gltf-42f2ffefd7bddf95a61ff352e79bd56d.scn"
+path="res://.godot/imported/Overhang_Side_Plaster_Long_L.gltf-036a2c2a4bba6d3589970d983d28f58a.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Overhang_Side_Plaster_Long_L.gltf"
-dest_files=["res://.godot/imported/Overhang_Side_Plaster_Long_L.gltf-42f2ffefd7bddf95a61ff352e79bd56d.scn"]
+source_file="res://assets/models/modular_village/Overhang_Side_Plaster_Long_L.gltf"
+dest_files=["res://.godot/imported/Overhang_Side_Plaster_Long_L.gltf-036a2c2a4bba6d3589970d983d28f58a.scn"]
 
 [params]
 

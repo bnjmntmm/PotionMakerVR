@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://0bfyyo4kypeb"
-path="res://.godot/imported/Roof_RoundTiles_6x12.gltf-b24a0af776ebb2cd9968d686d19b669c.scn"
+path="res://.godot/imported/Roof_RoundTiles_6x12.gltf-3d8b39bc4b64fb1bbfafa2ce02948990.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Roof_RoundTiles_6x12.gltf"
-dest_files=["res://.godot/imported/Roof_RoundTiles_6x12.gltf-b24a0af776ebb2cd9968d686d19b669c.scn"]
+source_file="res://assets/models/modular_village/Roof_RoundTiles_6x12.gltf"
+dest_files=["res://.godot/imported/Roof_RoundTiles_6x12.gltf-3d8b39bc4b64fb1bbfafa2ce02948990.scn"]
 
 [params]
 

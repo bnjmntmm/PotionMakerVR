@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1cfvwt3f3k3t"
-path="res://.godot/imported/Bark_Dead.png-aa7924ebb52d137ed0116c6c5a3ca944.ctex"
+path="res://.godot/imported/Bark_Dead.png-bc4f33db8305c24eab8125d3d3659d39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/models/nature/Color Variations/Bark_Dead.png"
-dest_files=["res://.godot/imported/Bark_Dead.png-aa7924ebb52d137ed0116c6c5a3ca944.ctex"]
+source_file="res://assets/models/nature/Color Variations/Bark_Dead.png"
+dest_files=["res://.godot/imported/Bark_Dead.png-bc4f33db8305c24eab8125d3d3659d39.ctex"]
 
 [params]
 

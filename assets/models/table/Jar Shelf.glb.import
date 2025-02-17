@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://3mxijjyh6x54"
-path="res://.godot/imported/Jar Shelf.glb-64874f0e1a5f1f9ae3d054784f43180a.scn"
+path="res://.godot/imported/Jar Shelf.glb-8aed60e77b6ab90439921e3187f43ddc.scn"
 
 [deps]
 
-source_file="res://Assets/models/table/Jar Shelf.glb"
-dest_files=["res://.godot/imported/Jar Shelf.glb-64874f0e1a5f1f9ae3d054784f43180a.scn"]
+source_file="res://assets/models/table/Jar Shelf.glb"
+dest_files=["res://.godot/imported/Jar Shelf.glb-8aed60e77b6ab90439921e3187f43ddc.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5q75rdgmgl36"
-path="res://.godot/imported/window_wide_round_removed_glass.glb-4a3934b8073429f6ee61a9eca9b41bd9.scn"
+path="res://.godot/imported/window_wide_round_removed_glass.glb-088bca5dd13bd2c5642cf59da5b6afa1.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/window_wide_round_removed_glass.glb"
-dest_files=["res://.godot/imported/window_wide_round_removed_glass.glb-4a3934b8073429f6ee61a9eca9b41bd9.scn"]
+source_file="res://assets/models/modular_village/window_wide_round_removed_glass.glb"
+dest_files=["res://.godot/imported/window_wide_round_removed_glass.glb-088bca5dd13bd2c5642cf59da5b6afa1.scn"]
 
 [params]
 

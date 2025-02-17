@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bvus0vant0ttu"
-path="res://.godot/imported/water_sploosh.wav-220af8277c7f251183577beb92c80edb.sample"
+path="res://.godot/imported/water_sploosh.wav-fe6f453f3f69771cd8da65fd5d3a7ad9.sample"
 
 [deps]
 
-source_file="res://Assets/Sounds/water_sploosh.wav"
-dest_files=["res://.godot/imported/water_sploosh.wav-220af8277c7f251183577beb92c80edb.sample"]
+source_file="res://assets/Sounds/water_sploosh.wav"
+dest_files=["res://.godot/imported/water_sploosh.wav-fe6f453f3f69771cd8da65fd5d3a7ad9.sample"]
 
 [params]
 

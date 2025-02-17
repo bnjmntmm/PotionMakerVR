@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dk26ibr7pm5ui"
-path="res://.godot/imported/Wall_UnevenBrick_Window_Wide_Round.gltf-c1ce8ddcdfb34e4ef5ae38abcca71ad7.scn"
+path="res://.godot/imported/Wall_UnevenBrick_Window_Wide_Round.gltf-8d4c28a57c4c8302ae0a56ff12a82346.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Wall_UnevenBrick_Window_Wide_Round.gltf"
-dest_files=["res://.godot/imported/Wall_UnevenBrick_Window_Wide_Round.gltf-c1ce8ddcdfb34e4ef5ae38abcca71ad7.scn"]
+source_file="res://assets/models/modular_village/Wall_UnevenBrick_Window_Wide_Round.gltf"
+dest_files=["res://.godot/imported/Wall_UnevenBrick_Window_Wide_Round.gltf-8d4c28a57c4c8302ae0a56ff12a82346.scn"]
 
 [params]
 

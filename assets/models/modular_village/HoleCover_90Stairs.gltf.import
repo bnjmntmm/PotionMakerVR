@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://rlgfrfs1viid"
-path="res://.godot/imported/HoleCover_90Stairs.gltf-4a821a9f3e70e64f33a9948bb1011a00.scn"
+path="res://.godot/imported/HoleCover_90Stairs.gltf-92053befb0e270f50cc42f9afddd014e.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/HoleCover_90Stairs.gltf"
-dest_files=["res://.godot/imported/HoleCover_90Stairs.gltf-4a821a9f3e70e64f33a9948bb1011a00.scn"]
+source_file="res://assets/models/modular_village/HoleCover_90Stairs.gltf"
+dest_files=["res://.godot/imported/HoleCover_90Stairs.gltf-92053befb0e270f50cc42f9afddd014e.scn"]
 
 [params]
 

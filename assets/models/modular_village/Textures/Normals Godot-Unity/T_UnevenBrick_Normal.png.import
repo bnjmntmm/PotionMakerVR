@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b81kqaapw1vnf"
-path="res://.godot/imported/T_UnevenBrick_Normal.png-6de52d127856f386667e9d91623f4028.ctex"
+path="res://.godot/imported/T_UnevenBrick_Normal.png-1737b14eab19fe7789af126c635e7eec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Textures/Normals Godot-Unity/T_UnevenBrick_Normal.png"
-dest_files=["res://.godot/imported/T_UnevenBrick_Normal.png-6de52d127856f386667e9d91623f4028.ctex"]
+source_file="res://assets/models/modular_village/Textures/Normals Godot-Unity/T_UnevenBrick_Normal.png"
+dest_files=["res://.godot/imported/T_UnevenBrick_Normal.png-1737b14eab19fe7789af126c635e7eec.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0536k7lb21m7"
-path="res://.godot/imported/Pine_Leaves_Red.png-0244e3619694122571df6aad7209ce3e.ctex"
+path="res://.godot/imported/Pine_Leaves_Red.png-3a5bbaa6298f308a35ee849a1efb02cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/models/nature/Color Variations/Pine_Leaves_Red.png"
-dest_files=["res://.godot/imported/Pine_Leaves_Red.png-0244e3619694122571df6aad7209ce3e.ctex"]
+source_file="res://assets/models/nature/Color Variations/Pine_Leaves_Red.png"
+dest_files=["res://.godot/imported/Pine_Leaves_Red.png-3a5bbaa6298f308a35ee849a1efb02cd.ctex"]
 
 [params]
 

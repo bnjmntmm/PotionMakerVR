@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c6agmqobg2tui"
-path="res://.godot/imported/Pine_4.obj-f44e114d73c7afc75151636d75084408.mesh"
+path="res://.godot/imported/Pine_4.obj-7bb3491b7fa3da75e8f2ba74ae0a7f57.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Pine_4.obj-f44e114d73c7afc75151636d75084408.mesh"]
+files=["res://.godot/imported/Pine_4.obj-7bb3491b7fa3da75e8f2ba74ae0a7f57.mesh"]
 
-source_file="res://Assets/models/nature/Pine_4.obj"
-dest_files=["res://.godot/imported/Pine_4.obj-f44e114d73c7afc75151636d75084408.mesh", "res://.godot/imported/Pine_4.obj-f44e114d73c7afc75151636d75084408.mesh"]
+source_file="res://assets/models/nature/Pine_4.obj"
+dest_files=["res://.godot/imported/Pine_4.obj-7bb3491b7fa3da75e8f2ba74ae0a7f57.mesh", "res://.godot/imported/Pine_4.obj-7bb3491b7fa3da75e8f2ba74ae0a7f57.mesh"]
 
 [params]
 

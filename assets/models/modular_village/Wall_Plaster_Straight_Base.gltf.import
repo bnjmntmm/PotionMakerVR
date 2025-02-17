@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://drc5e5e7ufnmr"
-path="res://.godot/imported/Wall_Plaster_Straight_Base.gltf-c5b151fa4e87d50cd8bd616cc3ce7694.scn"
+path="res://.godot/imported/Wall_Plaster_Straight_Base.gltf-6fd85e7ca7fc62623ae7edb0daa3a2cf.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Wall_Plaster_Straight_Base.gltf"
-dest_files=["res://.godot/imported/Wall_Plaster_Straight_Base.gltf-c5b151fa4e87d50cd8bd616cc3ce7694.scn"]
+source_file="res://assets/models/modular_village/Wall_Plaster_Straight_Base.gltf"
+dest_files=["res://.godot/imported/Wall_Plaster_Straight_Base.gltf-6fd85e7ca7fc62623ae7edb0daa3a2cf.scn"]
 
 [params]
 

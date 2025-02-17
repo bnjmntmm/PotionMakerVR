@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blnldftcg2kff"
-path.s3tc="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_BaseColor.png-f79066d6eed645ababb3145b94d3f780.s3tc.ctex"
-path.etc2="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_BaseColor.png-f79066d6eed645ababb3145b94d3f780.etc2.ctex"
+path.s3tc="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_BaseColor.png-d8df5b79ce73110d0b1731846e6ee374.s3tc.ctex"
+path.etc2="res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_BaseColor.png-d8df5b79ce73110d0b1731846e6ee374.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/models/modular_village/window_wide_round_removed_glass_T_WoodTrim_BaseColor.png"
-dest_files=["res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_BaseColor.png-f79066d6eed645ababb3145b94d3f780.s3tc.ctex", "res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_BaseColor.png-f79066d6eed645ababb3145b94d3f780.etc2.ctex"]
+source_file="res://assets/models/modular_village/window_wide_round_removed_glass_T_WoodTrim_BaseColor.png"
+dest_files=["res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_BaseColor.png-d8df5b79ce73110d0b1731846e6ee374.s3tc.ctex", "res://.godot/imported/window_wide_round_removed_glass_T_WoodTrim_BaseColor.png-d8df5b79ce73110d0b1731846e6ee374.etc2.ctex"]
 
 [params]
 

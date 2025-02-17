@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://yp6jakx7a15j"
-path="res://.godot/imported/Roof_Front_Brick6_Half_L.gltf-eb6186d7e83f1420e4c2c3b45e4508ce.scn"
+path="res://.godot/imported/Roof_Front_Brick6_Half_L.gltf-6a2d3e91fcc2cf2cd73a9a2db2538421.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Roof_Front_Brick6_Half_L.gltf"
-dest_files=["res://.godot/imported/Roof_Front_Brick6_Half_L.gltf-eb6186d7e83f1420e4c2c3b45e4508ce.scn"]
+source_file="res://assets/models/modular_village/Roof_Front_Brick6_Half_L.gltf"
+dest_files=["res://.godot/imported/Roof_Front_Brick6_Half_L.gltf-6a2d3e91fcc2cf2cd73a9a2db2538421.scn"]
 
 [params]
 

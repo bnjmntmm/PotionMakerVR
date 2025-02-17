@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4dj3u0lcxkm1"
-path="res://.godot/imported/T_WoodTrim_Normal.png-023df445a71462f55a7d3890d83bb0a4.ctex"
+path="res://.godot/imported/T_WoodTrim_Normal.png-462fc414d5d84c0cc9eda2c0288d5aac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Textures/Normals Godot-Unity/T_WoodTrim_Normal.png"
-dest_files=["res://.godot/imported/T_WoodTrim_Normal.png-023df445a71462f55a7d3890d83bb0a4.ctex"]
+source_file="res://assets/models/modular_village/Textures/Normals Godot-Unity/T_WoodTrim_Normal.png"
+dest_files=["res://.godot/imported/T_WoodTrim_Normal.png-462fc414d5d84c0cc9eda2c0288d5aac.ctex"]
 
 [params]
 

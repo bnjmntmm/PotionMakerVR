@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://l76da1sleber"
-path="res://.godot/imported/godot_plush_sitting.glb-22fb74b1a0a6ea8c4967387f24d02920.scn"
+path="res://.godot/imported/godot_plush_sitting.glb-de0039c06211acac2431ed950163165d.scn"
 
 [deps]
 
-source_file="res://Assets/godot_plush/godot_plush_sitting.glb"
-dest_files=["res://.godot/imported/godot_plush_sitting.glb-22fb74b1a0a6ea8c4967387f24d02920.scn"]
+source_file="res://assets/godot_plush/godot_plush_sitting.glb"
+dest_files=["res://.godot/imported/godot_plush_sitting.glb-de0039c06211acac2431ed950163165d.scn"]
 
 [params]
 

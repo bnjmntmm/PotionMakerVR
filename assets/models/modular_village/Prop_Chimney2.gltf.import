@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dnpbrjt51a5b8"
-path="res://.godot/imported/Prop_Chimney2.gltf-c635d010429febfe90aaaa33a23369b0.scn"
+path="res://.godot/imported/Prop_Chimney2.gltf-3f79b4012cb2496c120c489567dc135d.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Prop_Chimney2.gltf"
-dest_files=["res://.godot/imported/Prop_Chimney2.gltf-c635d010429febfe90aaaa33a23369b0.scn"]
+source_file="res://assets/models/modular_village/Prop_Chimney2.gltf"
+dest_files=["res://.godot/imported/Prop_Chimney2.gltf-3f79b4012cb2496c120c489567dc135d.scn"]
 
 [params]
 

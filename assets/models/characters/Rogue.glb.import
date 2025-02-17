@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bbh87v5cul7e7"
-path="res://.godot/imported/Rogue.glb-ee5340890a8395050f58050a49c3a8b5.scn"
+path="res://.godot/imported/Rogue.glb-dd44a0a58c63997edf4195e4ea19a2d7.scn"
 
 [deps]
 
-source_file="res://Assets/models/characters/Rogue.glb"
-dest_files=["res://.godot/imported/Rogue.glb-ee5340890a8395050f58050a49c3a8b5.scn"]
+source_file="res://assets/models/characters/Rogue.glb"
+dest_files=["res://.godot/imported/Rogue.glb-dd44a0a58c63997edf4195e4ea19a2d7.scn"]
 
 [params]
 

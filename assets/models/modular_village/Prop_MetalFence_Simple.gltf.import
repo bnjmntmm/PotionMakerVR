@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://1wk4ckcxr57k"
-path="res://.godot/imported/Prop_MetalFence_Simple.gltf-90b58caaae34ccb7a5a80d96524db9e4.scn"
+path="res://.godot/imported/Prop_MetalFence_Simple.gltf-a2e72f3913cbe5874626062c5880b897.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Prop_MetalFence_Simple.gltf"
-dest_files=["res://.godot/imported/Prop_MetalFence_Simple.gltf-90b58caaae34ccb7a5a80d96524db9e4.scn"]
+source_file="res://assets/models/modular_village/Prop_MetalFence_Simple.gltf"
+dest_files=["res://.godot/imported/Prop_MetalFence_Simple.gltf-a2e72f3913cbe5874626062c5880b897.scn"]
 
 [params]
 

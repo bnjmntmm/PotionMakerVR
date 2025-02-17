@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxojfl5kn6brp"
-path.s3tc="res://.godot/imported/Lantern_halloweenbits_texture.png-54a40880ea37294e2df0ac0e1916eb4b.s3tc.ctex"
-path.etc2="res://.godot/imported/Lantern_halloweenbits_texture.png-54a40880ea37294e2df0ac0e1916eb4b.etc2.ctex"
+path.s3tc="res://.godot/imported/Lantern_halloweenbits_texture.png-cbccc60149fd90919111cf0c70463832.s3tc.ctex"
+path.etc2="res://.godot/imported/Lantern_halloweenbits_texture.png-cbccc60149fd90919111cf0c70463832.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -15,8 +15,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/models/Lantern_halloweenbits_texture.png"
-dest_files=["res://.godot/imported/Lantern_halloweenbits_texture.png-54a40880ea37294e2df0ac0e1916eb4b.s3tc.ctex", "res://.godot/imported/Lantern_halloweenbits_texture.png-54a40880ea37294e2df0ac0e1916eb4b.etc2.ctex"]
+source_file="res://assets/models/Lantern_halloweenbits_texture.png"
+dest_files=["res://.godot/imported/Lantern_halloweenbits_texture.png-cbccc60149fd90919111cf0c70463832.s3tc.ctex", "res://.godot/imported/Lantern_halloweenbits_texture.png-cbccc60149fd90919111cf0c70463832.etc2.ctex"]
 
 [params]
 

@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkvbiowy7j3ik"
-path.s3tc="res://.godot/imported/T_VineLeaf_png.png-3fd624ce575e191493bb28b6de468708.s3tc.ctex"
-path.etc2="res://.godot/imported/T_VineLeaf_png.png-3fd624ce575e191493bb28b6de468708.etc2.ctex"
+path.s3tc="res://.godot/imported/T_VineLeaf_png.png-e67e2e6c53434a89533b4627826a0e83.s3tc.ctex"
+path.etc2="res://.godot/imported/T_VineLeaf_png.png-e67e2e6c53434a89533b4627826a0e83.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/models/modular_village/T_VineLeaf_png.png"
-dest_files=["res://.godot/imported/T_VineLeaf_png.png-3fd624ce575e191493bb28b6de468708.s3tc.ctex", "res://.godot/imported/T_VineLeaf_png.png-3fd624ce575e191493bb28b6de468708.etc2.ctex"]
+source_file="res://assets/models/modular_village/T_VineLeaf_png.png"
+dest_files=["res://.godot/imported/T_VineLeaf_png.png-e67e2e6c53434a89533b4627826a0e83.s3tc.ctex", "res://.godot/imported/T_VineLeaf_png.png-e67e2e6c53434a89533b4627826a0e83.etc2.ctex"]
 
 [params]
 

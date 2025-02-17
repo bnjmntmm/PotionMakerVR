@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bqid5w3fuxhha"
-path="res://.godot/imported/HoleCover_StraightHalf.gltf-1a6297da7fa8a24366b9046be52d99e1.scn"
+path="res://.godot/imported/HoleCover_StraightHalf.gltf-affa9f1bc8cb5ad168462cd84baecf4b.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/HoleCover_StraightHalf.gltf"
-dest_files=["res://.godot/imported/HoleCover_StraightHalf.gltf-1a6297da7fa8a24366b9046be52d99e1.scn"]
+source_file="res://assets/models/modular_village/HoleCover_StraightHalf.gltf"
+dest_files=["res://.godot/imported/HoleCover_StraightHalf.gltf-affa9f1bc8cb5ad168462cd84baecf4b.scn"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c2pkk6vfdelj2"
-path="res://.godot/imported/pickupBottle.wav-e2006757a80edca4c25d5cd921e73834.sample"
+path="res://.godot/imported/pickupBottle.wav-d8d1169d15514e664b363f3efa12905b.sample"
 
 [deps]
 
-source_file="res://Assets/Sounds/pickupBottle.wav"
-dest_files=["res://.godot/imported/pickupBottle.wav-e2006757a80edca4c25d5cd921e73834.sample"]
+source_file="res://assets/Sounds/pickupBottle.wav"
+dest_files=["res://.godot/imported/pickupBottle.wav-d8d1169d15514e664b363f3efa12905b.sample"]
 
 [params]
 

@@ -57,6 +57,7 @@ lights_and_shadows/directional_shadow/soft_shadow_filter_quality=1
 [xr]
 
 openxr/enabled=true
+openxr/reference_space=2
 openxr/foveation_level=2
 openxr/foveation_dynamic=true
 shaders/enabled=true

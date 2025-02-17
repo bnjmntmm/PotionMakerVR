@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://crtmpukfuf65t"
-path="res://.godot/imported/Stairs_Exterior_Sides45.gltf-5c7bc6f85370cca094a217a874cc5175.scn"
+path="res://.godot/imported/Stairs_Exterior_Sides45.gltf-98ae8c9e3d702efeb8f2b97c69d1923c.scn"
 
 [deps]
 
-source_file="res://Assets/models/modular_village/Stairs_Exterior_Sides45.gltf"
-dest_files=["res://.godot/imported/Stairs_Exterior_Sides45.gltf-5c7bc6f85370cca094a217a874cc5175.scn"]
+source_file="res://assets/models/modular_village/Stairs_Exterior_Sides45.gltf"
+dest_files=["res://.godot/imported/Stairs_Exterior_Sides45.gltf-98ae8c9e3d702efeb8f2b97c69d1923c.scn"]
 
 [params]
 

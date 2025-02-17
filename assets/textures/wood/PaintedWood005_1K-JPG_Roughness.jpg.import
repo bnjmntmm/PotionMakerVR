@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r3ryinorqaj7"
-path.s3tc="res://.godot/imported/PaintedWood005_1K-JPG_Roughness.jpg-814f5fe856852dc6b9cb2b3a408a54c4.s3tc.ctex"
-path.etc2="res://.godot/imported/PaintedWood005_1K-JPG_Roughness.jpg-814f5fe856852dc6b9cb2b3a408a54c4.etc2.ctex"
+path.s3tc="res://.godot/imported/PaintedWood005_1K-JPG_Roughness.jpg-72c37fa1e7d424f053577f197284f3dc.s3tc.ctex"
+path.etc2="res://.godot/imported/PaintedWood005_1K-JPG_Roughness.jpg-72c37fa1e7d424f053577f197284f3dc.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/textures/wood/PaintedWood005_1K-JPG_Roughness.jpg"
-dest_files=["res://.godot/imported/PaintedWood005_1K-JPG_Roughness.jpg-814f5fe856852dc6b9cb2b3a408a54c4.s3tc.ctex", "res://.godot/imported/PaintedWood005_1K-JPG_Roughness.jpg-814f5fe856852dc6b9cb2b3a408a54c4.etc2.ctex"]
+source_file="res://assets/textures/wood/PaintedWood005_1K-JPG_Roughness.jpg"
+dest_files=["res://.godot/imported/PaintedWood005_1K-JPG_Roughness.jpg-72c37fa1e7d424f053577f197284f3dc.s3tc.ctex", "res://.godot/imported/PaintedWood005_1K-JPG_Roughness.jpg-72c37fa1e7d424f053577f197284f3dc.etc2.ctex"]
 
 [params]
 
